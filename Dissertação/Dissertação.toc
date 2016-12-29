@@ -1,0 +1,77 @@
+\changetocdepth {4}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{12}{chapter.1}
+\contentsline {section}{\numberline {1.1}Justificativa, Problem\IeC {\'a}tica e Hip\IeC {\'o}tese}{13}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Justificativa}{13}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Problem\IeC {\'a}tica}{17}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Hip\IeC {\'o}tese}{17}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Objetivos da Disserta\IeC {\c c}\IeC {\~a}o}{17}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Objetivos Espec\IeC {\'\i }ficos}{17}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Metodologia}{18}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Contribui\IeC {\c c}\IeC {\~o}es}{19}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{19}{section.1.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}Rede de Sensores sem Fio}{20}{chapter.2}
+\contentsline {section}{\numberline {2.1}Defini\IeC {\c c}\IeC {\~a}o}{20}{section.2.1}
+\contentsline {section}{\numberline {2.2}Arquitetura de Rede e Topologia}{20}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Subsistema de Sensores}{21}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Subsistema de Distribui\IeC {\c c}\IeC {\~a}o}{22}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Subsistema de Tomada de Decis\IeC {\~a}o}{23}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Subsistema de Execu\IeC {\c c}\IeC {\~a}o}{24}{subsection.2.2.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}Sistemas Distribu\IeC {\'\i }dos}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Caracter\IeC {\'\i }sticas e Desafios}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}Aplica\IeC {\c c}\IeC {\~o}es}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}Protocolos}{25}{section.3.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}Redes Ve\IeC {\'\i }culares}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Caracter\IeC {\'\i }sticas e Desafios}{27}{section.4.2}
+\contentsline {section}{\numberline {4.3}Seguran\IeC {\c c}a}{28}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Ataques contra a Disponibilidade}{28}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Ataques contra a Autenticidade e a Identifica\IeC {\c c}\IeC {\~a}o}{30}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Ataques contra a Integridade e Confian\IeC {\c c}a dos Dados}{30}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Ataques contra a Confidencialidade}{32}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Outros Ataques}{32}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Algoritmos de Roteamento}{33}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Protocolos Ad-hoc}{34}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Protocolos Baseados em Localiza\IeC {\c c}\IeC {\~a}o}{35}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Protocolos Baseado em Clusters }{35}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Protocolos por Broadcast}{35}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Protocolos Geocast}{35}{subsection.4.4.5}
+\contentsline {section}{\numberline {4.5}Aplica\IeC {\c c}\IeC {\~o}es}{35}{section.4.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}Arquitetura I9Vanet}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Vis\IeC {\~a}o Geral}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}M\IeC {\'o}dulo da Arquitetura I9Vanets}{37}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}M\IeC {\'o}dulo de Comunica\IeC {\c c}\IeC {\~a}o}{38}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Comunica\IeC {\c c}\IeC {\~a}o Infra-Cloud}{38}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Comunica\IeC {\c c}\IeC {\~a}o Ve\IeC {\'\i }culo-Cloud}{39}{subsubsection.5.2.1.2}
+\contentsline {subsection}{\numberline {5.2.2}M\IeC {\'o}dulo de Seguran\IeC {\c c}a}{41}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}M\IeC {\'o}dulo de Gerenciamento dos Servidores}{42}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}M\IeC {\'o}dulo de Roteamento}{45}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}M\IeC {\'o}dulo de Aplica\IeC {\c c}\IeC {\~o}es}{46}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Processo de Neg\IeC {\'o}cio}{46}{section.5.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}Avalia\IeC {\c c}\IeC {\~a}o da Arquitetura}{48}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Defini\IeC {\c c}\IeC {\~a}o}{48}{subsection.6.0.1}
+\contentsline {subsection}{\numberline {6.0.2}Planejamento}{48}{subsection.6.0.2}
+\contentsline {section}{\numberline {6.1}Cen\IeC {\'a}rio Proposto}{50}{section.6.1}
+\contentsline {section}{\numberline {6.2}Experimentos}{54}{section.6.2}
+\contentsline {section}{\numberline {6.3}Resultados}{55}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Taxa de Transfer\IeC {\^e}ncia}{57}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Processamento}{58}{subsection.6.3.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{62}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclus\IeC {\~o}es deste Trabalho}{62}{section.7.1}
+\contentsline {section}{\numberline {7.2}Trabalhos Futuros}{63}{section.7.2}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{64}{section*.39}
