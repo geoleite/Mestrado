@@ -43,35 +43,35 @@
 \contentsline {section}{\numberline {4.4}Algoritmos de Roteamento}{33}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Protocolos Ad-hoc}{34}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Protocolos Baseados em Localiza\IeC {\c c}\IeC {\~a}o}{35}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Protocolos Baseado em Clusters }{35}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Protocolos por Broadcast}{35}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Protocolos Geocast}{35}{subsection.4.4.5}
-\contentsline {section}{\numberline {4.5}Aplica\IeC {\c c}\IeC {\~o}es}{35}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.3}Protocolos Baseado em \textit {Clusters} }{36}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Protocolos por Broadcast}{36}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Protocolos Geocast}{36}{subsection.4.4.5}
+\contentsline {section}{\numberline {4.5}Aplica\IeC {\c c}\IeC {\~o}es}{36}{section.4.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Arquitetura I9Vanet}{37}{chapter.5}
-\contentsline {section}{\numberline {5.1}Vis\IeC {\~a}o Geral}{37}{section.5.1}
-\contentsline {section}{\numberline {5.2}M\IeC {\'o}dulo da Arquitetura I9Vanets}{37}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}M\IeC {\'o}dulo de Comunica\IeC {\c c}\IeC {\~a}o}{38}{subsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Comunica\IeC {\c c}\IeC {\~a}o Infra-Cloud}{38}{subsubsection.5.2.1.1}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Comunica\IeC {\c c}\IeC {\~a}o Ve\IeC {\'\i }culo-Cloud}{39}{subsubsection.5.2.1.2}
-\contentsline {subsection}{\numberline {5.2.2}M\IeC {\'o}dulo de Seguran\IeC {\c c}a}{41}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}M\IeC {\'o}dulo de Gerenciamento dos Servidores}{42}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}M\IeC {\'o}dulo de Roteamento}{45}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}M\IeC {\'o}dulo de Aplica\IeC {\c c}\IeC {\~o}es}{46}{subsection.5.2.5}
-\contentsline {section}{\numberline {5.3}Processo de Neg\IeC {\'o}cio}{46}{section.5.3}
+\contentsline {chapter}{\chapternumberline {5}Arquitetura I9Vanet}{38}{chapter.5}
+\contentsline {section}{\numberline {5.1}Vis\IeC {\~a}o Geral}{38}{section.5.1}
+\contentsline {section}{\numberline {5.2}M\IeC {\'o}dulo da Arquitetura I9Vanets}{38}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}M\IeC {\'o}dulo de Comunica\IeC {\c c}\IeC {\~a}o}{39}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Comunica\IeC {\c c}\IeC {\~a}o Infra-Cloud}{39}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Comunica\IeC {\c c}\IeC {\~a}o Ve\IeC {\'\i }culo-Cloud}{40}{subsubsection.5.2.1.2}
+\contentsline {subsection}{\numberline {5.2.2}M\IeC {\'o}dulo de Seguran\IeC {\c c}a}{42}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}M\IeC {\'o}dulo de Gerenciamento dos Servidores}{43}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}M\IeC {\'o}dulo de Roteamento}{46}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}M\IeC {\'o}dulo de Aplica\IeC {\c c}\IeC {\~o}es}{47}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Processo de Neg\IeC {\'o}cio}{47}{section.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}Avalia\IeC {\c c}\IeC {\~a}o da Arquitetura}{48}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Defini\IeC {\c c}\IeC {\~a}o}{48}{subsection.6.0.1}
-\contentsline {subsection}{\numberline {6.0.2}Planejamento}{48}{subsection.6.0.2}
-\contentsline {section}{\numberline {6.1}Cen\IeC {\'a}rio Proposto}{50}{section.6.1}
-\contentsline {section}{\numberline {6.2}Experimentos}{54}{section.6.2}
-\contentsline {section}{\numberline {6.3}Resultados}{55}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Taxa de Transfer\IeC {\^e}ncia}{57}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Processamento}{58}{subsection.6.3.2}
+\contentsline {chapter}{\chapternumberline {6}Avalia\IeC {\c c}\IeC {\~a}o da Arquitetura}{49}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Defini\IeC {\c c}\IeC {\~a}o}{49}{subsection.6.0.1}
+\contentsline {subsection}{\numberline {6.0.2}Planejamento}{49}{subsection.6.0.2}
+\contentsline {section}{\numberline {6.1}Cen\IeC {\'a}rio Proposto}{51}{section.6.1}
+\contentsline {section}{\numberline {6.2}Experimentos}{55}{section.6.2}
+\contentsline {section}{\numberline {6.3}Resultados}{56}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Taxa de Transfer\IeC {\^e}ncia}{58}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Processamento}{59}{subsection.6.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{62}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclus\IeC {\~o}es deste Trabalho}{62}{section.7.1}
-\contentsline {section}{\numberline {7.2}Trabalhos Futuros}{63}{section.7.2}
+\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{63}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclus\IeC {\~o}es deste Trabalho}{63}{section.7.1}
+\contentsline {section}{\numberline {7.2}Trabalhos Futuros}{64}{section.7.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{64}{section*.39}
+\contentsline {chapter}{Refer\^encias}{65}{section*.39}

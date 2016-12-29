@@ -1071,9 +1071,22 @@ Um dos primeiros protocolos baseados em localização foi o GPSR (Greedy Perimet
 
 O protocolo GSR (\textit{Global State Routing}) foi criado com objetivo de corrigir a limitação do GPSR de modo a utilizar o \textit{link-state} de forma que cada nó mantém uma tabela de conectividade, contendo todas as ligações existentes entre os diversos nós da rede, otimizando as decisões a nível de roteamento local. Avaliação feita por Füssler \cite{fussler2003mobicom}, indica que o GSR apresentou melhor desempenho em relação ao GPSR e melhora no atraso comparado ao DSR, do mesmo modo que, uma melhor taxa de sucesso de entrega e menor ocupação da largura de banda se comparado com o AODV \cite{li2007routing}.  
 
+O protocolo A-STAR é baseado no GSP e GPSR e incorpora um sistema de sensibilização de tráfego (\textit{traffic awareness}) fazendo uso de mapas das estradas ordenados por utilização, de forma a poder definir suas rotas pelas estradas com maior conectividade, na tentativa de aumentar a probabilidade de sucesso na entrega dos pacotes. Devido à sensibilizaçãode tráfego aplicado ao A-STAR, há um melhor desempenho, entorno de 40\%, na entrega de pacotes em relação ao protocolo GSR.
+
+Foi proposto por Leontiadis et al \cite{leontiadis2007geopps}, o protocolo de roteamento denominado GeOpps (\textit{Geographical Opportunistic routing for vehicular networks}), ele assume que todos os nós estão munidos com sistemas de posicionamento de maneira a encaminhar um pacote para um nó que está, teoricamente, em melhores condições de poder entregar  ao seu destino final. Segundo Karp et al. \cite{karp2000gpsr}, os resultados mostraram que o protocolo GeOpps tem um melhor comportamento do que o GPSR.
+
+\subsection{Protocolos Baseado em \textit{Clusters} }
+
+Os protocolos de roteamento baseados em \textit{Clusters}, representam uma rede virtual criada por meio de nós de uma rede física, onde o grupo criado. por um conjunto de nós interligados de maneira lógica, tem tendêcia a alterar rapidamente a sua composição.
+
+Cada \textit{cluster} pode apresentar um nó como lider, denomicado \textit{cluster-head}, que é incubido de pela coordenação da comunicação dos nós da rede. Os nós de um cluster podem se comunicar diretamente porém, a comunicação extra grupo deve ser feita somente pelo lider. A criação dos \textit{clusters} é de suma importância para aumentar a escalabilidade dos protocolos de roteamento e está na estabilidade a chave para o desempenho destes algoritmos \cite{luis2009melhoria}.
+
+Em redes veiculares, a aleatoriedade da movimentação dos veículos torna os protocolos de roteamento baseado em cluster para redes móveis frustrados tais como: \textit{Adaptative Clustering} e o MCDS \textit{Minimum Connected Dominating Set} \cite{das1997routing}.
+
+Como dito anteriormente, o sucesso de um cluster está na estabilidade sendo assim, muitas pesquisas foram realizadas com objetivo de tornar o grupo o mais estável possível tais como: COIN \textit{Clustering for Open  IVC Networks}.   
 
 
-\subsection{Protocolos Baseado em Clusters }
+
 
 \subsection{Protocolos  por Broadcast}
 

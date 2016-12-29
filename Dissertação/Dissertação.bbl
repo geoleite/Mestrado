@@ -155,10 +155,22 @@ Dispon{\'\i}vel em:
   vanets. In:  IEEE. \emph{Consumer communications and networking conference,
   2008. CCNC 2008. 5th IEEE}. [S.l.], 2008. p. 912--916.}
 
+\bibitem[Karp e Kung 2000]{karp2000gpsr}
+\abntrefinfo{Karp e Kung}{KARP; KUNG}{2000}
+{KARP, B.; KUNG, H.-T. Gpsr: Greedy perimeter stateless routing for wireless
+  networks. In:  ACM. \emph{Proceedings of the 6th annual international
+  conference on Mobile computing and networking}. [S.l.], 2000. p. 243--254.}
+
 \bibitem[Lee et al. 2014]{lee2014vehicular}
 \abntrefinfo{Lee et al.}{LEE et al.}{2014}
 {LEE, E. et al. Vehicular cloud networking: architecture and design principles.
 \emph{IEEE Communications Magazine}, IEEE, v.~52, n.~2, p. 148--155, 2014.}
+
+\bibitem[Leontiadis e Mascolo 2007]{leontiadis2007geopps}
+\abntrefinfo{Leontiadis e Mascolo}{LEONTIADIS; MASCOLO}{2007}
+{LEONTIADIS, I.; MASCOLO, C. Geopps: Geographical opportunistic routing for
+  vehicular networks. In:  IEEE. \emph{2007 IEEE International Symposium on a
+  World of Wireless, Mobile and Multimedia Networks}. [S.l.], 2007. p.~1--6.}
 
 \bibitem[Li 2010]{li2010travel}
 \abntrefinfo{Li}{LI}{2010}
