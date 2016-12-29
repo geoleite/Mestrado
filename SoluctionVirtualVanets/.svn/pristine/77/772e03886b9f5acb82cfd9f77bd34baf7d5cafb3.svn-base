@@ -1,0 +1,61 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.virtualVanets.common.security;
+
+import br.com.virtualVanets.DefaultLoadClassFactory;
+import java.security.Key;
+import java.security.PrivateKey;
+import java.security.PublicKey;
+import java.security.Signature;
+import javax.crypto.Cipher;
+
+/**
+ *
+ * @author geoleite
+ */
+public abstract class ASecurityModel {
+
+    private static ASecurityModel aSecurity;
+
+    private static DefaultLoadClassFactory<ASecurityModel> defaultLoadClassFactory;
+
+    public static ASecurityModel getInstance() throws Exception {
+        if (defaultLoadClassFactory == null) {
+            defaultLoadClassFactory = new DefaultLoadClassFactory<ASecurityModel>();
+        }
+        return defaultLoadClassFactory.getObjectForIdClass("SecurityModel");
+    }
+
+    public abstract boolean verifySign(PublicKey pubKey, byte[] signature, byte[] data) throws Exception;
+
+    /**
+     * Assina uma informação com a chave privada
+     *
+     * @param privatekey
+     * @param data
+     * @return
+     * @throws Exception
+     */
+    public abstract byte[] sign(PrivateKey privatekey, byte[] data) throws Exception;
+
+    /**
+     * Criptografa a informação com a chave que pode ser a pública ou a privada
+     *
+     * @param key
+     * @param data
+     * @return
+     */
+    public abstract byte[] encrypt(Key key, byte[] data) throws Exception;
+
+    /**
+     * Descriptografa uma informação com a chave que pode ser pública ou privada
+     *
+     * @param key
+     * @param data
+     * @return
+     */
+    public abstract byte[] decrypt(Key key, byte[] data) throws Exception;
+}

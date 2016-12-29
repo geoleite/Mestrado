@@ -1,0 +1,58 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.virtualVanets.routingAlgorithm;
+
+import br.com.virtualVanets.DefaultLoadClassFactory;
+import br.com.virtualVanets.common.Device;
+import br.com.virtualVanets.common.InfraEquipament;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Defini os métodos para o controle do roteamento
+ * @author geoleite
+ */
+public abstract class RouterNetwork {
+    private static Map<Long, Network> mapNetwork = new HashMap<Long, Network>();
+    public final static String ROUTER_NETWORK="RouterNetwork";
+    private static DefaultLoadClassFactory<RouterNetwork> defaultLoadClassFactory;
+    
+    public static RouterNetwork getInstance(String idClass) throws Exception {
+        if (defaultLoadClassFactory == null) {
+            defaultLoadClassFactory = new DefaultLoadClassFactory<RouterNetwork>();
+        }
+        return defaultLoadClassFactory.getObjectForIdClass(idClass);         
+    }    
+    //RouterNetwork=br.com.virtualVanets.routingAlgorithm.RouterInfraNetwork
+    abstract public Network createNetwork(Device device);
+    
+    abstract public Network joinNetwork(Device device);
+    
+    abstract public void getOutNetwork(Device device);
+    
+    abstract public Network findNetwork(Device device);
+    
+    /**
+     * Adiciona uma rede na lista de redes do servidor
+     * @param network 
+     */
+    public synchronized void addNetwork(Network network) {
+        mapNetwork.put(network.getNetworkId(), network);        
+    }
+
+    /**
+     * Retira a rede, indicando que esta rede não existe mais
+     * @param network 
+     */
+    public synchronized void removeNetwork(Network network) {
+        mapNetwork.remove(network.getNetworkId());
+    }
+    
+    public Collection<Network> networksAll() {
+        return mapNetwork.values();
+    }
+}

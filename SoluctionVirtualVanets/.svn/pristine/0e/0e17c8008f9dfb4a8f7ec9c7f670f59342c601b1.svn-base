@@ -1,0 +1,222 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.virtualVanets.serverManager.dao;
+
+import br.com.virtualVanets.common.Device;
+import br.com.virtualVanets.common.dao.DaoBase;
+import br.com.virtualVanets.serverManager.Server;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+import sun.misc.GC;
+
+/**
+ *
+ * @author georgejunior
+ */
+public class ServerDAO extends DaoBase {
+    
+    public ServerDAO(Connection con) {
+        super(con);
+    }
+    
+    public void insert(Server server) throws Exception {
+        String sql = "insert into public.srv_servidor (srv_nr_id, srv_tx_name, srv_tx_address, srv_tx_status) values (?, ? ,? ,? )";
+        PreparedStatement ps = null;
+        try {
+            ps = createPreparedStatement(sql);
+            ps.setObject(1, server.getServerId());
+            ps.setObject(2, server.getServerName());
+            ps.setObject(3, server.getServerAddress());
+            ps.setObject(4, server.getServerStatus());
+            ps.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            try {
+                ps.close();
+            } catch (Exception e) {
+            }
+        }
+    }
+    
+    public Server getByArea(double latitude, double longitude) throws Exception {
+        String sql = "select * from public.srv_server srv  where ST_INTERSECTS(srv_geo_area, ST_GeomFromText('POINT(' || ? || ' ' || ? || ')'))";
+        ResultSet rs=null;
+        PreparedStatement ps = null;
+        try {
+            ps = createPreparedStatement(sql);
+            ps.setObject(1, latitude);
+            ps.setObject(2, longitude);
+            rs = ps.executeQuery();
+            List<Server> list = resultSetToObject(rs);
+            return list.size()>0?list.get(0):null;
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            try {
+                rs.close();
+            } catch (Exception e) {
+            }
+            try {
+                ps.close();
+            } catch (Exception e) {
+            }
+        }        
+    }
+    
+//    public Server getServerByArea(Server serverCurrent, double latitude, double longitude) throws Exception {
+//        String sql = "select * from public.srv_server srv  where srv_nr_id=? and ST_INTERSECTS(srv_geo_area, ST_GeomFromText('POINT(' || ? || ' ' || ? || ')'))";
+//        ResultSet rs=null;
+//        PreparedStatement ps = null;
+//        try {
+//            ps = createPreparedStatement(sql);
+//            ps.setObject(1, serverCurrent.getServerId());
+//            ps.setObject(2, latitude);
+//            ps.setObject(3, longitude);
+//            rs = ps.executeQuery();
+//            List<Server> list = resultSetToObject(rs);
+//            return list.size()>0?list.get(0):null;
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            throw e;
+//        } finally {
+//            try {
+//                rs.close();
+//            } catch (Exception e) {
+//            }
+//            try {
+//                ps.close();
+//            } catch (Exception e) {
+//            }
+//        }        
+//    }    
+    
+    public Server getById(long serverId) throws Exception {
+        String sql = "select * from public.srv_server where srv_nr_id = ?";
+        ResultSet rs=null;
+        PreparedStatement ps = null;
+        try {
+            ps = createPreparedStatement(sql);
+            ps.setObject(1, serverId);
+            rs = ps.executeQuery();
+            List<Server> list = resultSetToObject(rs);
+            return list.size()>0?list.get(0):null;
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            try {
+                rs.close();
+            } catch (Exception e) {
+            }
+            try {
+                ps.close();
+            } catch (Exception e) {
+            }
+        }
+    }
+    
+    public Server getByAddress(String serverAddress) throws Exception {
+        String sql = "select * from public.srv_server where srv_tx_address = ?";
+        ResultSet rs=null;
+        PreparedStatement ps = null;
+        try {
+            ps = createPreparedStatement(sql);
+            ps.setObject(1, serverAddress);
+            rs = ps.executeQuery();
+            List<Server> list = resultSetToObject(rs);
+            return list.size()>0?list.get(0):null;
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            try {
+                rs.close();
+            } catch (Exception e) {
+            }
+            try {
+                ps.close();
+            } catch (Exception e) {
+            }
+        }
+    }    
+    
+    /**
+     * Consulta a lista de servidores que tem o id como pai.
+     * @param serverIdSuper
+     * @return
+     * @throws Exception 
+     */
+    public List<Server> getBySuper(long serverIdSuper) throws Exception {
+        String sql = "select * from public.srv_server where srv_nr_idsuper = ?";
+        ResultSet rs=null;
+        PreparedStatement ps = null;
+        try {
+            ps = createPreparedStatement(sql);
+            ps.setObject(1, serverIdSuper);
+            rs = ps.executeQuery();
+            List<Server> list = resultSetToObject(rs);
+            return list;
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            try {
+                rs.close();
+            } catch (Exception e) {
+            }
+            try {
+                ps.close();
+            } catch (Exception e) {
+            }
+        }
+    }     
+    
+    public Server getMyServerSuper(long serverId) throws Exception {
+        String sql = "select * from public.srv_server where srv_nr_id in (select srv_nr_idsuper from public.srv_server where srv_nr_id=?)";
+        ResultSet rs=null;
+        PreparedStatement ps = null;
+        try {
+            ps = createPreparedStatement(sql);
+            ps.setObject(1, serverId);
+            rs = ps.executeQuery();
+            List<Server> list = resultSetToObject(rs);
+            return list.size() > 0?list.get(0):null;
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            try {
+                rs.close();
+            } catch (Exception e) {
+            }
+            try {
+                ps.close();
+            } catch (Exception e) {
+            }
+        }
+    }         
+
+    @Override
+    public List<Server> resultSetToObject(ResultSet rs) throws Exception {
+        List<Server> dataList = new ArrayList<Server>();
+        while (rs.next()) {
+            Server server = new Server();
+            server.setServerId(rs.getLong("srv_nr_id"));
+            server.setSrv_nr_idsuper(rs.getLong("srv_nr_idsuper"));
+            server.setServerName(rs.getString("srv_tx_name"));
+            server.setServerAddress(rs.getString("srv_tx_address"));
+            server.setServerStatus(rs.getString("srv_tx_status"));
+            dataList.add(server);
+        }
+        return dataList;
+    }    
+}

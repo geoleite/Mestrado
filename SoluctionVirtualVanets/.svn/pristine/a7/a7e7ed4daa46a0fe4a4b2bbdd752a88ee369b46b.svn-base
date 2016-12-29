@@ -1,0 +1,114 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.virtualVanets.applicationModel.listener;
+
+import br.com.virtualVanets.common.listener.SVVEventDevice;
+import br.com.virtualVanets.common.InfraEquipament;
+import br.com.virtualVanets.infracloud.OperationRequestInfraEquipament;
+import br.com.virtualVanets.infracloud.listener.SVVListenerInfraEquipament;
+import br.com.virtualVanets.routingAlgorithm.Host;
+import br.com.virtualVanets.routingAlgorithm.Network;
+import br.com.virtualVanets.routingAlgorithm.RouteTable;
+import br.com.virtualVanets.routingAlgorithm.bo.NetworkBO;
+import br.com.virtualVanets.vehiclecloud.OperationRequestVehicle;
+
+/**
+ *
+ * @author georgejunior
+ */
+public class DefaultListenerInfraEquipament extends SVVListenerInfraEquipament {
+
+    @Override
+    public void onLoopback(SVVEventDevice svvEvent) {
+        {
+            System.out.println("OnLoopback");
+            try {
+                Host host = new Host();
+                host.setDevice(svvEvent.getDevice());
+                host = RouteTable.getIntance().getHostTableNetwork(host.getAddress());
+                if (host != null) {
+                    Network network = host.getNetwork();
+                    network.sendMsg(host, host, svvEvent.getMessage());
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    
+    @Override
+    public void onRead(SVVEventDevice event) {
+        System.out.println("OnRead");
+    }
+
+    @Override
+    public void onConnect(SVVEventDevice event) {
+        try {
+
+            System.out.println("OnConnect");
+            /*
+        Verificar em que rede o esquipamento se encontra,
+        deve ser feito pelas coordenadas GPS, a consulta
+        deve ser feita na base georeferenciada
+             */
+            //Criando o host
+            Host host = new Host();
+            host.setDevice(event.getDevice());
+            //Por enquanto todos estão usando uma única rede de maneira forçada
+            //Depois deve mudar pra pegar do banco.
+            Network network = NetworkBO.getInstance().getByArea(event.getLatitude(), event.getLongitude());
+            //Adiciona o host na red
+            network.addHost(host);
+            //RouteTable.getIntance().addTableNetworkRSU((InfraEquipament)event.getDevice());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private void onMessageBoreadCast(SVVEventDevice svvEvent) {
+        System.out.println("OnMessageBoreadCast");
+        try {
+            Host host = new Host();
+            host.setDevice(svvEvent.getDevice());
+            host = RouteTable.getIntance().getHostTableNetwork(host.getAddress());
+            if (host != null) {
+                Network network = host.getNetwork();
+                network.sendMsg(host, null, svvEvent.getMessage());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    
+
+    @Override
+    public void onDisconnet(SVVEventDevice event) {
+        System.out.println("OnDisconnect");
+    }
+
+    @Override
+    public void callEvent(SVVEventDevice svvEvent) {
+        switch (svvEvent.getOperationCode()) {
+            case OperationRequestVehicle.LOOP_BACK:
+                onLoopback(svvEvent);
+                break;
+            case OperationRequestInfraEquipament.SEND_CODE:
+                onRead(svvEvent);
+                break;
+            case OperationRequestInfraEquipament.SEND_BROADCAST_CODE:
+                onMessageBoreadCast(svvEvent);
+                break;
+            case OperationRequestInfraEquipament.DISCONNECT_CODE:
+                onConnect(svvEvent);
+                break;
+            case OperationRequestInfraEquipament.CONNECT_CODE:
+                onDisconnet(svvEvent);
+                break;
+        }
+    }
+
+}
