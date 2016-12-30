@@ -775,7 +775,7 @@ Foi proposto por Lee et al.\cite{lee2014vehicular} o VCN (\textit{Vehicular Clou
 
 \subsection{Problemática}
 
-Como criar uma plataforma em nuvem capaz de permitir a construção de aplicações voltadas para VANETs, considerando o desenvolvimento simplificado e extensível de maneira que o cerne principal da plataforma seja abstraído das novas funcionalidades e mantendo o foco nos principais desafios atualmente encontrados em redes veiculares. 
+Como criar uma plataforma em nuvem capaz de permitir a construção de aplicações voltadas para VANETs, considerando o desenvolvimento simplificado e extensível de maneira que o cerne principal da plataforma seja abstraído das novas funcionalidades, mantendo o foco nos principais desafios atualmente encontrados em redes veiculares e permita a escalabilidade. 
 
 \subsection{Hipótese}
 
@@ -788,9 +788,9 @@ O objetivo principal desta dissertação é apresentar uma arquitetura de softwa
 \subsection{Objetivos Específicos}
 Para acançar a inteção anterior, alguns objetivos específicos devem ser atendidos,  a saber: 
 \begin{itemize}
-	\item{Definir  a arquitetura de software de maneira que permita a extensabilidade e flexibilidade;}	
+	\item{Projeta uma arquitetura de software de maneira que permita a extensabilidade, flexibilidade e escalabilidade;}	
 	\item{Construir a arquitetura utilizando a lingugem Java;}	
-	\item{Implementar uma versão para cada camada da arquitetura para realização de testes;}	
+	\item{Implementar uma versão para cada camada da arquitetura;}	
 	\item{Construir uma aplicação como prova de conceito;}	
 	\item{Realizar testes simulados para avaliar seu desempenho e capacidade.}	
 \end{itemize} 
@@ -803,18 +803,18 @@ Na pesquisa bibliográfica foi verificado o estado da arte sobre redes veiculare
 
 Na definição do escopo e das metas desta pesquisa, ficou estabelecido definir e construir uma arquitetura de software modular de maneira que cada módulo abstraia detalhes de implementação dos demais, permitindo usufruir de ``contratos'' no uso efetivo dos módulos.
 
-Os cenários para os experimentos foram definidos utilizando movimentações reais dentro da cidade de Aracaju-Sergipe Brasil, os quais foram extraídos de uma empresa de taxi gerando 12 milhoes de movimentações.
+Os cenários para os experimentos foram definidos utilizando movimentações reais dentro da cidade de Aracaju-Sergipe Brasil, os quais foram extraídos, 12 milhoes de movimentações,  de uma empresa de taxi .
 
-Para alcançar os resultados foi necessário estabelecer conexões entre os nós de uma rede VANETs, permitindo a criação de rede de maneira dinâmica e "aleatória" mantendo a integridade dos dados.
+Para alcançar os resultados foi necessário estabelecer conexões entre os nós de uma rede VANETs, permitindo a criação de rede de maneira dinâmica, ``aleatória'' e mantendo a integridade dos dados.
 
-A métrica e a técnica de avaliação desta pesquisa foi o tempo de processamento de cada mensagem enviada ao servidor como também o tempo de comunicação entre os veículos e os servidores em nuvem contrapondo entre as velocidades do 2G, 3G, 4G e 5G, permitindo avaliar se as velocidades atuais da telefonia móvel suportam a solução.
+A métrica e a técnica de avaliação desta pesquisa foi o tempo de processamento de cada mensagem enviada ao servidor como também o tempo de comunicação entre os veículos e os servidores em nuvem contrapondo entre as velocidades do 2G, 3G, 4G e 5G, permitindo avaliar se as velocidades atuais da telefonia móvel suportam a solução e um teste de carga para medir a capacidade operacional da plataforma.
  
 %Para execução da simulação com dados reais, foi constuído uma aplicação que conectava ao servidor em nuvem e realizava as devidas transmissões, sendo que as coordenadas vinham de um arquivo
 \subsection{Contribuições}
 
 A computação veicular em nuvem é um novo campo de pesquisa com o potencial de mudar a vida das pessoas. Ele  traz a eficiência, segurança e conforto para motoristas e passageiros \cite{falchetti2015vehicular}. Sendo a principal contribuição deste trabalho a construção de uma arquitetura para criação de redes veiculares em nuvem como também a análise dos dados coletados a partir dos experimentos. Nesse sentido, este estudo mostra que também é válido o uso de VCN no auxílio das soluções para os principais desafios relacionados à VANETs.
 
-Outra contribuição importante foi poder instalar e analisar aspectos de segurança nas redes veiculares podendo apenas assinar a mensagem ou criptografá-la, seguindo com análise de viabilidade. Conclui-se que o desempenho e eficiência da arquitetura atendem aos requisitos relacionados à VANETs. E assim, demonstrar que o tempo de conexão e processamento em uma rede VCN em ambiente de simulação atende às necessidades de vários tipos de aplicações relacionadas a VANETs.
+Outra contribuição importante foi poder instalar e analisar aspectos de segurança nas redes veiculares podendo apenas assinar a mensagem ou criptografá-la, seguindo com análise de viabilidade de ambos os casos. Conclui-se que o desempenho e eficiência da arquitetura atendem aos requisitos relacionados à VANETs. E assim, demonstrar que o tempo de conexão e processamento em uma rede VCN em ambiente de simulação atende às necessidades de vários tipos de aplicações relacionadas a VANETs.
 
 Dentro desse contexto, este rabalho apresenta como principal contribuição, um modelo de arquitetura de software flexível e extensível, que utiliza rede veicular ad-hoc (VANET) e  Computação em Nuvem, com a finalidade de proporcionar uma alternativa para os principais desafios relacionados à VANETs .
 
@@ -822,7 +822,7 @@ Dentro desse contexto, este rabalho apresenta como principal contribuição, um 
 \section{Organização do Trabalho}
 %Antes do penúltimo parágrafo, inserir um parágrafo contendo as principais contribuições do artigo. Por exemplo: The main contributions of this work are ?.. X Y Z.
 Os demais capítulos da dissertação estão organizados da seguinte forma:
-O capítulo 2 aborda de maneira geral as redes veiculares, as suas aplicações, conceitos de internet das coisas e sistemas distribuiídos. No capítulo 3 é apresentado a arquitetura I9Vanet, seus módulos e detalhes da tecnologia utilizada na construção. Já o capítulo 4, apresenta o processo de avaliação realizado na arquitetura I9Vanet bem como a análise dos resultados.
+O capítulo 2 aborda de maneira geral, conceitos de internet das coisas, sistemas distribuiídos e as redes veiculares e suas aplicações. No capítulo 3 é apresentado a arquitetura I9Vanet, seus módulos e detalhes da tecnologia utilizada na construção. Já o capítulo 4, apresenta o processo de avaliação realizado na arquitetura I9Vanet bem como a análise dos resultados.
 O capítulo 5 apresenta as conclusões, destacando as principais contribuições, o resultado da análise dos dados e sugestão para os possíveis trablahos futuros.
 
 %\chapter{Redes Veiculares}\label{sec:vanet}
@@ -1057,13 +1057,15 @@ Dentre os principais algotirmos de roteamento, com foco nas redes veiculares, te
 
 \subsection{Protocolos Ad-hoc}
 
-As redes ad-hoc é caracterizada por ser um tipo de rede que não utiliza infra-estruturas e permite a mobilidade dos nós. Ao contrário dos os protocolos de roteamento infra-estruturados, os quais não apresentam um  desempenho aceitável para redes VANETs.  
+As redes ad-hoc é caracterizada por ser um tipo de rede que não utiliza infra-estruturas e permite a mobilidade dos nós. Ao contrário dos outros protocolos de roteamento infra-estruturados, os quais não apresentam um  desempenho aceitável para redes VANETs.  
 
-São tradicionalmente divididos em duas grandes categorias: reativos e pró-ativos. Os Reativos caracterizam-se pelo fato de nem sempre possuirem as rodas para todos os nós da rede. Quando um nó precisa de uma rota para um certo destino na rede, inicia-se um processo de descoberta de rota e é finalizado quando a rota e calculada com êxito ou não exista uma rota disponível. As rotas já decobertas são utilizadas enquanto o nó de destino permanecer alcancável ou não ser mais necessário. Os protocolos reativos mais conhecidos são AODV (\textit{Ad hoc On Demand Distance Vector}) e o DSR (\textit{Dynamic Source Routing}). Em contra partida, Boukerche \cite{boukerche2004performance}, afirmou que o desempenho dos protocolos AODV e DSR é bastante prejudicado pela constante alteração topológica da rede.
+São tradicionalmente divididos em duas grandes categorias: reativos e pró-ativos. Os Reativos caracterizam-se pelo fato de nem sempre possuirem as rotas para todos os nós da rede. Quando um nó precisa de uma rota para um certo destino na rede, inicia o processo de descoberta de rota e é finalizado quando a rota e calculada com êxito ou não exista uma rota disponível. As rotas já decobertas são utilizadas enquanto o nó de destino permanecer alcancável ou não ser mais necessário. Os protocolos reativos mais conhecidos são AODV (\textit{Ad hoc On Demand Distance Vector}) e o DSR (\textit{Dynamic Source Routing}). Em contra partida, Boukerche \cite{boukerche2004performance}, afirmou que o desempenho dos protocolos AODV e DSR é bastante prejudicado pela constante alteração topológica da rede.
 
 Os protocolos pro-ativos (\textit{table-driven}) caracterizam-se por ter conhecimento das rotas para todos os nós existentes. Esse protocolo possui a vantagem de ter um reduzido atraso incial, pois as rotas já estão estabelecidas. Não obstante, a metodologia dos protocolos pró-ativos implica na existência de um tráfego adicional para controle da topologia, uma vez que é preciso manter as rotas existentes sempre atualizadas, consumindo uma maior largura de banda. São exemplos de protocolos pró-ativos: DSDV ('\textit{Destination Sequenced Distance Vector}) e o WRP (Wireless Routing Protocol).
 
-Os protocolos PRAODV (\textit{PReemptive AODVr}) e PRAODV-M (\textit{PReemptive AODV - Maximum}) foram criados em cima do protocolo AODV, oferecendo uma componente baseado na velocidade, na localização  e na predição. A difererença é que no PRAODV, é estabelecida uma ligação alternativa entre dois nós, antes da principal expirar, e a PRAODV-M, escolhe uma rota que prevê ficar ativa por mais tempo, ao contrário da AODV, que escolhe a rota mais curta \cite{luis2009melhoria}. 
+Os protocolos PRAODV (\textit{PReemptive AODV}) e PRAODV-M (\textit{PReemptive AODV - Maximum}) foram criados em cima do protocolo AODV, oferecendo uma componente baseado na velocidade, na localização  e na predição. A difererença é que no PRAODV, é estabelecida uma ligação alternativa entre dois nós, antes da principal expirar, e a PRAODV-M, escolhe uma rota que prevê ficar ativa por mais tempo, ao contrário da AODV, que escolhe a rota mais curta \cite{luis2009melhoria}. 
+
+O protocolo OLSR (Optimzed Link State Routing), realiza uma otmização da topologia, sendo este, o algoritmo mais utilizado em redes ad-hoc \cite{jacquet2001optimized}. Possui um modo de funcionamento bastante característico, pois cada nó, seleciona dentre seus vizinhos, uma quantidade de nós suficientes de maneira a cobrir toda a vizinhança a dois saltos do nó, com objetivo de realizar o roteamento e retransmitir as mensagens. 
 
 \subsection{Protocolos Baseados em Localização}
 
@@ -1083,14 +1085,53 @@ Cada \textit{cluster} pode apresentar um nó como lider, denomicado \textit{clus
 
 Em redes veiculares, a aleatoriedade da movimentação dos veículos torna os protocolos de roteamento baseado em cluster para redes móveis frustrados tais como: \textit{Adaptative Clustering} e o MCDS \textit{Minimum Connected Dominating Set} \cite{das1997routing}.
 
-Como dito anteriormente, o sucesso de um cluster está na estabilidade sendo assim, muitas pesquisas foram realizadas com objetivo de tornar o grupo o mais estável possível tais como: COIN \textit{Clustering for Open  IVC Networks}.   
+Como dito anteriormente, o sucesso de um cluster está na estabilidade consequentemente, muitas pesquisas foram realizadas com objetivo de tornar o grupo o mais estável possível a exemplo do protocolo COIN \textit{Clustering for Open  IVC Networks} que utiliza informações sobre mobilidade para para formação do \textit{cluster}. Entretanto, são adicionados ao algoritmo as intenções do motorista do veículo como também a dinâmica veicular. De acordo com Blum et al. \cite{blum2003mobility}, resultados demonstram que as otimizações feitas molhoram o desempenho do protocolo, identificando um aumento de 192\% no tempo  médio de vida de um \textit{cluster} e uma redução de 42\% no número de alterações dos integrantes do grupo.
 
-
+O protocolo CBLR (\textit{Cluster-Based Location Routing algorithm}) apresentado por Santos et al. \cite{santos2004cluster}, utiliza conceitos de \textit{cluster} juntamente com informações de localização. Este protocolo, se comparado ao AODV e DSR, desmostrou um desempenho superio ao atraso \textit{end-to-end} e à taxa de sucesso de entrega.
 
 
 \subsection{Protocolos  por Broadcast}
 
-\subsection{Protocolos Geocast}
+Os protocolos de roteamento baseados em broadcast, consistem em transmitir informações por todos os nós que façam parte da rede. Em VANETs, este tipo de defusão é muito utilizado para compartilhar informações sobre o tráfego, condições da estrada, condição do clima, entre outros \cite{luis2009melhoria}. Assim,  fica garantido que todos receberam a informação. Entretanto, o funcionamento destes protocolos não é indicado para redes consideravelmente grandes, podendo gerar um efeito de tempestade de broadcast (broadcast storm), aumentando a probalilidade de colições de pacotes e o consumo da largura de banda, comprometendo o desempenho.
+
+O protocolo BROADCOMM (\textit{BROADcast COMMunications}) apresenta algumas semelhanças com os protocolos baseados em clusters ao dividir a auto-estrada em células e utilizar o conceito de \textit{cluster-head}, aqui chamando de \textit{cell-reflectors} \cite{durresi2005emergency}. Neste caso, a diferença é que as \textit{cell-reflectors} devem ficar geometricamente no centro da célula. A função do \textit{cell-reflectors} é difundir as informações de emergências entre as células. Contudo, este protocolo funciona apenas para ambiente de auto-estrada.  
+
+\subsection{Protocolos \textit{Geocast}}
+
+O protocolo de \textit{Geocast} (\textit{Geocast Routing}) leva em consideração a posição/localização, e seu objetivo é entregar um pacote a nós que estão em uma determinada região denominada ZOR (\textit{Zone of Relevance}). A implementação deste protocolo deve levar em consideração, a integração de um serviço de multidifusão em conjunto com o agrupamento dos nós confome seu posicionamento geográfico, criando assim as ZORs.
+
+Uma implementacão do algoritmo \textit{Geocast} foi utilizado na construção do protocolo \textit{Message Dissermination Process} proposto por Briesemeister et al. \cite{briesemeister2000disseminating}, cuja objetivo é evita colisão de pacotes e diminuir o número de retramissões. No momento que um nó recebe um pacote, ele não o encaminha imediatamente esperando um tempo de  modo a poder tomar uma decisão referente à retransmissão. O tempo de espera é baseado na distância do nó que lhe enviou o pacote, ou seja, quanto maior a distância menor é o tempo de espera. Quando o perído de tempo expira, o pacote somente e retransmitido se a informação não tiver sido recebida novamente. Esse controle no envio dos pacotes  faz com que seja menos provável a existêcia de \textit{broadcast stoms} e a propagação de pacotes seja mais eficiente.
+
+Os protocolos DRG (\textit{Distributed Robust Geocast}) e ROVER (\textit{RObust Vehicular Routing}) projetados por Kihl et al. \cite{kihl2008design}, sendo o DRG um protocolo com foco em grandes cenários, adaptável às constantes mudanças da topologia das redes veiculares e fornece um sistema de encaminhamento rápido e confiável. Em contra partida, o protocolo ROVER oferece uma difusão \textit{multicast} confiável, tendo como base, um processo de descoberta de rotas dentro da ZOR.
+
+\subsection{Comparação dos Protocolos de Roteamentos}
+
+Ainda não foi encontrada a melhor forma de se criar um protocolo de roteamento para VANETs, porém, há autores que consideram um roteamento baseado em cluster mais viável em relação aos outros modelos \cite{luis2009melhoria}. A aplicabilidade do protocolo faz aumentar o número de pesquisas existentes sendo que, se há alguns protocolos que possuem desempenho favorável em cenários urbanos, isso já não acontece em ambientes de alta mobilidade, e vice-versa. A tabela \ref{tab:roteamento} faz um apanhado geral sobre os protocolos de roteamento e os cenários mais indicados.
+
+\begin{longtable}{ p{.15\textwidth}  p{.13\textwidth}   p{.22\textwidth}  p{.15\textwidth} p{.17\textwidth}} 
+	\hline
+	\rowcolor[gray]{0.7}
+	Protocolo de Roteamento	& Tipo Protocolo & Informação Sobre Posição  & Estrutura Hierárquica & Cenário de Mobilidade  \\ \hline
+	
+	AODV	& Unicast & Não & Não & ---  \\ \hline
+	DSR	& Unicast & Não & Não & ---  \\ \hline
+	OLSR	& Unicast & Não & Não & ---  \\ \hline
+	PRAODV-M	& Unicast & Seleção de rotas & Não & Auto-estrada  \\ \hline
+	GPSR	& Unicast & Encaminhamento de Pacotes & Não & ---  \\ \hline
+	GSR	& Unicast & Encaminhamento de Pacotes & Não & Urbano  \\ \hline
+	A-STAR	& Unicast & Encaminhamento de Pacotes  & Não & Urbano \\ \hline
+	GeOpps	& Unicast & Encaminhamento de Pacotes & Não & Urbano  \\ \hline
+	COIN	& Unicast & Formação de Cluster & Sim & Auto-estrada  \\ \hline
+	CBLR	& Unicast & Encaminhamento de Pacotes & Sim & Circuito circular e quadrangular  \\ \hline
+	%Flooding	& Broadcast & Não & Não & ---  \\ \hline
+	BROADCOMM	& Broadcast & Formação de células & Sim & Auto-estrada  \\ \hline
+	Msg. Diss. Proc.	& Geocast & Encaminhamento de Pacotes & Não & Auto-estrada  \\ \hline
+	DRG	& Geocast & Encaminhamento de Pacotes  & Não & Auto-estrada  \\ \hline
+	ROVER	& Geocast & Encaminhamento de Pacotes  & Sim & Auto-estrada  \\ \hline
+		
+	\caption{Protoclos de roteamento aplicados a redes veiculares \cite{luis2009melhoria} } % needs to go inside longtable environment
+	\label{tab:roteamento}
+\end{longtable}
 
 \section{Aplicações}
 

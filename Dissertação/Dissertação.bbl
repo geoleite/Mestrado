@@ -36,12 +36,26 @@
   systems for driver support. In:  \emph{Proceedings of the 16th ITS World
   Congress}. [S.l.: s.n.], 2009.}
 
+\bibitem[Blum, Eskandarian e Hoffman 2003]{blum2003mobility}
+\abntrefinfo{Blum, Eskandarian e Hoffman}{BLUM; ESKANDARIAN; HOFFMAN}{2003}
+{BLUM, J.; ESKANDARIAN, A.; HOFFMAN, L. Mobility management in ivc networks.
+  In:  IEEE. \emph{Intelligent Vehicles Symposium, 2003. Proceedings. IEEE}.
+  [S.l.], 2003. p. 150--155.}
+
 \bibitem[Boukerche 2004]{boukerche2004performance}
 \abntrefinfo{Boukerche}{BOUKERCHE}{2004}
 {BOUKERCHE, A. Performance evaluation of routing protocols for ad hoc wireless
   networks.
 \emph{Mobile Networks and Applications}, Springer-Verlag New York, Inc., v.~9,
   n.~4, p. 333--342, 2004.}
+
+\bibitem[Briesemeister, Schafers e Hommel 2000]{briesemeister2000disseminating}
+\abntrefinfo{Briesemeister, Schafers e Hommel}{BRIESEMEISTER; SCHAFERS;
+  HOMMEL}{2000}
+{BRIESEMEISTER, L.; SCHAFERS, L.; HOMMEL, G. Disseminating messages among
+  highly mobile hosts based on inter-vehicle communication. In:  IEEE.
+  \emph{Intelligent Vehicles Symposium, 2000. IV 2000. Proceedings of the
+  IEEE}. [S.l.], 2000. p. 522--527.}
 
 \bibitem[Bubenikova, Durech e Franekova 2014]{bubenikova2014security}
 \abntrefinfo{Bubenikova, Durech e Franekova}{BUBENIKOVA; DURECH;
@@ -76,12 +90,26 @@ Tese (Doutorado) --- UNIVERSIDADE FEDERAL DO RIO DE JANEIRO, 2008.}
 Dispon{\'\i}vel em:
   \url{http://www.autoentusiastasclassic.com.br/2011/05/transito-o-jogo-do-caos.html}.}
 
+\bibitem[Das e Bharghavan 1997]{das1997routing}
+\abntrefinfo{Das e Bharghavan}{DAS; BHARGHAVAN}{1997}
+{DAS, B.; BHARGHAVAN, V. Routing in ad-hoc networks using minimum connected
+  dominating sets. In:  IEEE. \emph{Communications, 1997. ICC'97 Montreal,
+  Towards the Knowledge Millennium. 1997 IEEE International Conference on}.
+  [S.l.], 1997. v.~1, p. 376--380.}
+
 \bibitem[Dib et al. 2007]{el2007systematic}
 \abntrefinfo{Dib et al.}{DIB et al.}{2007}
 {DIB, R.~P. E. et al. A systematic review of the interventions to promote the
   wearing of hearing protection.
 \emph{S{\~a}o Paulo Medical Journal}, SciELO Brasil, v.~125, n.~6, p. 359--361,
   2007.}
+
+\bibitem[Durresi, Durresi e Barolli 2005]{durresi2005emergency}
+\abntrefinfo{Durresi, Durresi e Barolli}{DURRESI; DURRESI; BAROLLI}{2005}
+{DURRESI, M.; DURRESI, A.; BAROLLI, L. Emergency broadcast protocol for
+  inter-vehicle communications. In:  IEEE. \emph{11th International Conference
+  on Parallel and Distributed Systems (ICPADS'05)}. [S.l.], 2005. v.~2, p.
+  402--406.}
 
 \bibitem[Eltoweissy, Olariu e Younis 2010]{eltoweissy2010towards}
 \abntrefinfo{Eltoweissy, Olariu e Younis}{ELTOWEISSY; OLARIU; YOUNIS}{2010}
@@ -149,6 +177,13 @@ Dispon{\'\i}vel em:
   vehicular ad hoc networks.
 \emph{IET communications}, IET, v.~4, n.~7, p. 894--903, 2010.}
 
+\bibitem[Jacquet et al. 2001]{jacquet2001optimized}
+\abntrefinfo{Jacquet et al.}{JACQUET et al.}{2001}
+{JACQUET, P. et al. Optimized link state routing protocol for ad hoc networks.
+  In:  IEEE. \emph{Multi Topic Conference, 2001. IEEE INMIC 2001. Technology
+  for the 21st Century. Proceedings. IEEE International}. [S.l.], 2001. p.
+  62--68.}
+
 \bibitem[Jakubiak e Koucheryavy 2008]{jakubiak2008state}
 \abntrefinfo{Jakubiak e Koucheryavy}{JAKUBIAK; KOUCHERYAVY}{2008}
 {JAKUBIAK, J.; KOUCHERYAVY, Y. State of the art and research challenges for
@@ -160,6 +195,12 @@ Dispon{\'\i}vel em:
 {KARP, B.; KUNG, H.-T. Gpsr: Greedy perimeter stateless routing for wireless
   networks. In:  ACM. \emph{Proceedings of the 6th annual international
   conference on Mobile computing and networking}. [S.l.], 2000. p. 243--254.}
+
+\bibitem[Kihl, Sichitiu e Joshi 2008]{kihl2008design}
+\abntrefinfo{Kihl, Sichitiu e Joshi}{KIHL; SICHITIU; JOSHI}{2008}
+{KIHL, M.; SICHITIU, M.; JOSHI, H. Design and evaluation of two geocast
+  protocols for vehicular ad-hoc networks.
+\emph{Journal of Internet Engineering}, Klidarithmos Press, 2008.}
 
 \bibitem[Lee et al. 2014]{lee2014vehicular}
 \abntrefinfo{Lee et al.}{LEE et al.}{2014}
@@ -315,6 +356,13 @@ Ci{\^e}ncia da Computa{\c{c}}{\~a}o, 2013.}
   vehicular ad hoc networks (vanet). In:  IEEE. \emph{New Trends in Information
   Science and Service Science (NISS), 2010 4th International Conference on}.
   [S.l.], 2010. p. 393--398.}
+
+\bibitem[Santos, Edwards e Edwards 2004]{santos2004cluster}
+\abntrefinfo{Santos, Edwards e Edwards}{SANTOS; EDWARDS; EDWARDS}{2004}
+{SANTOS, R.; EDWARDS, R.; EDWARDS, A. Cluster-based location routing algorithm
+  for inter-vehicle communication. In:  IEEE. \emph{Vehicular Technology
+  Conference, 2004. VTC2004-Fall. 2004 IEEE 60th}. [S.l.], 2004. v.~2, p.
+  914--918.}
 
 \bibitem[Solingen et al. 2002]{van2002goal}
 \abntrefinfo{Solingen et al.}{SOLINGEN et al.}{2002}
