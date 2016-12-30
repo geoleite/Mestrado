@@ -84,6 +84,11 @@ Tese (Doutorado) --- UNIVERSIDADE FEDERAL DO RIO DE JANEIRO, 2008.}
   communications. In:  IEEE. \emph{Mobile and Ubiquitous Systems-Workshops,
   2006. 3rd Annual International Conference on}. [S.l.], 2006. p.~1--8.}
 
+\bibitem[Coulouris et al. 2013]{coulouris2013sistemas}
+\abntrefinfo{Coulouris et al.}{COULOURIS et al.}{2013}
+{COULOURIS, G. et al. \emph{Sistemas Distribu{\'\i}dos-: Conceitos e Projeto}.
+  [S.l.]: Bookman Editora, 2013.}
+
 \bibitem[DANTAS 2011]{autoentusiastasclassic}
 \abntrefinfo{DANTAS}{DANTAS}{2011}
 {DANTAS, A. \emph{TRÂNSITO: O JOGO DO CAOS}. 2011.
@@ -103,6 +108,12 @@ Dispon{\'\i}vel em:
   wearing of hearing protection.
 \emph{S{\~a}o Paulo Medical Journal}, SciELO Brasil, v.~125, n.~6, p. 359--361,
   2007.}
+
+\bibitem[Distribu{\'\i}dos 2007]{distribuidos2007principios}
+\abntrefinfo{Distribu{\'\i}dos}{DISTRIBU{\'I}DOS}{2007}
+{DISTRIBU{\'I}DOS, S. \emph{Princ{\'\i}pios e Paradigmas. 2{\textordfeminine}
+  Edi{\c{c}}{\~a}o. Autores: Andrew S. Tanenbaum e Maarten V. Steen}. [S.l.]:
+  Editora Pearson Prentice Hall, 2007.}
 
 \bibitem[Durresi, Durresi e Barolli 2005]{durresi2005emergency}
 \abntrefinfo{Durresi, Durresi e Barolli}{DURRESI; DURRESI; BAROLLI}{2005}

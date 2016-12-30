@@ -884,9 +884,56 @@ O emprego de sistemas no veículo oferece, por um lado, a possibilidade de apres
 %Nesse trabalho, vamos apresentar as Redes de Sensores Sem Fio. Primeiramente, tentaremos mostrar os problemas que motivaram sua criação e, depois, tentar entender seu funcionamento de modo geral através de uma abordagem mais técnica. Por fim, veremos algumas aplicações e analisaremos as tendências para esse tipo de rede.
 \chapter{Sistemas Distribuídos}
 
+%Os sistemas distribuídos é de suma importância para que se possa atender a uma crescente demanda de usuários o que seria 
+Com o surgimento das redes locais, o homem tenta aproveitar melhor o proder computacional dividindo tarefas em vários computadores para realizar processamento paralelo de modo a aumentar o poder computacional sem utilizar super computadores. Surgindo assim, o conceito de sistemas distribuídos (SD).
+
 \section{Definição}
 
+De acordo com Tanenbaum e Maarten \cite{distribuidos2007principios}, um sistema distribuído é um conjunto de computadores independentes entre si, que se apresenta a seus usuários como um sistema único e coerente. Já Coulouis \cite{coulouris2013sistemas}, define sistemas distribuídos como sendo uma coleção de computadores autônomos interligados através de uma rede de computadores e equipados com software que permita o compartilhamento de hardware, software e dados.
+
+De acordo com as definições, os sistemas distribuídos apresentam algumas caracterísitas: concorência de recursos,  falta de um relógio e falhas de componentes independentes. Sendo o compartilahmento de recursos um dos principais motivos para se utilizar sistemas distribuídos. 
+
+Os desafios atrelados à construção de sistemas distribuídos são a heterogeneidade de seus componentes, ser um sistema aberto, segurança e escalabilidade, tolerância a falhas, a concorrencia aos recursos e a transparêcia \cite{coulouris2013sistemas}.
+
+A miniaturização dos dispositivos  e a interligação em redes sem fio, tem ocasionado uma convergência de equipamentos cada vez menores com sistemas distribuídos. A portabilidade desses dispositivos, torna a computação móvel possível e fundamental para que a computação ubíqua ou pervasiva, seja utilizada cada vez mais pelo usuário e de maneira transparente e natural.
+
 \section{Características e Desafios}
+
+Os sistemas distribuídos é encontrado em toda parte, contudo, há desafios que todo sistema SD precisa se preocupar tais como: heterogeneidade, sistemas abertos,  segurança, escalabilidade e tolerância a falhas.
+
+\subsection{Heterogeneidade}
+
+Segundo Coulouris \cite{coulouris2013sistemas}, os aspectos que devem ser levados em consideração pela heterogeneidade, estão relacionados à rede, hawdare, sistemas operacionais, linguagens de programação e implementações.
+
+\subsection{Sistemas Abertos}
+
+Um sistema é considerado aberto, quando é possível estendê-lo de várias maneiras. O fato de um SD ser ou não um sistema aberto é determinado pelo grau com que os novos serviços podem ser inseridos para uso por uma variedades de aplicações clientes \cite{coulouris2013sistemas}.
+
+Para que um sistema seja considerado aberto, é necessáio publicar as principais interfaces dos componentes de software. Entretanto, a publicação do padrão de comunicação com o software é apenas o início para adicionar novos serviços a um sistema distribuído.
+
+\subsection{Seguança}
+
+A segurança atrelada à sistemas distribuídos possui três componentes são eles: confidencialidade, integridade e disponibilidade. O primeiro ítem, deve proteger o acesso à informação de pessoas não autorizadas. Quanto à integridade, os sistemas distribuídos devem garantir a não adulteração dos dados e por último, a disponibilidade, o qual deve proteger contra interferência de acesso ao recurso.
+
+\subsection{Escalabilidade}
+
+Um dos grandes objetivos dos sistemas distribuídos, é permitir o aumento de capacidade à medida que cresce a demanda pelo recurso. E os principais desafios é balancear os custos dos recursos físicos com a perda de desempenho, impedindo que os recursos de software se esgotem evitando gargalos na performance. Sendo assim, a escalabilidade é considerada um tema central em sistemas distribuídos.
+
+\subsection{Tolerância a Falhas}
+
+Infelizmente os sistemas de computador falham, seja por motivo de hardware ou software, os programas podem produzir resultados incorretos. Em um ambiente com sistema distribuído, alguns componentes podem falhar equanto outros continuam funcionando, sendo cosiderado algo complexo tratar corretamente cada problema que pode ocorrer. Dentre as técnicas para tolerância a falhas temos: 
+
+\begin{itemize}
+	\item{\textbf{Detecção de Falhas: algumas falhas podem ser detectadas antes que mesmo que afete o sistema. Para isso, somas de verificação podem ser utilizadas para verificar a integridade da informação por exemplo, mas outras falhas não há como prevê, como, por exemplo, a parada de um servidor.} 	
+	\item{\textbf{Mascaramento de Falhas: } algumas falhas podem ser mascaradas, por exemplo, a lentidão momentânia de um \textit{link} pode ser resolvido retransmitindo novamente a mensagem, sem precisar que o usuário tome conhecimento.}
+	\item{\textbf{Recuperação de Falhas: envolve desenvolver softwares capazes de recuperar ou retroceder o estado dos dados para um momento consistente.}}
+	\item{\textbf{Redudancia:} alguns serviços podem melhorar sua tolerancia a falhas com o uso de discos espelhados ou \textit{links} de Internet duplicados, entre outras redundancias, assim, caso algum destes recursos falhem, terá uma alternativa para continar funcionando.}
+	\item{\textbf{text}}
+\end{itemize} 
+
+\subsection{Transparência}
+
+A transparência tem como objetivo, esconder, do usuário ou programador, detalhes da separação dos componentes em um sistema distribuído, de maneira que seja percebido como um todo.
 
 \section{Aplicações}
 
