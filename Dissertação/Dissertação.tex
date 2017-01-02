@@ -885,15 +885,15 @@ O emprego de sistemas no veículo oferece, por um lado, a possibilidade de apres
 \chapter{Sistemas Distribuídos}
 
 %Os sistemas distribuídos é de suma importância para que se possa atender a uma crescente demanda de usuários o que seria 
-Com o surgimento das redes locais, o homem tenta aproveitar melhor o proder computacional dividindo tarefas em vários computadores para realizar processamento paralelo de modo a aumentar o poder computacional sem utilizar super computadores. Surgindo assim, o conceito de sistemas distribuídos (SD).
+Com o surgimento das redes locais (LAN), o homem tenta aproveitar melhor o proder computacional dividindo tarefas em vários computadores para realizar processamento paralelo de modo a aumentar o poder computacional sem utilizar super computadores. Surgindo assim, o conceito de sistemas distribuídos (SD).
 
 \section{Definição}
 
 De acordo com \citeonline{distribuidos2007principios}, um sistema distribuído é um conjunto de computadores independentes entre si, que se apresenta a seus usuários como um sistema único e coerente. Já  \citeonline{coulouris2013sistemas}, define sistemas distribuídos como sendo uma coleção de computadores autônomos interligados através de uma rede de computadores e equipados com software que permita o compartilhamento de hardware, software e dados.
 
-De acordo com as definições, os sistemas distribuídos apresentam algumas caracterísitas: concorência de recursos,  falta de um relógio e falhas de componentes independentes. Sendo o compartilahmento de recursos um dos principais motivos para se utilizar sistemas distribuídos. 
+De acordo com as definições, os sistemas distribuídos apresentam algumas caracterísitas: concorência de recursos,  falta de um relógio e falhas de componentes independentes. Sendo o compartilhamento de recursos um dos principais motivos para se utilizar sistemas distribuídos. 
 
-Os desafios atrelados à construção de sistemas distribuídos são a heterogeneidade de seus componentes, ser um sistema aberto, segurança e escalabilidade, tolerância a falhas, a concorrencia aos recursos e a transparêcia \cite{coulouris2013sistemas}.
+Os desafios atrelados à construção de sistemas distribuídos são: a heterogeneidade de seus componentes, ser um sistema aberto, segurança e escalabilidade, tolerância a falhas, a concorrencia aos recursos e a transparêcia \cite{coulouris2013sistemas}.
 
 A miniaturização dos dispositivos  e a interligação em redes sem fio, tem ocasionado uma convergência de equipamentos cada vez menores com sistemas distribuídos. A portabilidade desses dispositivos, torna a computação móvel possível e fundamental para que a computação ubíqua ou pervasiva, seja utilizada cada vez mais pelo usuário e de maneira transparente e natural.
 
@@ -923,7 +923,7 @@ Um dos grandes objetivos dos sistemas distribuídos, é permitir o aumento de ca
 
 \subsection{Tolerância a Falhas}
 
-Infelizmente os sistemas de computador falham, seja por motivo de hardware ou software, os programas podem produzir resultados incorretos. Em um ambiente com sistema distribuído, alguns componentes podem falhar equanto outros continuam funcionando, sendo cosiderado algo complexo tratar corretamente cada problema que pode ocorrer. Dentre as técnicas para tolerância a falhas temos: 
+Infelizmente os sistemas de computador falham, seja por motivo de hardware ou software, os programas podem produzir resultados incorretos. Em um ambiente com sistema distribuído, alguns componentes podem falhar equanto outros continuam funcionando, sendo cosiderado algo complexo tratar corretamente cada problema que pode ocorrer. A tolerância a falhas é fundamental para o bom funcionamento das aplicações de segurança crítica \cite{gorender2002modelo} . Dentre as técnicas para tolerância a falhas temos: 
 
 \begin{itemize}
 	\item{\textbf{Detecção de Falhas}: algumas falhas podem ser detectadas antes que mesmo que afete o sistema. Para isso, somas de verificação podem ser utilizadas para verificar a integridade da informação por exemplo, mas outras falhas não há como prevê, como, por exemplo, a parada de um servidor.} 	
@@ -936,9 +936,23 @@ Infelizmente os sistemas de computador falham, seja por motivo de hardware ou so
 
 A transparência tem como objetivo, esconder, do usuário ou programador, detalhes da separação dos componentes em um sistema distribuído, de maneira que seja percebido como um todo.
 
-\section{Aplicações}
+%Em um ambiente de redes veiculares em nuvem, é fundamental o uso de sistemtas distribuídos para que se consiga atender à demanda, permitindo a escalabilidade.
 
-\section{Protocolos}
+\section{Comunicação em Sistemas Distribuídos}
+
+As restrições temporais determinam a variação dos modelos de sistemas distribuídos existentes. Podendo ser síncronos ou assíncronos. O modelo síncrono deve ser utilizado quando se conhece os limites temporais, permitindo que haja uma estimativa com relação ao tempo de execução dos protocolos do sistema e funções  da própria aplicação distribuída \cite{lamport1982byzantine} \cite{lynch1996distributed} \cite{cristian1991reaching}. A tolerância a falhas é mais eficiente com a comunicação síncrona, pois permite o uso de \textit{timeout} mais facilmente. Entretanto, nos sistemas assíncronos (\textit{time free}), não há restrições temporais, sendo impossível obter o consenso  na presença de falhas \cite{fischer1985impossibility} \cite{de2000failure}, devido à dificuldade inerente desse tipo de sistema em diferenciar entre uma operação com falha ou extremamente lenta \cite{gorender2002modelo}.
+
+Os modelos de comunicação existentes para sistemas distribuídos, baseiam-se ou nas características sincronas de redes locais ou em ambientes de melhor esforço como os da Internet \cite{gorender2002modelo}. Nenhum dos modelos consideram as arquiteturas IntServ e DiffServ para prover controle de QoS (Qualidade de serviço).
+
+As arquiteturas IntServ e DiffSer foram propostas pela IETF (\textit{Internet Engineering Task Force}) cujo objetivo  é permirtir que sistemas de comunicação possam fornecer serviços com diferentes níveis de qualidade, levando em consideração aspectos como: fixação de limite para transferência de dados e diferentes prioridades com relação à possibilidade de perda de pacotes.
+
+\subsection{Comunicação Cliente-Servidor}
+
+A comunicação baseada no Cliente-Servidor foi projetada para suportar a troca de mensagens em interações tipicamente síncronas, pois o processo no cliente bloqueia a execução até a chegada da resposta. Também é considerada confiável, já que a resposta é a confirmação da chegada da requisição no servidor \cite{coulouris2013sistemas}.
+
+O protocolo utilizado na comunicação Cliente-Servidor, é basedo em três primitivas de comunicação: \textit{doOperation}, \textit{getRequest} e \textit{sendReply}. A maioria dos sistemas RMI (Remote Mehthd Invocation)e RPC (\textit{Remote Procedure Call}).
+
+O método \textit{doOperation} é utilizado para invocar processos remotos. Seus parâmetros especificam  o objeto remoto e a operação a ser executada. A segunda primitiva, o \textit{getRequest}, é executado por um processo no servidor, para ler as requisições do serviço. Após execução do processo, pelo servidor, será executado o \textit{sendReply} para enviar a mensagem de resposta para o cliente, fazendo com que o método \textit{doOperation} seja desbloquedo liberando da aplicação cliente.
 
 
 \chapter{Redes Veículares}

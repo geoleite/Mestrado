@@ -89,6 +89,12 @@ Tese (Doutorado) --- UNIVERSIDADE FEDERAL DO RIO DE JANEIRO, 2008.}
 {COULOURIS, G. et al. \emph{Sistemas Distribu{\'\i}dos-: Conceitos e Projeto}.
   [S.l.]: Bookman Editora, 2013.}
 
+\bibitem[Cristian 1991]{cristian1991reaching}
+\abntrefinfo{Cristian}{CRISTIAN}{1991}
+{CRISTIAN, F. Reaching agreement on processor-group membrship in synchronous
+  distributed systems.
+\emph{Distributed Computing}, Springer, v.~4, n.~4, p. 175--187, 1991.}
+
 \bibitem[DANTAS 2011]{autoentusiastasclassic}
 \abntrefinfo{DANTAS}{DANTAS}{2011}
 {DANTAS, A. \emph{TRÂNSITO: O JOGO DO CAOS}. 2011.
@@ -141,12 +147,25 @@ Dispon{\'\i}vel em:
   Electronics Engineering, Information and Communication Technologies
   (CHILECON)}. [S.l.], 2015. p. 301--305.}
 
+\bibitem[Fischer, Lynch e Paterson 1985]{fischer1985impossibility}
+\abntrefinfo{Fischer, Lynch e Paterson}{FISCHER; LYNCH; PATERSON}{1985}
+{FISCHER, M.~J.; LYNCH, N.~A.; PATERSON, M.~S. Impossibility of distributed
+  consensus with one faulty process.
+\emph{Journal of the ACM (JACM)}, ACM, v.~32, n.~2, p. 374--382, 1985.}
+
 \bibitem[F{\"u}{\ss}ler et al. 2003]{fussler2003mobicom}
 \abntrefinfo{F{\"u}{\ss}ler et al.}{F{\"U}{SS}LER et al.}{2003}
 {F{\"U}{SS}LER, H. et al. Mobicom poster: location-based routing for vehicular
   ad-hoc networks.
 \emph{ACM SIGMOBILE Mobile Computing and Communications Review}, ACM, v.~7,
   n.~1, p. 47--49, 2003.}
+
+\bibitem[Gorender e Mac{\^e}do 2002]{gorender2002modelo}
+\abntrefinfo{Gorender e Mac{\^e}do}{GORENDER; MAC{\^E}DO}{2002}
+{GORENDER, S.; MAC{\^E}DO, R. Um modelo para toler{\^a}ncia a falhas em
+  sistemas distribu{\'\i}dos com qos.
+\emph{Anais do Simp{\'o}sio Brasileiro de Redes de Computadores, SBRC 2002}, p.
+  277--292, 2002.}
 
 \bibitem[Gupte e Younis 2012]{gupte2012vehicular}
 \abntrefinfo{Gupte e Younis}{GUPTE; YOUNIS}{2012}
@@ -213,6 +232,12 @@ Dispon{\'\i}vel em:
   protocols for vehicular ad-hoc networks.
 \emph{Journal of Internet Engineering}, Klidarithmos Press, 2008.}
 
+\bibitem[Lamport, Shostak e Pease 1982]{lamport1982byzantine}
+\abntrefinfo{Lamport, Shostak e Pease}{LAMPORT; SHOSTAK; PEASE}{1982}
+{LAMPORT, L.; SHOSTAK, R.; PEASE, M. The byzantine generals problem.
+\emph{ACM Transactions on Programming Languages and Systems (TOPLAS)}, ACM,
+  v.~4, n.~3, p. 382--401, 1982.}
+
 \bibitem[Lee et al. 2014]{lee2014vehicular}
 \abntrefinfo{Lee et al.}{LEE et al.}{2014}
 {LEE, E. et al. Vehicular cloud networking: architecture and design principles.
@@ -267,6 +292,15 @@ Dispon{\'\i}vel em:
 {LU{\'I}S, N. M.~A.
 \emph{Melhoria de protocolos de encaminhamento em VANETs de alta densidade}.
 Tese (Doutorado) --- FCT-UNL, 2009.}
+
+\bibitem[Lynch 1996]{lynch1996distributed}
+\abntrefinfo{Lynch}{LYNCH}{1996}
+{LYNCH, N.~A. \emph{Distributed algorithms}. [S.l.]: Morgan Kaufmann, 1996.}
+
+\bibitem[Mac{\^e}do 2000]{de2000failure}
+\abntrefinfo{Mac{\^e}do}{MAC{\^E}DO}{2000}
+{MAC{\^E}DO, R.~J. de A. Failure detection in asynchronous distributed systems.
+2000.}
 
 \bibitem[Matos et al. 2013]{matos2013analise}
 \abntrefinfo{Matos et al.}{MATOS et al.}{2013}
