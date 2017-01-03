@@ -954,6 +954,69 @@ O protocolo utilizado na comunicação Cliente-Servidor, é basedo em três prim
 
 O método \textit{doOperation} é utilizado para invocar processos remotos. Seus parâmetros especificam  o objeto remoto e a operação a ser executada. A segunda primitiva, o \textit{getRequest}, é executado por um processo no servidor, para ler as requisições do serviço. Após execução do processo, pelo servidor, será executado o \textit{sendReply} para enviar a mensagem de resposta para o cliente, fazendo com que o método \textit{doOperation} seja desbloquedo liberando da aplicação cliente.
 
+\subsection{Comunicação em Grupo}
+
+Para fornecer tolerância a falhas à disponibilidade, é necessário o uso de difusão seletiva (\textit{multicast}) em situações que precise realizar uma comunicação de um processo com um grupo de processos.
+
+A troca de mensagem \textit{multicast} fornecem uma infra-estrutura importante para construção de sistemas distribuídos com as seguintes características:
+
+\begin{itemize*}
+	\item{Tolerância a falhas baseada em serviços replicados: as requisições do cliente são solicitadas para todos os membros do grupo onde cada um é responsável por executar a mesma operação. Mesmo se algum requisição falhar, o cliente pode ser atendido.}
+	\item{Localizar servidores na interligação em rede espontânea: mensagens \textit{multicast} podem ser utilizadas para localizar os serviços de descobertas disponíveis, podendo ser usadas por servidores e clientes.}
+	\item{Melhor desempenho através da replicação de dados: em alguns casos, os dados são replicados nas máquinas dos clientes, e quando houver mudança, a atualização é feita por \textit{multicast}.}
+	\item{Propagação de notificações de um evento: pode ser utilizado para notificar um grupo, de servidores ou clientes, quando ocorrer mudanças em um determinado evento.}
+\end{itemize*}
+
+
+\subsection{Protocolos de Comunicação}
+
+Há diversos estilos de empacotamento para troca de mensagens em sistemas distribuídos. O CORBA, opta por empacotar os dados para uso pelos destinatários que já conhecem seus tipos anteriormente. Ao contrário do Java, que serializa os dados incluindo informações completas sobre os tipos de seu conteúdo, possibilitando que o destinatário possa reconstruí-los. A linguagem XML segue o modelo semelhante à do Java, fornecendo os tipos de seus conteúdos. 
+
+A figura \ref{fig:estrutura_comunicacao} mostra os mecanismos usados para criação de clientes e servidores para \textit{WebService}, CORBA e Java-RMI. Quando são utilzados stubs gerados automaticamente no lado do cliente para Web Services, os processos de desenvolvimento e a complexidade do código para o cliente e do servidor, são praticamente os mesmos para soluções Web Service, Java-RMI e CORBA. Os fatores que determinarão a escolha serão: a interoperabilidade e o desempenho \cite{gray2004comparison}. Sendo que os Serviços Web permite uma maior integração entre plataformas distintas e dispositivos, enquanto que o desempenho favorecerá ao CORBA e Java-RMI. 
+
+\citeonline{gray2004comparison} realizou um experimento que enviava uma única solicitação de dados e encerrava. Em qualquer dos três casos, \textit{Web Services}, CORBA e Java-RMI, as tecnologias de serviços da Web funcionam bem em comparação com as outras duas, como mostra a tabela \ref{tbComparacaoWS_CORBA_RMI}.
+
+\begin{table}[!h]
+	\centering
+	\caption{Análise de custos de solicitação de uma única requisição utilizando várias tecnologias\cite{gray2004comparison} }
+	\label{tbComparacaoWS_CORBA_RMI}
+%	\begin{tabular}{|p{3.0cm}|p{3cm}|p{2.5cm}|p{3.0cm}|}
+	\begin{tabular}{|l | c|c|c|}
+		\hline
+		\rowcolor[gray]{0.7}
+		Tecnologia & Latência Total  & Total Pacotes  & Total Dados Transferidos (B)  \\ \hline
+		WS              & 0,11s & 16 & 3338  \\ \hline
+		CORBA        & 0,48s & 8 & 1111  \\ \hline
+		Java-RMI     & 0,32s & 48 & 7670  \\ \hline
+	\end{tabular}
+\end{table}
+
+%Normalmente, um começa com uma definição de interface para o serviço. Um stub do lado do cliente é gerado automaticamente a partir desta interface. No lado do servidor, a interface é processada para render uma classe base para a classe de implementação que deve ser escrita pelo desenvolvedor. Com os mecanismos e os custos do desenvolvimento sendo muito semelhantes, outros fatores determinarão a escolha de uma solução técnica. Os desenvolvedores de sistemas terão que escolher entre interoperabilidade onde os Serviços da Web têm vantagens e desempenho que favorecerá o Java RMI ou o CORBA.
+
+\begin{figure} [t]
+	\centering
+	\includegraphics[width=0.8\columnwidth]{images/estrutura_comunicacao.png}
+	\caption{Geração de componentes de cliente e servidor, a partir da interface para Web Services, CORBA e Java-RMI \cite{gray2004comparison}}.
+	\label{fig:estrutura_comunicacao}
+\end{figure}
+
+
+\subsubsection{WebSocket}
+
+A tecnologia \textit{websocket} foi introduzida pelo HTML5 (\textit{HyperText Markup Language} quinta geração) através da RFC 6455: \textit{The WebSocket Protocol}, o qual permite utilizar um canal de comunicação bidirecional entre um cliente e um servidor remoto, de forma persistente e dedicado usando um único \textit{socket} TCP. Isto é, a comunicação pode ocorrer nos dois sentidos simultâneo e assincrono e a conexão permanece aberta até que em uma das partes realize o fechamento \cite{melnikov2011websocket}.
+
+O \textit{WebSocket} é um protocolo que é definido na camada de aplicação e pode ser utilizado para superar restrições existentes na camada de transporte. Utiliza o modelo de mensagens cliente-servidor como base e suporta tanto dados binários quanto texto simples \cite{themudo2014implementaccao}.
+
+As fases de conexão \textit{WebSocet} estão representadas na figura \ref{fig:etapas_ws}, que vai da criação do canal TCP, depois, troca de mensagens e por último, o fechamento. Na fase de \textbf{Ligação \textit{WebSocket}} é realizada a troca de mensagens indefinidamente.
+
+\begin{figure} [h]
+	\centering
+	\includegraphics[height=8cm]{images/etapas_ws.png}
+	\caption{Etapas de uma conexão \textit{WebSocket} \cite{themudo2014implementaccao}}.
+	\label{fig:etapas_ws}
+\end{figure}
+
+
 
 \chapter{Redes Veículares}
 

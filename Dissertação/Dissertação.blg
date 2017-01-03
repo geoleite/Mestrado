@@ -11,7 +11,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 10520 items from 5000.
+Reallocated field_info (elt_size=4) to 10727 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
 Repeated entry---line 1273 of file referencias.bib
@@ -39,45 +39,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 80 entries,
+You've used 83 entries,
             6714 wiz_defined-function locations,
-            1607 strings with 25632 characters,
-and the built_in function-call counts, 77198 in all, are:
-= -- 6285
-> -- 2989
-< -- 317
-+ -- 1357
-- -- 888
-* -- 5766
-:= -- 9969
-add.period$ -- 340
-call.type$ -- 80
-change.case$ -- 1007
-chr.to.int$ -- 161
-cite$ -- 79
-duplicate$ -- 3937
-empty$ -- 5446
-format.name$ -- 4265
-if$ -- 18303
+            1620 strings with 26059 characters,
+and the built_in function-call counts, 79166 in all, are:
+= -- 6415
+> -- 3052
+< -- 320
++ -- 1380
+- -- 908
+* -- 5899
+:= -- 10243
+add.period$ -- 351
+call.type$ -- 83
+change.case$ -- 1032
+chr.to.int$ -- 167
+cite$ -- 82
+duplicate$ -- 4041
+empty$ -- 5613
+format.name$ -- 4358
+if$ -- 18762
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1433
-newline$ -- 363
-num.names$ -- 395
-pop$ -- 2009
+missing$ -- 1483
+newline$ -- 377
+num.names$ -- 410
+pop$ -- 2074
 preamble$ -- 1
-purify$ -- 353
+purify$ -- 363
 quote$ -- 0
-skip$ -- 4334
+skip$ -- 4445
 stack$ -- 1
-substring$ -- 3161
-swap$ -- 1901
-text.length$ -- 105
+substring$ -- 3238
+swap$ -- 1942
+text.length$ -- 107
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 7
 warning$ -- 0
-while$ -- 643
+while$ -- 664
 width$ -- 0
-write$ -- 1304
+write$ -- 1348
 (There were 3 error messages)

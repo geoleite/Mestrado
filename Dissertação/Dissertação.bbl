@@ -167,6 +167,12 @@ Dispon{\'\i}vel em:
 \emph{Anais do Simp{\'o}sio Brasileiro de Redes de Computadores, SBRC 2002}, p.
   277--292, 2002.}
 
+\bibitem[Gray 2004]{gray2004comparison}
+\abntrefinfo{Gray}{GRAY}{2004}
+{GRAY, N.~A. Comparison of web services, java-rmi, and corba service
+  implementations. In:  \emph{Proceedings of the 5th Australasian Workshop on
+  Software and System Architectures at ASWEC}. [S.l.: s.n.], 2004. p. 52--63.}
+
 \bibitem[Gupte e Younis 2012]{gupte2012vehicular}
 \abntrefinfo{Gupte e Younis}{GUPTE; YOUNIS}{2012}
 {GUPTE, S.; YOUNIS, M. Vehicular networking for intelligent and autonomous
@@ -314,6 +320,11 @@ Ci{\^e}ncia da Computa{\c{c}}{\~a}o, 2013.}
   and possible cryptographic solutions.
 \emph{Vehicular Communications}, Elsevier, v.~1, n.~2, p. 53--66, 2014.}
 
+\bibitem[Melnikov e Fette 2011]{melnikov2011websocket}
+\abntrefinfo{Melnikov e Fette}{MELNIKOV; FETTE}{2011}
+{MELNIKOV, A.; FETTE, I. The websocket protocol.
+\emph{Request for Comments}, v.~6455, 2011.}
+
 \bibitem[Mershad e Artail 2013]{mershad2013finding}
 \abntrefinfo{Mershad e Artail}{MERSHAD; ARTAIL}{2013}
 {MERSHAD, K.; ARTAIL, H. Finding a star in a vehicular cloud.
@@ -444,6 +455,12 @@ Ci{\^e}ncia da Computa{\c{c}}{\~a}o, 2013.}
   management solutions in vanets. In:  IEEE. \emph{Computing, Communications
   and Networking Technologies (ICCCNT), 2013 Fourth International Conference
   on}. [S.l.], 2013. p.~1--6.}
+
+\bibitem[Themudo 2014]{themudo2014implementaccao}
+\abntrefinfo{Themudo}{THEMUDO}{2014}
+{THEMUDO, V.~M. Implementa{\c{c}}{\~a}o de um servidor de negocia{\c{c}}{\~a}o
+  em bolsa baseado em websocket.
+2014.}
 
 \bibitem[TTI 2014]{TTI}
 \abntrefinfo{TTI}{TTI}{2014}
