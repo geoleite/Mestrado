@@ -16,6 +16,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
+import org.geotools.geometry.jts.spatialschema.geometry.geometry.JTSGeometryFactory;
 import org.postgis.Point;
 import org.postgresql.util.PGobject;
 
@@ -73,7 +74,7 @@ public class ServerDAO extends DaoBase {
     }
 
     public List<Server> getAll() throws Exception {
-        String sql = "select * from public.srv_server where srv_tx_status='A' order by srv_nr_id";
+        String sql = "select srv_nr_id, srv_tx_name, srv_tx_address, srv_tx_status, srv_nr_idsuper, ST_AsText(srv_geo_area) as srv_geo_area from public.srv_server where srv_tx_status='A' order by srv_nr_id";
         ResultSet rs = null;
         PreparedStatement ps = null;
         try {
@@ -97,7 +98,7 @@ public class ServerDAO extends DaoBase {
     }
 
     public Server getByAreaOld(double latitude, double longitude) throws Exception {
-        String sql = "select * from public.srv_server srv  where ST_INTERSECTS(srv_geo_area, ST_GeomFromText('POINT(' || ? || ' ' || ? || ')'))";
+        String sql = "select srv_nr_id, srv_tx_name, srv_tx_address, srv_tx_status, srv_nr_idsuper, ST_AsText(srv_geo_area) as srv_geo_area from public.srv_server srv  where ST_INTERSECTS(srv_geo_area, ST_GeomFromText('POINT(' || ? || ' ' || ? || ')'))";
         ResultSet rs = null;
         PreparedStatement ps = null;
         try {
@@ -168,7 +169,7 @@ public class ServerDAO extends DaoBase {
 //        }        
 //    }    
     public Server getById(long serverId) throws Exception {
-        String sql = "select * from public.srv_server where srv_nr_id = ?";
+        String sql = "select srv_nr_id, srv_tx_name, srv_tx_address, srv_tx_status, srv_nr_idsuper, ST_AsText(srv_geo_area) as srv_geo_area from public.srv_server where srv_nr_id = ?";
         ResultSet rs = null;
         PreparedStatement ps = null;
         try {
@@ -195,7 +196,7 @@ public class ServerDAO extends DaoBase {
 
 
     public Server getByAddress(String serverAddress) throws Exception {
-        String sql = "select * from public.srv_server where srv_tx_address = ?";
+        String sql = "select srv_nr_id, srv_tx_name, srv_tx_address, srv_tx_status, srv_nr_idsuper, ST_AsText(srv_geo_area) as srv_geo_area from public.srv_server where srv_tx_address = ?";
         ResultSet rs = null;
         PreparedStatement ps = null;
         try {
@@ -227,7 +228,7 @@ public class ServerDAO extends DaoBase {
      * @throws Exception
      */
     public List<Server> getBySuper(long serverIdSuper) throws Exception {
-        String sql = "select * from public.srv_server where srv_nr_idsuper = ?";
+        String sql = "select srv_nr_id, srv_tx_name, srv_tx_address, srv_tx_status, srv_nr_idsuper, ST_AsText(srv_geo_area) as srv_geo_area from public.srv_server where srv_nr_idsuper = ?";
         ResultSet rs = null;
         PreparedStatement ps = null;
         try {
@@ -252,7 +253,7 @@ public class ServerDAO extends DaoBase {
     }
 
     public Server getMyServerSuper(long serverId) throws Exception {
-        String sql = "select * from public.srv_server where srv_nr_id in (select srv_nr_idsuper from public.srv_server where srv_nr_id=?)";
+        String sql = "select srv_nr_id, srv_tx_name, srv_tx_address, srv_tx_status, srv_nr_idsuper, ST_AsText(srv_geo_area) as srv_geo_area from public.srv_server where srv_nr_id in (select srv_nr_idsuper from public.srv_server where srv_nr_id=?)";
         ResultSet rs = null;
         PreparedStatement ps = null;
         try {
@@ -300,8 +301,10 @@ public class ServerDAO extends DaoBase {
             server.setServerName(rs.getString("srv_tx_name"));
             server.setServerAddress(rs.getString("srv_tx_address"));
             server.setServerStatus(rs.getString("srv_tx_status"));
-            PGobject pgObj = (PGobject) rs.getObject("srv_geo_area");
-            org.postgis.Polygon polygon = new org.postgis.Polygon(pgObj.getValue());
+            String geo = rs.getString("srv_geo_area");
+            //PGobject pgObj = (PGobject) rs.getObject("srv_geo_area");
+            System.out.println(geo);
+            org.postgis.Polygon polygon = new org.postgis.Polygon(geo, false);
             Polygon poly = polygonPGToPolygonGT(gf, polygon);
             server.setPolygon(poly);
             dataList.add(server);
