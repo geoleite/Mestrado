@@ -41,6 +41,9 @@
 \definecolor{jpurple}{rgb}{0.5,0,0.35}
 \usepackage{xcolor}
 \usepackage{multirow}
+\usepackage{mathtools} 
+%\usepackage{spacefactor}
+
 
 \lstset{
 	language=Java,
@@ -689,7 +692,7 @@ A conectividade inerente às cidades inteligentes abre uma fronteira bastante pr
 
 Um sistema inteligente de transporte ou \textit{Intelligent Transportation System} (ITS) representa ``a aplicação de sensores avançados, computadores, dispositivos eletrônicos e tecnologias de comunicação e gerenciamento estratégico integrado visando melhorar a segurança e a eficiência do sistema de gerenciamento de tráfego'' \cite{nasim2012distributed}.
 
-Os Sistemas Inteligentes de Transporte (ITS), são, atualmente,  as  mais  importantes  aplicações  de  uma  rede  veicular,  fornecendo  serviços  de segurança  rodoviária \cite{xu2003design}  ou  informações  relativas  às  situações  de  tráfego.  Dito por  \citeonline{sumra2011comparative} e \citeonline{luis2009melhoria}, o principal objetivo de uma VANET é prover segurança aos passageiros nas estradas.
+Os Sistemas Inteligentes de Transporte (ITS), são, atualmente,  as  mais  importantes  aplicações  de  uma  rede  veicular,  fornecendo  serviços  de segurança  rodoviária \cite{xu2003design}  ou  informações  relativas  às  situações  de  tráfego.  Dito por  \citeonline{sumra2011comparative} e \citeonline{luis2009melhoria}, o principal objetivo de uma  VANET (Vehicular ad-hoc Network) é prover segurança aos passageiros nas estradas.
 
 Também de acordo com \citeonline{ball2010enhancing} e \citeonline{losilla2011comprehensive}, a segurança no trânsito é a motivação principal para as pesquisas no âmbito das redes veiculares.  Da mesma maneira, conforme a Organização Mundial da Saúde (OMS), acidentes acumetidos por veículos são responsáveis por mais de um milhão de mortes e 50 milhões de feridos anualmente em todo o mundo \cite{peden2004world}. Nos Estados Unidos e no Brasil, acidentes realacionados a veículos são  a terceira maior causa de mortalidade evitável e incapacitação profissional precoce \cite{systematics2011crashes} \cite{el2007systematic}. 
 
@@ -1551,12 +1554,12 @@ Com base na proposta da arquitetura i9Vanets, foram realizados dois tipos de exp
 Analisar a arquitetura I9Vanets com finalidade de avaliar sua eficiência, a respeito do tempo de latência e capacidade de processamento, do ponto de vista de múltiplos acessos concorrentes no contexto de redes veiculares em nuvem.
 
 \subsection{Planejamento}
-O experimento tem como alvo os desenvolvedores de soluções que visam melhorar a mobilidade urbana com o uso de VANETs. Onde o objetivo foi avaliar a capacidade de processamento do servidor e medir o tempo de latência das comunicações da telefonia móvel, através das seguintes perguntas:
+O experimento tem como alvo os desenvolvedores de soluções que visam melhorar a mobilidade urbana com o uso de VANETs. Onde o objetivo foi avaliar a capacidade de processamento do servidor e medir o tempo de latência das comunicações da telefonia móvel, através dos seguintes questionamentos:
 \begin{itemize}
 	\item {Qual a taxa de processamento por minuto?}
 	\item {Qual a latência média de cada requisição?}
 	\item {Qual a latência média de cada requisição para as velocidades de 2G, 3G, 4G e 5G?}
-	\item {A latência média com a mensagem criptografada irá aumentar em relação à não criptografada?}
+	\item {A latência média com a mensagem criptografada irá aumentar em relação à aberta?}
 	\item {Qual a capacidade de processamento da arquitetura I9Vanet ?}
 \end{itemize} 
 
@@ -1611,8 +1614,8 @@ De acordo \citeonline{papadimitratos2008secure},  as aplicações voltadas para 
 
 \section{Cenário Proposto}
 
-O ambiente proposto para avaliação consiste em simular movimentações de veículos na cidade de Aracaju-SE Brasil transmitindo e recebendo informações dos servidores que compoem a arquitetura I9Vanets. 
-
+O ambiente proposto para avaliação consiste em simular movimentações de veículos na cidade de Aracaju-SE Brasil, representando uma área de 174 quilômetros quadrados, transmitindo e recebendo informações dos servidores que compoem a arquitetura I9Vanets. 
+%$$Km^{2n}$$
 Cada teste realizado, levou em consideração quantidades diferentes de dispositivos representando os veículos, sendo da seguinte forma: 50, 100, 200 e 400. Para cada faixa, também foi ajustado a largura de banda para definir a velocidade máxima de comunicação de cada dispositivo, seguindo os modelos 2G, 3G, 4G e 5G.
 
 Todo o ambiente, tanto o cliente quanto os servidores, foi montado em máquinas virtuais. No caso dos servidores,  foram criados 4 máquinas com linux ubuntu server 16.04 com o postgresql 9.5 e plugin postgis 2.0 e Glassfish 4.1.1 como servidor de aplicação. Todos os servidores possuíam a mesma configuração, sendo 1 GB de Ram e 2 processadores virtuais e foram executados em uma única máquina física cuja configuração está presente na tabela \ref{fig:cenarioConsiderado}. A disposição dos servidores virtuais foi definido em dois níveis hierárquicos, sendo o servidor nível 0, a raiz da hierarquia e, como filhos,  3 servidores no nível 1.
@@ -1693,7 +1696,7 @@ limit()
 
 \section{Experimentos}
 
-Ao iniciar cada teste do exprimento, os host virtuais devem estabelecer a conexão com o servidor nível 0, contudo, se todos os ``veículos" iniciarem a conexão ao ``mesmo tempo", ocasionará uma sobrecarga tanto na máquina cliente quanto no servidor. Pensando nisso, foi implementando na aplicação cliente um \textit{delay} forçado  antes de iniciar o processo de conexão, cada host obtém um número pseudo-randômico entre 0 e 120000 (2 minutos), o qual será usado para dar uma pausa na aplicação pra depois iniciar o processo de conexão gerando assim, uma aleatoriedade inicial. Se por algum motivo a conexão do host cliente cair ou der \textit{timeout}, ela será refeita automaticamente, não considerando mais o tempo de pausa inicial. 
+Ao iniciar cada teste do exprimento, os \textit{hosts} virtuais devem estabelecer a conexão com o servidor nível 0, contudo, se todos os ``veículos" iniciarem a conexão ao ``mesmo tempo", ocasionará uma sobrecarga tanto na máquina cliente quanto no servidor. Pensando nisso, foi implementando na aplicação cliente um \textit{delay} forçado antes de iniciar o processo de conexão pela primeira vez, cada \textit{hosts} obtém um número pseudo-randômico entre 0 e 120.000 (2 minutos), o qual será usado para dar uma pausa na aplicação pra depois iniciar o processo de conexão, gerando assim, uma aleatoriedade inicial. Se por algum motivo a conexão do \textit{hosts} cliente cair ou der \textit{timeout}, ela será refeita automaticamente, não considerando mais o tempo de pausa inicial. 
 
 ******* Quais operações são realizadas a cada transmissão ver fluxo
 ******* Informar as velocidades de cada teste 2g, 3g ,4g, 5hg
@@ -1706,6 +1709,7 @@ Ao iniciar cada teste do exprimento, os host virtuais devem estabelecer a conex�
 ****** Por último foi executado o teste de stress sem o limite de banda - 800/10s=>80/s => 0,08s tempo médio de requisição, na prática o tempo ficou em 0,02s
 %****** mostrar a mesma análise de execução porem  sem limite de banda 50,100,200,400,800,1600,3200
 ******* comentar sobre a quantidade de encriptacao e decriptacao para cada tempo calculado.
+
 As máquinas utilizadas no experimento pertenciam a um laboratórios do Instituto Federal de Sergipe - Campus Lagarto e dois notebooks pertencente ao autor, cuja configurações estão presentes na tabela \ref{tab:configuracaoMaquinas}.
 
 %Os experimentos foram divididos em 24 partes, levando em consideração a quantidade de hosts clientes, sendo 6 , e a velocidade na cumunicação, 
@@ -1757,7 +1761,7 @@ Para cada cenário, 50,100,200 e 400 veículos, os \textit{hosts} emulados usara
 	\label{tab:configuracaoCenarios}
 \end{longtable}
 
-Conforme dito anteriormente, foram definidos 48 cenários de testes levando em consideração quantidades de veículos, largura de banda da comunicação e a criptografia ou não dos dados.
+Conforme dito anteriormente, foram definidos 32 cenários de testes levando em consideração quantidades de veículos, largura de banda da comunicação e a criptografia ou não dos dados.
 %\begin{longtable}{ p{.20\textwidth}  p{.20\textwidth}   p{.20\textwidth}  p{.20\textwidth}} 
 %	\hline
 %	Quantidade Hosts	& Comunicação 2G	& Comunicação G3 & Comunicação 4G \\ \hline
@@ -1795,7 +1799,7 @@ O resultado do teste KS aplicado às médias dos tempos de latência das requisi
 	\end{tabular}
 \end{table}
 
-Sob a ótica das variações entre as latências das requisições, podemos observar que nos cenários com 50 e 100 veículos, o coeficiente de variação foi baixa e acima de 200 veículos houve um crecimento no coeficiente. Isso aconteceu devido à maior quantidade de veículos presentes nos testes e consequentemente, houve mais mudança de servidores, em média o tempo gasto para realizar a operação \textit{changeServer} é de 2,5 segundos, conforme mostra a tabela \ref{tbEstatisticaVariacoes}.
+Sob a ótica das variações entre as latências das requisições, podemos observar que nos cenários com 50 e 100 veículos e utilizando a comunicação aberta, não segura, o coeficiente de variação foi baixo e acima de 200 veículos houve um crecimento no coeficiente. Isso aconteceu devido à maior quantidade de veículos presentes nos testes e consequentemente, houve mais mudança de servidores, em média o tempo gasto para realizar a operação \textit{changeServer} é de 2,5 segundos, conforme mostra a tabela \ref{tbEstatisticaVariacoes}.
 
 \begin{table}[!h]
 	\centering
@@ -1812,7 +1816,24 @@ Sob a ótica das variações entre as latências das requisições, podemos obse
 	\end{tabular}
 \end{table}
 
-As imagens contidas na figura \ref{fig:imgHistFreq50}, mostram o histógrama de frequência das médias das requisições para cada velocidade, 2G, 3G, 4G e 5G. Para o teste com 50 veículos, observou-se que não há uma relação de melhora nos tempos médios à medida que aumenta a velocidade de 2G para 5G.  A concentração dos tempos permanecem na mesma referência, entre 40 e 50 milisegundos.
+Todavia, o mesmo experimento utilizando mensagens criptografadas, apresentou coeficientes de variação alto, para todos os cenários,  nas velocidades de 2G, 3G e 4G, apenas reduzindo no 5G, com exceção do teste com 400 veículos que apresentou uma diminuição a cada aumento de velocidade porém, continuou alto mesmo com o 5G, como mostra a tabela \ref{tbEstatisticaVariacoesencript}.
+
+\begin{table}[!h]
+	\centering
+	\caption{Resultado do teste de análise dos coeficientes de variação.}
+	\label{tbEstatisticaVariacoesencript}
+	\begin{tabular}{|p{4.0cm}|p{2.0cm}|p{2.0cm}|p{2.0cm}|p{2.0cm}|}
+		\hline
+		\rowcolor[gray]{0.7}
+		Qnt. Veículos & 2G      & 3G     & 4G     & 5G      \\ \hline
+		\cellcolor[gray]{0.7}50              & 2.2270 & 2.0500 & 1.8631 & 0.6435 \\ \hline
+		\cellcolor[gray]{0.7}100             & 2.2520  & 2.1540 & 2.5100 & 0.5560  \\ \hline
+		\cellcolor[gray]{0.7}200             & 2.0670  & 1.2260 & 0.7901 & 0.6220  \\ \hline
+		\cellcolor[gray]{0.7}400             & 1.8570  & 1.6830 & 1.8230 & 1.5800  \\ \hline
+	\end{tabular}
+\end{table}
+
+As imagens contidas na figura \ref{fig:imgHistFreq50}, mostram o histógrama de frequência das médias das requisições para cada velocidade, 2G, 3G, 4G e 5G. Para o teste com 50 veículos com menasgens abertas, observou-se que não há uma relação de melhora nos tempos médios à medida que aumenta a velocidade de 2G para 5G.  A concentração dos tempos permanecem na mesma referência, entre 40 e 50 milisegundos.
 
 \begin{figure}[ht]
 	\caption{Análise de Histograma de Frequência do Teste  com 50 veículos.}
@@ -1929,6 +1950,114 @@ Da mesma maneira que o cenário com 200 veículos, o de 400 não apresentou uma 
 	}
 \end{figure}
 
+O histograma de frequência da médias das requisições utilizando mensagens criptografadas 
+\begin{figure}[ht]
+	\caption{Análise de Histograma de Frequência do Teste  com 50 veículos.}
+	\centering
+	\label{fig:imgHistFreqsec50}
+	\subfloat[ 2G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media2g200.jpg}
+		\label{fig:imgGraficoFreqsec2g50}
+	}
+	\subfloat[3G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media3g200.jpg}
+		\label{fig:imgGraficoFreqsec3g50}
+	}
+	\\
+	\subfloat[4G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media4g200.jpg}
+		\label{fig:imgGraficoFreqsec4g50}
+	}	
+	\subfloat[5G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media5g200.jpg}
+		\label{fig:imgGraficoFreqsec5g50}
+	}
+\end{figure}
+
+\begin{figure}[ht]
+	\caption{Análise de Histograma de Frequência do Teste  com 100 veículos.}
+	\centering
+	\label{fig:imgHistFreqsec100}
+	\subfloat[ 2G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media2g200.jpg}
+		\label{fig:imgGraficoFreqsec2g100}
+	}
+	\subfloat[3G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media3g200.jpg}
+		\label{fig:imgGraficoFreqsec3g100}
+	}
+	\\
+	\subfloat[4G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media4g200.jpg}
+		\label{fig:imgGraficoFreqsec4g100}
+	}	
+	\subfloat[5G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media5g200.jpg}
+		\label{fig:imgGraficoFreqsec5g100}
+	}
+\end{figure}
+
+\begin{figure}[ht]
+	\caption{Análise de Histograma de Frequência do Teste  com 200 veículos.}
+	\centering
+	\label{fig:imgHistFreqsec200}
+	\subfloat[ 2G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media2g200.jpg}
+		\label{fig:imgGraficoFreqsec2g200}
+	}
+	\subfloat[3G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media3g200.jpg}
+		\label{fig:imgGraficoFreqsec3g200}
+	}
+	\\
+	\subfloat[4G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media4g200.jpg}
+		\label{fig:imgGraficoFreqsec4g200}
+	}	
+	\subfloat[5G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media5g200.jpg}
+		\label{fig:imgGraficoFreqsec5g200}
+	}
+\end{figure}
+
+\begin{figure}[ht]
+	\caption{Análise de Histograma de Frequência do Teste  com 400 veículos.}
+	\centering
+	\label{fig:imgHistFreqsec400}
+	\subfloat[ 2G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media2g200.jpg}
+		\label{fig:imgGraficoFreqsec2g400}
+	}
+	\subfloat[3G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media3g400.jpg}
+		\label{fig:imgGraficoFreqsec3g400}
+	}
+	\\
+	\subfloat[4G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media4g400.jpg}
+		\label{fig:imgGraficoFreqsec4g400}
+	}	
+	\subfloat[5G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/hist_sec_media5g400.jpg}
+		\label{fig:imgGraficoFreqsec5g400}
+	}
+\end{figure}
 
 
 %%%%%%%%%  Tabelas Comparativo Tempos Min, Médio e Máximos entre os cenários
@@ -1966,7 +2095,7 @@ Da mesma maneira que o cenário com 200 veículos, o de 400 não apresentou uma 
 %	\end{tabular}
 %\end{table}
 
-Nas figuras \ref{fig:graficotempomin},  \ref{fig:graficotempomedio} e  \ref{fig:graficotempomax}, é feito uma análise sobre os tempos mínimos, médios e máximos das médias das latências das requisições extraídas de casa cenário. Fica evidente que nos cenários de 50, 100 e 200 veículos simultâneos, os tempos mínimos, médios e máximos sofrem pequena variação porém, os tempos médios e máximos no cenário com 400 veículos com velocidade de 2G, há um aumento considerável em relação às outras velocidades, como mostra as figuras \ref{fig:graficotempomedio} e  \ref{fig:graficotempomax}.
+Nas figuras \ref{fig:graficotempomin},  \ref{fig:graficotempomedio} e  \ref{fig:graficotempomax}, é feito uma análise sobre os tempos mínimos, médios e máximos das médias das latências das requisições com mensagens abertas, extraídas de casa cenário. Fica evidente que nos cenários de 50, 100 e 200 veículos simultâneos, os tempos mínimos, médios e máximos sofrem pequena variação porém, os tempos médios e máximos no cenário com 400 veículos, com velocidade de 2G, há um aumento considerável em relação às outras velocidades, como mostra as figuras \ref{fig:graficotempomedio} e  \ref{fig:graficotempomax}.
 
 \begin{figure}[t!]
 	\centering
@@ -1989,6 +2118,34 @@ Nas figuras \ref{fig:graficotempomin},  \ref{fig:graficotempomedio} e  \ref{fig:
 	\label{fig:graficotempomax}
 \end{figure}
 
+Sabendo  que a velocidade no cenário 2G, utilizada para todos os experimentos, é a menor de todas, foi avaliado através do gráfico \textit{boxplot} da figura \ref{fig:imgbpsec2g} e fica evidente as diferenças dos tempos máximos e mínimos e a mediana das requisições com mensagens criptografadas.
+  
+\begin{figure}[ht]
+	\caption{Comparação dos gráficos \textit{boxplot} de todas as quantidades de veículos na velocidade 2G.}
+	\centering
+	\label{fig:imgbpsec2g}
+	\subfloat[ 2G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/bp_sec_media2g50.jpg}
+		\label{fig:imgGraficobp2g50}
+	}
+	\subfloat[3G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/bp_sec_media2g200.jpg}
+		\label{fig:imgGraficobp2g100}
+	}
+	\\
+	\subfloat[4G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/bp_sec_media2g200.jpg}
+		\label{fig:imgGraficobp2g200}
+	}	
+	\subfloat[5G]{
+		%width=0.5\linewidth
+		\includegraphics[width=5cm,height=5cm]{images/bp_sec_media2g400.jpg}
+		\label{fig:imgGraficobp2g400}
+	}
+\end{figure}  
 \subsection{Taxa de Transferência}
 
 Os veículo enviam sua localização, através do comando \textit{sendMoviment}, a cada 10 segundos sendo que a mensagem enviada variou entre 212 e 256 bytes e a média ficou em 233 bytes então, a tabela \ref{tbLink} mostra as velocidades de transmissão utilizadas em cada teste e a capacidade de operação de cada link testado. 
