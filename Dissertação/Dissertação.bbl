@@ -273,6 +273,12 @@ Dispon{\'\i}vel em:
 \emph{The journal of China universities of posts and telecommunications},
   Elsevier, v.~14, n.~1, p. 65--70, 2007.}
 
+\bibitem[Li et al. 2009]{li2009future}
+\abntrefinfo{Li et al.}{LI et al.}{2009}
+{LI, X. et al. The future of mobile wireless communication networks. In:  IEEE.
+  \emph{Communication Software and Networks, 2009. ICCSN'09. International
+  Conference on}. [S.l.], 2009. p. 554--557.}
+
 \bibitem[Liang et al. 2015]{liang2015vehicular}
 \abntrefinfo{Liang et al.}{LIANG et al.}{2015}
 {LIANG, W. et al. Vehicular ad hoc networks: architectures, research issues,
@@ -469,10 +475,11 @@ Ci{\^e}ncia da Computa{\c{c}}{\~a}o, 2013.}
 Dispon{\'\i}vel em:
   \url{http://d2dtl5nnlpfr0r.cloudfront.net/tti.tamu.edu/documents/ums/congestion-data/national/national-table1.pdf}.}
 
-\bibitem[Wangham et al.]{wanghamsegurancca}
-\abntrefinfo{Wangham et al.}{WANGHAM et al.}{}
+\bibitem[Wangham et al. 2014]{wanghamsegurancca}
+\abntrefinfo{Wangham et al.}{WANGHAM et al.}{2014}
 {WANGHAM, M.~S. et al. Seguran{\c{c}}a em redes veiculares: Inova{\c{c}}{\~o}es
-  e dire{\c{c}}{\~o}es futuras.}
+  e dire{\c{c}}{\~o}es futuras.
+2014.}
 
 \bibitem[Wasef et al. 2010]{wasef2010complementing}
 \abntrefinfo{Wasef et al.}{WASEF et al.}{2010}
