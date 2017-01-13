@@ -81,11 +81,12 @@
 \contentsline {section}{\numberline {6.2}Experimentos}{68}{section.6.2}
 \contentsline {section}{\numberline {6.3}Resultados}{69}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Taxa de Transfer\IeC {\^e}ncia}{76}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Processamento}{77}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Processamento}{76}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Perda de Pacotes}{77}{subsection.6.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{78}{chapter.7}
 \contentsline {section}{\numberline {7.1}Conclus\IeC {\~o}es deste Trabalho}{78}{section.7.1}
 \contentsline {section}{\numberline {7.2}Trabalhos Futuros}{79}{section.7.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{80}{section*.48}
+\contentsline {chapter}{Refer\^encias}{80}{section*.49}
