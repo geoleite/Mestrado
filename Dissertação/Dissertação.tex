@@ -1125,7 +1125,7 @@ Para construir uma arquitetura de segurança robusta para redes veiculares, é n
 	
 	\item {\textbf{Supressão de mensagem}: o atacante recebe e não repassa pacotes da rede com objetivo de impedir que veículos seguintes possam saber de alguma ocorrência, por exemplo, um aviso de congestionamento ou acidentes \cite{tangade2013survey}.}		
 
-	\item {\textbf{Buraco Negro (black hole)}: é uma área onde o tráfego de rede é redirecionado, contudo, ou não há veículos neste local ou nós maliciosos que estão nesta área se recusam a participar, fazendo com que os pacotes da rede não se propaguem. A figura \ref{fig:ataguerubronegro} ilustra o ataque onde veículos se recusam a transmitir a mensagem recebida pelo veículo C.}		
+	\item {\textbf{Buraco Negro (\textit{black hole)}}: é uma área onde o tráfego de rede é redirecionado, contudo, ou não há veículos neste local ou nós maliciosos que estão nesta área se recusam a participar, fazendo com que os pacotes da rede não se propaguem. A figura \ref{fig:ataguerubronegro} ilustra o ataque onde veículos se recusam a transmitir a mensagem recebida pelo veículo C.}		
 	
 \begin{figure}[h!]
 	\centering
@@ -1432,6 +1432,41 @@ No momento que um equipamento desejar enviar uma mensagem para seu agente em nuv
 %Para o momento, não foi necessário criptografar a mensagem, mas este passo pode ser inserido restando apenas avaliar o custo de processamento tanto nos servidores quanto nos dispositivos OBU e RSU.
 
 Alterar o modelo de segurança adicionando novas regras é possível através da implementação da classe \textbf{ASecurityModel} e dos métodos \textbf{verifySign, sign, encrypt e decrypt}. A chamada dos métodos é feita pela arquitetura de maneira transparente, não sendo necessário intervenção do usuário.
+
+Como foi dito anteriormente,  as redes veiculaes são vulneráveis a muitos ataques e a arquitetura proucrou se proteger aos pricipais como mostrado na tabela \ref{tab:I9VanetSeguranca}.
+
+\begin{longtable}{|l|c| p{.45\textwidth}|} 
+	\hline
+%\begin{table}[!h]
+%	\begin{tabular}{|l|c| p{.45\textwidth}|}
+		\hline
+		\rowcolor[gray]{0.7}
+		Tipos de Ataques & Opções & Observação \\ \hline
+		DoS	&  X & Este ataque não seria com foco em um OBU ou RSU, apenas fará sentido ocorrendo nos servidores da plataforma I9Vanet. Para proteção os servidores devem se proteger com \textit{firewall.}   \\ \hline
+		DDoS & X & O mesmo do DoS. \\ \hline
+		Supressão de mensagem	&  X &  o repasse das mensagens não depende do veículo físico e sim do agente virtual em nuvem.\\ \hline
+		Buraco Negro	& X  & quem repassa as mensagens é o agente em núvem, não sendo possível acontecer este tipo de ataque. \\ \hline
+		Jamming	&  -- & como a arquitetura depende da por telefonia celular, ou redes wifi, entre outras já mensionadas, então este sinal pode ser afetado impossibilitando o acesso dos veículos à nuvem. \\ \hline
+		Falsificação de endereço	&  X & todo nó deve ser reconhecido pelo órgão controlador de veículos por meio de um certificado. \\ \hline
+		Mascaramento	&  X & Todo certificado emitido deve ser único e intransferível e renovado anualmente ou a cada operação de compra e venda. \\ \hline
+		Replicação do certificado	&  -- & Este tipo de ataque envolve protege o certificado do veículo para que não possa ser utilizado por outro, fugindo do escopo da arquitetura.\\ \hline
+		Sybil	&  X & Todo veículo deve possuir um certificado reconhecido por alguma entidade certificadora, não sendo possível simular mais veículos.\\ \hline
+		Falsificação nos dados de GPS &  -- & É difícil se proteger deste ataque, pois o sinal de GPS emitido por satélites são abertos.\\ \hline
+		Ilusão	&  -- & A proteção para esse tipo de ataque consiste em criar uma comunicação inviolável entre os sensores e o equipamento que se conecta na aplicação em nuvem. \\ \hline
+		Injeção de informação falsa	&  X & Não há comunicação direta entre os veículos e a aplicação desenvolvida para realizar a comunicação virtual pode realizar uma análise de toda informação. \\ \hline
+		Modificação de mensagem	&  X  & Não havendo comunicação direta entre os veículos e todas as mensagens sendo assinadas e criptografadas, não há como aldulterar uma mensagem. \\ \hline
+		Análise de tráfego	&  X & É uma taque em redes ad-hoc, não sendo aplicado à arquitetura. \\ \hline
+		Força bruta	&  X & A comunicação é ponto a ponto e o conteúdo é criptografado, dificultando ainda mais este tipo de ataque.\\ \hline
+		Revelação de identidade	&  X & A identidade do veículo não é informada durante as comunicações.\\ \hline
+		Ataques contra não repúdio	&  X & As mensagens da rede veicular não depende de um veículo para se propagar. \\ \hline
+		Ataques contra a privacidade &  X & Todo conteúdo pode ser criptografado, assim a privacidade do veículo é garantido. \\ \hline
+		Conluio	&  X & A segurança é garantida pela arquitetura e não por critérios de confiança que pode ser denegrido por este tipo de ataque. \\ \hline
+%	\end{tabular}
+%\end{table}
+	\caption{Quadro de análise sobre os tipos de ataques e a arquitetura I9Vanets.} 
+	\label{tab:I9VanetSeguranca}
+	%
+\end{longtable}
 
 \subsection{Módulo de Gerenciamento dos Servidores}
 %Não há limite para o número de servidores na plataforma, a complexidade do ambiente é quem irá determinar o número necessário. Entretanto, eles devem estar organizados de maneira hierárquica, permitindo o gerenciamento de ``sub-clouds'' com objetivo de dividir uma região em localidades menores e poder atender um ambiente maior e mais complexo. Cada servidor deverá ser responsável por uma área mapeada e definida através de cercas virtuais. Quando um nó da rede sair de uma cerca e entrar em outra, a sua representação virtual será transferida para o servidor correspondente a esta nova área.
