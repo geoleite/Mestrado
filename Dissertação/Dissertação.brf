@@ -12,6 +12,7 @@
 \backcite {qian2008secure}{{5}{(document)}{Doc-Start}}
 \backcite {gray2004comparison}{{8}{(document)}{Doc-Start}}
 \backcite {luis2009melhoria}{{8}{(document)}{Doc-Start}}
+\backcite {papadimitratos2008secure}{{8}{(document)}{Doc-Start}}
 \backcite {li2009future}{{8}{(document)}{Doc-Start}}
 \backcite {li2010travel}{{13}{1}{chapter.1}}
 \backcite {zhu2015intelligent}{{13}{1}{chapter.1}}
@@ -152,4 +153,5 @@
 \backcite {hall2008open}{{60}{5.2.3}{figure.caption.25}}
 \backcite {van2002goal}{{65}{6}{chapter.6}}
 \backcite {papadimitratos2008secure}{{66}{6.0.2}{subsection.6.0.2}}
+\backcite {papadimitratos2008secure}{{66}{6}{table.caption.28}}
 \backcite {li2009future}{{79}{13}{table.caption.44}}

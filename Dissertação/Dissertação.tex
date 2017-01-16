@@ -1318,7 +1318,7 @@ Neste capítulo, foi apresentado os principais desafios relacionados à redes ve
 \chapter{Arquitetura I9Vanet}\label{sec:i9vanet}
 
 \section{Visão Geral}
-A arquitetura proposta tem a finalidade de criar redes veiculares virtuais em nuvem com foco no auxílio das soluções para principais desafios relacionados à VANETs tais como: alta densidade, baixa densidade, alta mobilidade, segurança e privacidade, entre outros. 
+A arquitetura proposta tem a finalidade de criar redes veiculares virtuais em nuvem com foco no auxílio das soluções para os principais desafios relacionados à VANETs tais como: alta densidade, baixa densidade, alta mobilidade, segurança e privacidade, entre outros. 
 
 A arquitetura consiste em um modelo aberto, dividido em módulos com funções bem definidas. Cada módulo possui funcionalidades específicas e padrões de comportamentos. Sendo possível estender suas operações ou até mesmo substituí-las de maneira que atenda às novas necessidades.
 
@@ -1627,9 +1627,9 @@ De acordo com \citeonline{papadimitratos2008secure},  as aplicações voltadas p
 
 \begin{table}[!h]
 	\centering
-	\caption{Características das aplicações veiculares.} 
+	\caption{Características das aplicações veiculares \cite{papadimitratos2008secure}.} 
 	\label{tab:caracteristiasAppVanet}
-	\begin{tabular}{|p{5cm}|p{1.5cm}|p{1.7cm}|p{4.0cm}|}
+	\begin{tabular}{|p{6cm}|p{1.5cm}|p{1.7cm}|p{4.0cm}|}
 		\hline
 		\rowcolor[gray]{0.7}
 		Aplicações	& Tempo & Latência & Outros \\ \hline
@@ -2308,15 +2308,37 @@ Foi avaliado o nível de processamento dos servidores, sendo que o servidor nív
 
 \subsection{Perda de Pacotes}
 
-Durante os experimentos foram analisados as perdas em cada dispositivo por meio de dois contadores. Um foi utilizado para contabilizar as requisições realizadas  e outro para apurar a resposta das requisições. Como mostrado na \ref{fig:graficoperda}, a maior perde ocorre nas velocidades de 2G utilizando encriptação atingindo o valor a cima de 25\% de perda. Contudo, para o teste com 400 veículos, a perda ficou abaixo de 15\%. Já as perdas para os experimentos  sem limite de conexão, apresentaram valor abaixo de 1\% para o teste com 800 veículos e 2.06\% para o teste com 1600 veículos. 
+Durante os experimentos foram analisados as perdas em cada dispositivo por meio de dois contadores. O primeiro foi utilizado para contabilizar as requisições realizadas  e outro para apurar a resposta das requisições. Como mostrado na \ref{fig:graficoperda}.A, a maior perde ocorre nas velocidades de 2G utilizando encriptação atingindo o valor a cima de 25\% de perda. Contudo, para o teste com 400 veículos, a perda ficou abaixo de 15\%. Já as perdas para os experimentos  sem limite de conexão, apresentaram valor abaixo de 1\% para o teste com 800 veículos e 2.06\% para o teste com 1600 veículos e utilizando mensagens criptografadas, ambos ficaram mais altos em relação à comunicação aberta, como mostra a figura \ref{fig:graficoperda}.B. 
+
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=0.7\columnwidth]{images/grafico_perda_qnt_velocidade.png}
+%	\caption{Percentual de perda para cada experimento realizado com limite de conexão.}
+%	\label{fig:graficoperda}
+%\end{figure}
+
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=0.7\columnwidth]{images/grafico_perda_qnt_800_1600.png}
+%	\caption{Percentual de perda para cada experimento realizado sem limite de conexão.}
+%	\label{fig:graficoperda800e1600}
+%\end{figure}
 
 \begin{figure}[h!]
+	\caption{Percentual de perda para cada experimento realizado..}
 	\centering
-	\includegraphics[width=0.7\columnwidth]{images/grafico_perda_qnt_velocidade.png}
-	\caption{Percentual de perda para cada experimento realizado.}
 	\label{fig:graficoperda}
-\end{figure}
-
+	\subfloat[A]{
+		%width=0.5\linewidth
+		\includegraphics[width=7cm,height=5cm]{images/grafico_perda_qnt_velocidade.png}
+		\label{fig:graficoperdacomlimite}
+	}
+	\subfloat[B]{
+		%width=0.5\linewidth
+		\includegraphics[width=7cm,height=5cm]{images/grafico_perda_qnt_800_1600.png}
+		\label{fig:graficoperdasemlimite}
+	}
+\end{figure}  
 
 \chapter{Conclusão e Trabalhos Futuros}\label{sec:conclusao}
 
