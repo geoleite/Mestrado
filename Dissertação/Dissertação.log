@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.21)  15 JAN 2017 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.21)  19 JAN 2017 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,7 +1376,7 @@ l.324
 ] (./Dissertação.toc [10
 
 ] [11]) [12]
-<images/transito2.jpeg, id=415, 485.815pt x 481.8pt>
+<images/transito2.jpeg, id=421, 485.815pt x 481.8pt>
 File: images/transito2.jpeg Graphic file (type jpg)
 
 <use images/transito2.jpeg>
@@ -1402,7 +1402,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 Package hyperref Warning: Suppressing empty link on input line 754.
 
-[16] <images/vcn.png, id=506, 623.32875pt x 303.1325pt>
+[16] <images/vcn.png, id=513, 623.32875pt x 303.1325pt>
 File: images/vcn.png Graphic file (type png)
  <use images/vcn.png>
 Package pdftex.def Info: images/vcn.png used on input line 770.
@@ -1412,7 +1412,7 @@ Package pdftex.def Info: images/vcn.png used on input line 770.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [17] [18 <./images/vcn.png>] [19] [20] [21]
-<images/camadas_wsn.jpg, id=548, 81.80965pt x 41.62752pt>
+<images/camadas_wsn.jpg, id=554, 81.80965pt x 41.62752pt>
 File: images/camadas_wsn.jpg Graphic file (type jpg)
 
 <use images/camadas_wsn.jpg>
@@ -1424,14 +1424,14 @@ Package pdftex.def Info: images/camadas_wsn.jpg used on input line 857.
 [26] [27] [28
 
 ] [29] [30] [31] [32]
-<images/estrutura_comunicacao.png, id=685, 640.3925pt x 445.665pt>
+<images/estrutura_comunicacao.png, id=691, 640.3925pt x 445.665pt>
 File: images/estrutura_comunicacao.png Graphic file (type png)
 
 <use images/estrutura_comunicacao.png>
 Package pdftex.def Info: images/estrutura_comunicacao.png used on input line 10
 12.
 (pdftex.def)             Requested size: 364.00139pt x 253.31766pt.
- [33 <./images/estrutura_comunicacao.png>] <images/etapas_ws.png, id=700, 422.5
+ [33 <./images/estrutura_comunicacao.png>] <images/etapas_ws.png, id=706, 422.5
 7875pt x 470.75874pt>
 File: images/etapas_ws.png Graphic file (type png)
 
@@ -1439,14 +1439,14 @@ File: images/etapas_ws.png Graphic file (type png)
 Package pdftex.def Info: images/etapas_ws.png used on input line 1028.
 (pdftex.def)             Requested size: 204.32498pt x 227.62204pt.
  [34 <./images/etapas_ws.png>]
-<images/wss_https.png, id=714, 403.5075pt x 294.09875pt>
+<images/wss_https.png, id=720, 403.5075pt x 294.09875pt>
 File: images/wss_https.png Graphic file (type png)
 
 <use images/wss_https.png>
 Package pdftex.def Info: images/wss_https.png used on input line 1046.
 (pdftex.def)             Requested size: 195.18987pt x 142.26378pt.
  [35 <./images/wss_https.png>]
-<images/tipos_arquiteturas_vanets.png, id=732, 1083.04625pt x 451.6875pt>
+<images/tipos_arquiteturas_vanets.png, id=738, 1083.04625pt x 451.6875pt>
 File: images/tipos_arquiteturas_vanets.png Graphic file (type png)
 
 <use images/tipos_arquiteturas_vanets.png>
@@ -1460,14 +1460,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [36
 
 ] [37 <./images/tipos_arquiteturas_vanets.png>] [38]
-<images/ataqueddos.png, id=774, 433.62pt x 245.91875pt>
+<images/ataqueddos.png, id=780, 433.62pt x 245.91875pt>
 File: images/ataqueddos.png Graphic file (type png)
 
 <use images/ataqueddos.png>
 Package pdftex.def Info: images/ataqueddos.png used on input line 1121.
 (pdftex.def)             Requested size: 341.43306pt x 193.64702pt.
 
-<images/ataqueburaconegro.png, id=782, 410.53375pt x 204.765pt>
+<images/ataqueburaconegro.png, id=788, 410.53375pt x 204.765pt>
 File: images/ataqueburaconegro.png Graphic file (type png)
 
 <use images/ataqueburaconegro.png>
@@ -1478,14 +1478,14 @@ Package pdftex.def Info: images/ataqueburaconegro.png used on input line 1132.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [39 <./images/ataqueddos.png>] [40 <./images/ataqueburaconegro.png>]
-<images/ataquesocial.png, id=816, 411.5375pt x 160.6pt>
+<images/ataquesocial.png, id=822, 411.5375pt x 160.6pt>
 File: images/ataquesocial.png Graphic file (type png)
 
 <use images/ataquesocial.png>
 Package pdftex.def Info: images/ataquesocial.png used on input line 1163.
 (pdftex.def)             Requested size: 341.43306pt x 133.2416pt.
 
-<images/ataquemainmiddle.png, id=824, 409.53pt x 166.6225pt>
+<images/ataquemainmiddle.png, id=830, 409.53pt x 166.6225pt>
 File: images/ataquemainmiddle.png Graphic file (type png)
 
 <use images/ataquemainmiddle.png>
@@ -1567,7 +1567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1290--1290
 Underfull \vbox (badness 10000) detected at line 1294
  []
 
-[48] <images/vanet_qian.png, id=957, 529.98pt x 323.2075pt>
+[48] <images/vanet_qian.png, id=963, 529.98pt x 323.2075pt>
 File: images/vanet_qian.png Graphic file (type png)
 
 <use images/vanet_qian.png>
@@ -1578,7 +1578,7 @@ Package pdftex.def Info: images/vanet_qian.png used on input line 1306.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [49] [50 <./images/vanet_qian.png>]
-<images/modulos.png, id=973, 512.66531pt x 319.1925pt>
+<images/modulos.png, id=979, 512.66531pt x 319.1925pt>
 File: images/modulos.png Graphic file (type png)
 
 <use images/modulos.png>
@@ -1587,7 +1587,7 @@ Package pdftex.def Info: images/modulos.png used on input line 1331.
  [51
 
  <./images/modulos.png>] [52] [53]
-<images/agentemoveis_virtuais.png, id=988, 300.3722pt x 271.76532pt>
+<images/agentemoveis_virtuais.png, id=994, 300.3722pt x 271.76532pt>
 File: images/agentemoveis_virtuais.png Graphic file (type png)
 
 <use images/agentemoveis_virtuais.png>
@@ -1604,7 +1604,7 @@ DE): en-via men-sa-gens para os ve^^S^^Pculos
 Underfull \vbox (badness 10000) detected at line 1463
  []
 
-[56] [57] <images/dominios.png, id=1008, 416.55624pt x 466.74374pt>
+[56] [57] <images/dominios.png, id=1014, 416.55624pt x 466.74374pt>
 File: images/dominios.png Graphic file (type png)
 
 <use images/dominios.png>
@@ -1622,7 +1622,7 @@ Underfull \vbox (badness 10000) detected at line 1509
 Underfull \vbox (badness 10000) detected at line 1524
  []
 
-<images/servidores.png, id=1023, 547.2947pt x 313.9228pt>
+<images/servidores.png, id=1029, 547.2947pt x 313.9228pt>
 File: images/servidores.png Graphic file (type png)
 
 <use images/servidores.png>
@@ -1633,7 +1633,7 @@ Package pdftex.def Info: images/servidores.png used on input line 1530.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [60] [61 <./images/servidores.png>]
-<images/BPMCriptofrafado.png, id=1042, 1984.41376pt x 635.37375pt>
+<images/BPMCriptofrafado.png, id=1048, 1984.41376pt x 635.37375pt>
 File: images/BPMCriptofrafado.png Graphic file (type png)
 
 <use images/BPMCriptofrafado.png>
@@ -1643,7 +1643,7 @@ Package pdftex.def Info: images/BPMCriptofrafado.png used on input line 1573.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/BPM.png, id=1043, 1731.46875pt x 623.32875pt>
+<images/BPM.png, id=1049, 1731.46875pt x 623.32875pt>
 File: images/BPM.png Graphic file (type png)
  <use images/BPM.png>
 Package pdftex.def Info: images/BPM.png used on input line 1580.
@@ -1679,7 +1679,7 @@ Underfull \hbox (badness 1565) in paragraph at lines 1642--1642
 []|\OT1/cmr/m/n/12 (+20) Acesso a in-ter-net e
  []
 
-[66] <images/AmbienteTeste.png, id=1087, 1698.345pt x 825.0825pt>
+[66] <images/AmbienteTeste.png, id=1093, 1698.345pt x 825.0825pt>
 File: images/AmbienteTeste.png Graphic file (type png)
 
 <use images/AmbienteTeste.png>
@@ -1689,7 +1689,7 @@ Package pdftex.def Info: images/AmbienteTeste.png used on input line 1683.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/taxi_mapa.png, id=1090, 873.2625pt x 596.2275pt>
+<images/taxi_mapa.png, id=1096, 873.2625pt x 596.2275pt>
 File: images/taxi_mapa.png Graphic file (type png)
 
 <use images/taxi_mapa.png>
@@ -1909,56 +1909,56 @@ Underfull \vbox (badness 10000) detected at line 1782
 Underfull \vbox (badness 10000) detected at line 1812
  []
 
-[71] [72] [73] <images/hist_media2g50.jpg, id=1162, 481.8pt x 481.8pt>
+[71] [72] [73] <images/hist_media2g50.jpg, id=1168, 481.8pt x 481.8pt>
 File: images/hist_media2g50.jpg Graphic file (type jpg)
 
 <use images/hist_media2g50.jpg>
 Package pdftex.def Info: images/hist_media2g50.jpg used on input line 1901.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media3g50.jpg, id=1163, 481.8pt x 481.8pt>
+<images/hist_media3g50.jpg, id=1169, 481.8pt x 481.8pt>
 File: images/hist_media3g50.jpg Graphic file (type jpg)
 
 <use images/hist_media3g50.jpg>
 Package pdftex.def Info: images/hist_media3g50.jpg used on input line 1906.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media4g50.jpg, id=1164, 481.8pt x 481.8pt>
+<images/hist_media4g50.jpg, id=1170, 481.8pt x 481.8pt>
 File: images/hist_media4g50.jpg Graphic file (type jpg)
 
 <use images/hist_media4g50.jpg>
 Package pdftex.def Info: images/hist_media4g50.jpg used on input line 1912.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media5g50.jpg, id=1165, 481.8pt x 481.8pt>
+<images/hist_media5g50.jpg, id=1171, 481.8pt x 481.8pt>
 File: images/hist_media5g50.jpg Graphic file (type jpg)
 
 <use images/hist_media5g50.jpg>
 Package pdftex.def Info: images/hist_media5g50.jpg used on input line 1917.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media2g100.jpg, id=1167, 481.8pt x 481.8pt>
+<images/hist_media2g100.jpg, id=1173, 481.8pt x 481.8pt>
 File: images/hist_media2g100.jpg Graphic file (type jpg)
 
 <use images/hist_media2g100.jpg>
 Package pdftex.def Info: images/hist_media2g100.jpg used on input line 1931.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media3g100.jpg, id=1168, 481.8pt x 481.8pt>
+<images/hist_media3g100.jpg, id=1174, 481.8pt x 481.8pt>
 File: images/hist_media3g100.jpg Graphic file (type jpg)
 
 <use images/hist_media3g100.jpg>
 Package pdftex.def Info: images/hist_media3g100.jpg used on input line 1936.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media4g100.jpg, id=1169, 481.8pt x 481.8pt>
+<images/hist_media4g100.jpg, id=1175, 481.8pt x 481.8pt>
 File: images/hist_media4g100.jpg Graphic file (type jpg)
 
 <use images/hist_media4g100.jpg>
 Package pdftex.def Info: images/hist_media4g100.jpg used on input line 1942.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media5g100.jpg, id=1170, 481.8pt x 481.8pt>
+<images/hist_media5g100.jpg, id=1176, 481.8pt x 481.8pt>
 File: images/hist_media5g100.jpg Graphic file (type jpg)
 
 <use images/hist_media5g100.jpg>
@@ -1970,28 +1970,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [74 <./images/hist_media2g50.jpg> <./images/hist_media3g50.jpg> <./images/hist_
 media4g50.jpg> <./images/hist_media5g50.jpg>]
-<images/hist_media2g200.jpg, id=1176, 481.8pt x 481.8pt>
+<images/hist_media2g200.jpg, id=1182, 481.8pt x 481.8pt>
 File: images/hist_media2g200.jpg Graphic file (type jpg)
 
 <use images/hist_media2g200.jpg>
 Package pdftex.def Info: images/hist_media2g200.jpg used on input line 1960.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media3g200.jpg, id=1177, 481.8pt x 481.8pt>
+<images/hist_media3g200.jpg, id=1183, 481.8pt x 481.8pt>
 File: images/hist_media3g200.jpg Graphic file (type jpg)
 
 <use images/hist_media3g200.jpg>
 Package pdftex.def Info: images/hist_media3g200.jpg used on input line 1965.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media4g200.jpg, id=1178, 481.8pt x 481.8pt>
+<images/hist_media4g200.jpg, id=1184, 481.8pt x 481.8pt>
 File: images/hist_media4g200.jpg Graphic file (type jpg)
 
 <use images/hist_media4g200.jpg>
 Package pdftex.def Info: images/hist_media4g200.jpg used on input line 1971.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media5g200.jpg, id=1179, 481.8pt x 481.8pt>
+<images/hist_media5g200.jpg, id=1185, 481.8pt x 481.8pt>
 File: images/hist_media5g200.jpg Graphic file (type jpg)
 
 <use images/hist_media5g200.jpg>
@@ -2001,28 +2001,28 @@ Package pdftex.def Info: images/hist_media5g200.jpg used on input line 1976.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/hist_media2g400.jpg, id=1181, 481.8pt x 481.8pt>
+<images/hist_media2g400.jpg, id=1187, 481.8pt x 481.8pt>
 File: images/hist_media2g400.jpg Graphic file (type jpg)
 
 <use images/hist_media2g400.jpg>
 Package pdftex.def Info: images/hist_media2g400.jpg used on input line 1989.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media3g400.jpg, id=1182, 481.8pt x 481.8pt>
+<images/hist_media3g400.jpg, id=1188, 481.8pt x 481.8pt>
 File: images/hist_media3g400.jpg Graphic file (type jpg)
 
 <use images/hist_media3g400.jpg>
 Package pdftex.def Info: images/hist_media3g400.jpg used on input line 1994.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media4g400.jpg, id=1183, 481.8pt x 481.8pt>
+<images/hist_media4g400.jpg, id=1189, 481.8pt x 481.8pt>
 File: images/hist_media4g400.jpg Graphic file (type jpg)
 
 <use images/hist_media4g400.jpg>
 Package pdftex.def Info: images/hist_media4g400.jpg used on input line 2000.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media5g400.jpg, id=1184, 481.8pt x 481.8pt>
+<images/hist_media5g400.jpg, id=1190, 481.8pt x 481.8pt>
 File: images/hist_media5g400.jpg Graphic file (type jpg)
 
 <use images/hist_media5g400.jpg>
@@ -2032,7 +2032,7 @@ Package pdftex.def Info: images/hist_media5g400.jpg used on input line 2005.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/grafico_tempo_min.png, id=1190, 455.17421pt x 256.11473pt>
+<images/grafico_tempo_min.png, id=1196, 455.17421pt x 256.11473pt>
 File: images/grafico_tempo_min.png Graphic file (type png)
 
 <use images/grafico_tempo_min.png>
@@ -2042,7 +2042,7 @@ Package pdftex.def Info: images/grafico_tempo_min.png used on input line 2162.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/grafico_tempo_medio.png, id=1191, 455.17421pt x 256.11473pt>
+<images/grafico_tempo_medio.png, id=1197, 455.17421pt x 256.11473pt>
 File: images/grafico_tempo_medio.png Graphic file (type png)
 
 <use images/grafico_tempo_medio.png>
@@ -2053,7 +2053,7 @@ Package pdftex.def Info: images/grafico_tempo_medio.png used on input line 2169
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/grafico_tempo_max.png, id=1192, 455.17421pt x 256.11473pt>
+<images/grafico_tempo_max.png, id=1198, 455.17421pt x 256.11473pt>
 File: images/grafico_tempo_max.png Graphic file (type png)
 
 <use images/grafico_tempo_max.png>
@@ -2073,28 +2073,28 @@ t_media4g200.jpg> <./images/hist_media5g200.jpg> <./images/hist_media2g400.jpg>
  <./images/hist_media3g400.jpg> <./images/hist_media4g400.jpg> <./images/hist_m
 edia5g400.jpg>] [77 <./images/grafico_tempo_min.png (PNG copy)> <./images/grafi
 co_tempo_medio.png (PNG copy)> <./images/grafico_tempo_max.png (PNG copy)>]
-<images/hist_media800.jpg, id=1209, 481.8pt x 481.8pt>
+<images/hist_media800.jpg, id=1215, 481.8pt x 481.8pt>
 File: images/hist_media800.jpg Graphic file (type jpg)
 
 <use images/hist_media800.jpg>
 Package pdftex.def Info: images/hist_media800.jpg used on input line 2219.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_sec_media800.jpg, id=1210, 481.8pt x 481.8pt>
+<images/hist_sec_media800.jpg, id=1216, 481.8pt x 481.8pt>
 File: images/hist_sec_media800.jpg Graphic file (type jpg)
 
 <use images/hist_sec_media800.jpg>
 Package pdftex.def Info: images/hist_sec_media800.jpg used on input line 2224.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media1600.jpg, id=1214, 481.8pt x 481.8pt>
+<images/hist_media1600.jpg, id=1220, 481.8pt x 481.8pt>
 File: images/hist_media1600.jpg Graphic file (type jpg)
 
 <use images/hist_media1600.jpg>
 Package pdftex.def Info: images/hist_media1600.jpg used on input line 2237.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_sec_media1600.jpg, id=1215, 481.8pt x 481.8pt>
+<images/hist_sec_media1600.jpg, id=1221, 481.8pt x 481.8pt>
 File: images/hist_sec_media1600.jpg Graphic file (type jpg)
 
 <use images/hist_sec_media1600.jpg>
@@ -2102,7 +2102,7 @@ Package pdftex.def Info: images/hist_sec_media1600.jpg used on input line 2242.
 
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/grafico_tempo_max_min_med.png, id=1217, 455.17421pt x 256.11473pt>
+<images/grafico_tempo_max_min_med.png, id=1223, 455.17421pt x 256.11473pt>
 File: images/grafico_tempo_max_min_med.png Graphic file (type png)
 
 <use images/grafico_tempo_max_min_med.png>
@@ -2115,7 +2115,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [78 <./images/hist_media800.jpg> <./images/hist_sec_media800.jpg> <./images/his
 t_media1600.jpg> <./images/hist_sec_media1600.jpg>]
-<images/capacidadeLink.png, id=1229, 455.17421pt x 256.11473pt>
+<images/capacidadeLink.png, id=1235, 455.17421pt x 256.11473pt>
 File: images/capacidadeLink.png Graphic file (type png)
 
 <use images/capacidadeLink.png>
@@ -2125,37 +2125,58 @@ Package pdftex.def Info: images/capacidadeLink.png used on input line 2299.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[79 <./images/grafico_tempo_max_min_med.png (PNG copy)>]
-<images/grafico_perda_qnt_velocidade.png, id=1236, 452.00447pt x 236.46237pt>
+<images/processamento1.png, id=1237, 349.93895pt x 209.20264pt>
+File: images/processamento1.png Graphic file (type png)
+
+<use images/processamento1.png>
+Package pdftex.def Info: images/processamento1.png used on input line 2311.
+(pdftex.def)             Requested size: 318.49861pt x 190.4066pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/processamento2.png, id=1239, 371.49316pt x 228.22105pt>
+File: images/processamento2.png Graphic file (type png)
+
+<use images/processamento2.png>
+Package pdftex.def Info: images/processamento2.png used on input line 2319.
+(pdftex.def)             Requested size: 318.49861pt x 195.67426pt.
+ [79 <./images/grafico_tempo_max_min_med.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[80 <./images/capacidadeLink.png (PNG copy)> <./images/processamento1.png (PNG 
+copy)>]
+<images/grafico_perda_qnt_velocidade.png, id=1250, 452.00447pt x 236.46237pt>
 File: images/grafico_perda_qnt_velocidade.png Graphic file (type png)
 
 <use images/grafico_perda_qnt_velocidade.png>
 Package pdftex.def Info: images/grafico_perda_qnt_velocidade.png used on input 
-line 2333.
+line 2348.
 (pdftex.def)             Requested size: 199.16534pt x 142.26817pt.
 
-<images/grafico_perda_qnt_800_1600.png, id=1237, 415.23552pt x 247.87343pt>
+<images/grafico_perda_qnt_800_1600.png, id=1251, 415.23552pt x 247.87343pt>
 File: images/grafico_perda_qnt_800_1600.png Graphic file (type png)
 
 <use images/grafico_perda_qnt_800_1600.png>
 Package pdftex.def Info: images/grafico_perda_qnt_800_1600.png used on input li
-ne 2338.
+ne 2353.
 (pdftex.def)             Requested size: 199.16505pt x 142.26892pt.
- [80 <./images/capacidadeLink.png (PNG copy)> <./images/grafico_perda_qnt_veloc
-idade.png (PNG copy)> <./images/grafico_perda_qnt_800_1600.png (PNG copy)>] [81
+ [81 <./images/processamento2.png (PNG copy)> <./images/grafico_perda_qnt_veloc
+idade.png (PNG copy)> <./images/grafico_perda_qnt_800_1600.png (PNG copy)>] [82
 
 ] (./Dissertação.bbl
 (./Dissertação.brf)
 \tf@brf=\write5
 \openout5 = `Dissertação.brf'.
 
- [82]
+ [83]
 bibitemlist
-[83
+[84
 
-] [84] [85] [86] [87] [88]) 
+] [85] [86] [87] [88] [89]) 
 AED: lastpage setting LastPage
-[89]
+[90]
 \tf@lof=\write6
 \openout6 = `Dissertação.lof'.
 
@@ -2168,11 +2189,11 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `Dissertação.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2409.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2409.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2424.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2424.
  (./Dissertação.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2409.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2409.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2424.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2424.
 
 Package rerunfilecheck Info: File `Dissertação.brf' has not changed.
 (rerunfilecheck)             Checksum: 90CF16845B97B8ABE8CD15FCF68D6169;9346.
@@ -2180,16 +2201,16 @@ Package rerunfilecheck Info: File `Dissertação.brf' has not changed.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2409.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2424.
  ) 
 Here is how much of TeX's memory you used:
- 19982 strings out of 493014
- 304973 string characters out of 6133351
- 679504 words of memory out of 5000000
- 22706 multiletter control sequences out of 15000+600000
+ 19997 strings out of 493014
+ 305333 string characters out of 6133351
+ 680393 words of memory out of 5000000
+ 22716 multiletter control sequences out of 15000+600000
  18126 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,53p,1290b,1281s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,53p,1285b,1281s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
@@ -2201,10 +2222,10 @@ cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Dissertação.pdf (90 pages, 2684213 bytes).
+Output written on Dissertação.pdf (91 pages, 2802623 bytes).
 PDF statistics:
- 1789 PDF objects out of 2073 (max. 8388607)
- 1575 compressed objects within 16 object streams
- 347 named destinations out of 1000 (max. 500000)
- 17305 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1805 PDF objects out of 2073 (max. 8388607)
+ 1588 compressed objects within 16 object streams
+ 350 named destinations out of 1000 (max. 500000)
+ 17315 words of extra memory for PDF output out of 20736 (max. 10000000)
 

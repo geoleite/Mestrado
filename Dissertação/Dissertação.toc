@@ -84,9 +84,9 @@
 \contentsline {subsection}{\numberline {6.3.2}Processamento}{79}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Perda de Pacotes}{80}{subsection.6.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{81}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclus\IeC {\~o}es deste Trabalho}{81}{section.7.1}
-\contentsline {section}{\numberline {7.2}Trabalhos Futuros}{82}{section.7.2}
+\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{82}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclus\IeC {\~o}es deste Trabalho}{82}{section.7.1}
+\contentsline {section}{\numberline {7.2}Trabalhos Futuros}{83}{section.7.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{83}{section*.49}
+\contentsline {chapter}{Refer\^encias}{84}{section*.51}
