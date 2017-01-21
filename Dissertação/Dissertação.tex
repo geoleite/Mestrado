@@ -40,7 +40,7 @@
 \definecolor{verde}{rgb}{0.25,0.5,0.35}
 \definecolor{jpurple}{rgb}{0.5,0,0.35}
 \usepackage{xcolor}
-\usepackage{multirow}
+%\usepackage{multirow}
 \usepackage{mathtools} 
 %\usepackage{spacefactor}
 
@@ -745,7 +745,7 @@ Diante desse contexto, este trabalho apresenta como principal contribuição um 
 	\item{\textbf{segurança}: como as VANETs suportam aplicações de emergência em tempo real e lidam com informações	críticas de segurança no trânsito, estas devem satisfazer os seguintes requisitos de segurança: confidencialidade, integridade, disponibilidade, autenticidade, privacidade e não repudiação para prover segurança na comunicação dos dados \cite{samara2010security} \cite{matos2013analise}.}
 \end{itemize} 
 
-Segundo \citeonline{falchetti2015vehicular}, os principais desafios técnicos que são abordados pela maioria dos pesquisadores, podem ser agrupados em seis categorias: mobilidade, latência, confiabilidade, criticidade(prioridade das mensagens), topologia e segurança. 
+Segundo \citeonline{falchetti2015vehicular}, os principais desafios técnicos que são abordados pela maioria dos pesquisadores, podem ser agrupados em seis categorias: mobilidade, latência, confiabilidade, criticidade (prioridade das mensagens), topologia e segurança. 
 
 Portanto, pesquisar sobre redes veiculares e computação em nuvem, traz a possibilidade de construção de uma plataforma capaz de criar uma VANET virtualizada, facilitando a comunicação entre os nós virtuais da rede e simplificando a implementação dos algoritmos de roteamento, segurança e aplicações.
 
@@ -753,9 +753,9 @@ Com o uso da computação em nuvem, os autores  \citeonline{liu2015software} uti
 
 Foi criado por \citeonline{hajjidesign}, a plataforma Testbed que serve para testar a implementação real dos roteadores móveis em uma rede veicular virtualizada. A característica principal consiste na sua capacidade em satisfazer ao mesmo tempo as exigências de mobilidade do veículo e o número elástico de roteadores móveis aplicados.
 
-\citeonline{eltoweissy2010towards} pela primeira vez realizaram uma mudança de paradigma, imaginando um ambiente de VANET baseado em nuvem. Eles vieram com uma nova noção de VANET chamado AVC (\textit{Autónomas Veiculares Nuvens}).  \citeonline{yan2013security} delineou os desafios de segurança e privacidade nas nuvens veiculares. No entanto, Olariu et ai. discutiu sobre nuvens veiculares de maneira abstrata, sem mencionar uma arquitetura em  particular. 
+\citeonline{eltoweissy2010towards} pela primeira vez realizaram uma mudança de paradigma, imaginando um ambiente de VANET baseado em nuvem. Eles vieram com uma nova noção de VANET chamado AVC (\textit{Autónomas Veiculares Nuvens}).  \citeonline{yan2013security} delinearam os desafios de segurança e privacidade nas nuvens veiculares. No entanto, Olariu et ai. discutiram sobre nuvens veiculares de maneira abstrata, sem mencionar uma arquitetura em  particular. 
 
-Recentemente, \citeonline{hussain2012rethinking} propôs três cenários de arquitectura para VANETs baseados em nuvem ou seja VC (\textit{Vehicular Clouds }), VUC (\textit{VANET using Clouds)}), e HVC (\textit{Hybrid Vehicular Clouds }) e propôs um esquema conhecido como TIaaS (\textit{Information of traffic as Service}), onde a infraestrutura de nuvem atua para fornecer informações de tráfego para os veículos que se deslocam sobre a estrada.
+Recentemente, \citeonline{hussain2012rethinking} propuseram três cenários de arquitectura para VANETs baseados em nuvem ou seja VC (\textit{Vehicular Clouds }), VUC (\textit{VANET using Clouds)}), e HVC (\textit{Hybrid Vehicular Clouds }) e propôs um esquema conhecido como TIaaS (\textit{Information of traffic as Service}), onde a infraestrutura de nuvem atua para fornecer informações de tráfego para os veículos que se deslocam sobre a estrada.
 
  \citeonline{qin2012vehicloud} propuseram um esquema de roteamento, para VANETs, baseado em nuvem chamado VehiCloud que fornece serviços de roteamento através da infraestrutura de nuvem. Veículos compartilham a sua atual e futuras informações de localização na forma de \textit{waypoints} com infraestrutura de nuvem e, em seguida, a nuvem lhes proporciona uma melhor informação de roteamento.
 
@@ -990,7 +990,7 @@ A figura \ref{fig:estrutura_comunicacao} mostra os mecanismos usados para criaç
 
 \citeonline{gray2004comparison} realizou um experimento que enviava uma única solicitação de dados e encerrava. Em qualquer dos três casos, \textit{Web Services}, CORBA e Java-RMI, as tecnologias de serviços da Web funcionam bem em comparação com as outras duas, como mostra a tabela \ref{tbComparacaoWS_CORBA_RMI}.
 
-\begin{table}[!h]
+\begin{table}[h!]
 	\centering
 	\caption{Análise de custos de solicitação de uma única requisição utilizando várias tecnologias\cite{gray2004comparison} }
 	\label{tbComparacaoWS_CORBA_RMI}
@@ -1515,7 +1515,7 @@ Em todos os servidores devem existir uma base de dados para definir a hierarquia
 	\rowcolor[gray]{0.7}	
 	Coluna	& Tipo do Dado	& Descrição \\ \hline
 	device\_id	& \textit{integer} & Identificador único no sistema	\\ \
-    identification	& \textit{varchar} & Identificador do dispositivo (Imei, Mac Addess, etc.)	\\ \
+    identification	& \textit{varchar} & Identificador do dispositivo (Imei, Mac Address, etc.)	\\ \
     type	& \textit{char} & Tipo do dispositivo (OBU ou RSU)	\\ \
     public\_key	& \textit{byte[]} &  Chave pública do dispositivo	\\ \
 		& \textit{integer} & 	\\ \	\\ \hline
