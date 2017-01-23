@@ -1336,34 +1336,60 @@ A Figura \ref{fig:dModulos} mostra os módulos necessários da arquitetura I9VAN
 Todas as classes que podem ser customizadas, tais como: a tecnologia de comunicação; algoritmo de roteamento; modelo de segurança; implementação de eventos, devem estar definidas no arquivo de configuração \textbf{idclassload.properties} como os itens abaixo.
 
 \begin{itemize}
-	\item{\textbf{ICommunication}:
+	\item{\textbf{ICommunication}:		
 		
-		 br.com.virtualVanets.infraVehicle.communication.CommunicationWebSocketImpl}	
-
+		 (br.com.virtualVanets.infraVehicle.communication.CommunicationWebSocketImpl) 
+		 
+		 Indica a classe responsável por realizar a comunicação dos servidores com os dispositivos.
+		 }	
 	\item{\textbf{CommunicationV2A}:
 		
-		br.com.virtualVanets.infracloud.communication.impl.CommunicationI2AImpl}	
+		(br.com.virtualVanets.infracloud.communication.impl.CommunicationI2AImpl)
+		
+		Classe que deve enviar e receber os comandos na comunicação entre o Veículo (OBU) e o seu agente virtual.
+		}	
 	\item{\textbf{CommunicationI2A}:
 		
-		br.com.virtualVanets.infracloud.communication.impl.CommunicationI2AImpl}	
+		(br.com.virtualVanets.infracloud.communication.impl.CommunicationI2AImpl)
+		
+		Classe que deve enviar e receber os comandos na comunicação entre o dispositivo à beira da rodovia (RSU) e o seu agente virtual.
+		}	
 	\item{\textbf{ListenerInfraEquipament}:
 		
-		br.com.virtualVanets.applicationModel.listener.DefaultListenerInfraEquipament}	
+		(br.com.virtualVanets.applicationModel.listener.DefaultListenerInfraEquipament)
+		
+		Responsável por tratar os eventos necessários da aplicação com foco na comunicação I2A.
+		}	
 	\item{\textbf{ListenerVehicle}:
 		
-		br.com.virtualVanets.applicationModel.listener.DefaultListenerVehicle}	
+		(br.com.virtualVanets.applicationModel.listener.DefaultListenerVehicle)
+		
+		Trata os eventos necessários da aplicação com foco na comunicação V2A.
+		}	
 	\item{\textbf{EventInfraEquipament}:
 		
-		br.com.virtualVanets.infracloud.listener.SVVEventInfraEquipament}	
+		(br.com.virtualVanets.infracloud.listener.SVVEventInfraEquipament)
+		
+		Define a lista dos possíveis eventos de um RSU.
+		}	
 	\item{\textbf{EventVehicle}:
 		
-		br.com.virtualVanets.vehiclecloud.listener.SVVEventVehicle}	
+		(br.com.virtualVanets.vehiclecloud.listener.SVVEventVehicle)
+		
+		Define a lista dos possíveis eventos de um OBU.
+		}	
 	\item{\textbf{SecurityModel}:
 		
-		br.com.virtualVanets.security.I9Security}	
+		(br.com.virtualVanets.security.I9Security)
+		
+		Responsável por realizar a assinatura e criptografia de todo conteúto trocado entre os agentes móveis e os dispositivos.
+		}	
 	\item{\textbf{RouterNetwork}:
 		
-		br.com.virtualVanets.infraVehicle.communication.CommunicationWebSocketImpl}	
+		(br.com.virtualVanets.infraVehicle.communication.CommunicationWebSocketImpl)
+		
+		Implementa o algoritmo de roteamento a ser utilizado na arquitetura.
+		}	
 
 \end{itemize} 
 
@@ -1547,7 +1573,7 @@ Toda comunicação entre os nós é realizada entre os agentes virtuais da rede 
 
 %O módulo e roteamento pode ser definido de acordo com a necessidade, bastando implementar a classe \textbf{RouterNetwork} porém, para fins de avaliação da arquitetura, foi implementado o algoritmo que utiliza os RSU como cluster da rede. Pondendo ser utilizando RSU físicos ou virtuais, ou seja, não é necessário implantar um RSU à beira da rodovia, basta definir pontos no mapa e este pode funcionar como um RSU virtual, tendo o comportamento de cluster da rede VANET.
 
-O módulo de roteamento pode ser definido de acordo com a necessidade, bastando implementar a classe \textbf{RouterNetwork}, porém para fins de avaliação da arquitetura foi construído o algoritmo conhecido como \textit{geocast routing}, no qual o objetivo é entregar um pacote aos nós que pertencam a uma certa região, denominada \textit{Zone of Relevance} que utiliza um OBU como nó cabeça de uma rede veicular.
+O módulo de roteamento pode ser definido de acordo com a necessidade, bastando implementar a classe \textbf{RouterNetwork}, porém para fins de avaliação da arquitetura foi implementado uma adaptação do algoritmo conhecido como \textit{geocast routing}, no qual o objetivo é entregar um pacote aos nós que pertencam a uma certa região, denominada \textit{Zone of Relevance} que utiliza um OBU como nó cabeça de uma rede veicular.
 % os RSU como cluster da rede. Pondendo ser utilizando RSU físicos ou virtuais, ou seja, não é necessário implantar um RSU à beira da rodovia, basta definir pontos no mapa e este pode funcionar como um RSU virtual, tendo o comportamento de cluster da rede VANET.
 
 Os veículos quando iniciam o processo de conexão com o servidor, buscam uma rede  já existente para se conectar. O veículo ``cabeça'' desta rede deve estar a uma distância máxima de 1 KM e seguir na mesma direção na via, caso contrário, este veículo criará uma nova rede esperando que novos veículos solicitem acesso.
