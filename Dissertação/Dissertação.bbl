@@ -115,12 +115,6 @@ Dispon{\'\i}vel em:
 \emph{S{\~a}o Paulo Medical Journal}, SciELO Brasil, v.~125, n.~6, p. 359--361,
   2007.}
 
-\bibitem[Distribu{\'\i}dos 2007]{distribuidos2007principios}
-\abntrefinfo{Distribu{\'\i}dos}{DISTRIBU{\'I}DOS}{2007}
-{DISTRIBU{\'I}DOS, S. \emph{Princ{\'\i}pios e Paradigmas. 2{\textordfeminine}
-  Edi{\c{c}}{\~a}o. Autores: Andrew S. Tanenbaum e Maarten V. Steen}. [S.l.]:
-  Editora Pearson Prentice Hall, 2007.}
-
 \bibitem[Durresi, Durresi e Barolli 2005]{durresi2005emergency}
 \abntrefinfo{Durresi, Durresi e Barolli}{DURRESI; DURRESI; BAROLLI}{2005}
 {DURRESI, M.; DURRESI, A.; BAROLLI, L. Emergency broadcast protocol for
@@ -454,6 +448,12 @@ Ci{\^e}ncia da Computa{\c{c}}{\~a}o, 2013.}
 \abntrefinfo{Systematics e Meyer}{SYSTEMATICS; MEYER}{2011}
 {SYSTEMATICS, C.; MEYER, M. Crashes vs. congestion-what's the cost to society.
 \emph{Prepared for the American Automobile Association}, 2011.}
+
+\bibitem[Tanenbaum e Steen 2007]{distribuidos2007principios}
+\abntrefinfo{Tanenbaum e Steen}{TANENBAUM; STEEN}{2007}
+{TANENBAUM, A.; STEEN, M.~V. \emph{Sistemas Distribu{\'\i}dos - Princ{\'\i}pios
+  e Paradigmas. 2{\textordfeminine} Edi{\c{c}}{\~a}o.} [S.l.]: Editora Pearson
+  Prentice Hall, 2007.}
 
 \bibitem[Tangade e Manvi 2013]{tangade2013survey}
 \abntrefinfo{Tangade e Manvi}{TANGADE; MANVI}{2013}
