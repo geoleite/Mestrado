@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.21)  23 JAN 2017 09:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.21)  28 JAN 2017 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2178,11 +2178,11 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `Dissertação.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2450.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2450.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2452.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2452.
  (./Dissertação.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2450.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2450.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2452.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2452.
 
 Package rerunfilecheck Info: File `Dissertação.brf' has not changed.
 (rerunfilecheck)             Checksum: 7D1D2D6FAC04F64085A59A08EBFF9AF4;9346.
@@ -2190,7 +2190,7 @@ Package rerunfilecheck Info: File `Dissertação.brf' has not changed.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2450.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2452.
  ) 
 Here is how much of TeX's memory you used:
  19997 strings out of 493014
@@ -2211,10 +2211,10 @@ cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Dissertação.pdf (91 pages, 2803362 bytes).
+Output written on Dissertação.pdf (91 pages, 2803869 bytes).
 PDF statistics:
- 1805 PDF objects out of 2073 (max. 8388607)
- 1588 compressed objects within 16 object streams
+ 1807 PDF objects out of 2073 (max. 8388607)
+ 1590 compressed objects within 16 object streams
  350 named destinations out of 1000 (max. 500000)
  17315 words of extra memory for PDF output out of 20736 (max. 10000000)
 
