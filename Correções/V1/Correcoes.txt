@@ -1,0 +1,99 @@
+CAPÍTULO 1:
+
+- Pg 2: Prof. Dr. Douglas .... esta no feminino .....
+- Pg 3: Universidade Federal de Santa Catarina
+- Pg 3: Inserir na banca: "Mario Antonio Ribeiro Dantas - Universidade Federal de Santa Catarina (UFSC)" e "Edward David Moreno Ordonez - Universidade Federal de Sergipe (UFS).
+- Rever resumo.
+- Pg 8: se não tem algoritmos, remover página.
+- Evite usar parágrafos de 1, 2 ou 3 linhas. Prejudica o estilo e a leitura. Todas as vezes que vi no texto, marquei de amarelo.
+- Justificativa: Vi pouco de justificativa na justificativa. Do meio para o final parece mais uma introdução. Acho que muita coisa pode subir para a introdução .. rever!
+-  Rever hipótese.
+- Incrementar problemática.
+- Sobre os objetivos específicos: reescrever obj. esp. 2 e 3. Sobre o 2: falar de java em objetivo específico é mais em TCCs. No nível que esta estudando, pouco importa a linguagem. Isto você pode falar lá na frente do trabalho. Talvez o objetivo específico 1 já contemple o 2. Sobre o 3, o que seria implementar uma versão para cada camada? Que camadas seriam estas? 
+- Pense na possibilidade de um dos objetivos esp. ser: criar um modelo em camadas .. etc. Algo assim .. 
+- Metodologia não faz parte de objetivos, logo, cria a subsection 1.3 Metodologia
+
+CAPÍTULO 2:
+
+- Pg 23: Cuidado com juízo de valor e afirmações fortes sem referências. 
+- Elaborar correções no corpo do texto.
+- Incrementar considerações finais.
+
+CAPÍTULO 3:
+
+- Incrementar Heterogeneidade, Transparência e Segurança .. melhorar.
+- Não use termos como infelizmente, felizmente, etc.
+- Fazer uma figura que substitua a Figura 6.
+- Elaborar correções no corpo do texto.
+- Incrementar considerações finais.
+
+CAPÍTULO 4: 
+
+- Elaborar correções no corpo do texto.
+- Incrementar considerações finais.
+
+CAPÍTULO 5:
+
+- Seção 5.2: a arquitetura tem que ser explicada em duas partes: como ela foi criada, por que cada componente, etc e depois, disto, como vai funcionar. Falar das classes Java pode ser OK, mas a parte conceitual TEM que ser discutida.
+- Cadê a nuvem? Tudo esta baseado em nuvem no trabalho e no capítulo que você apresenta a arquitetura, não é falado de como esta nuvem esta disposta, qual a infra-estrutura, que softwares, configurações, tecnologias, etc. 
+- Elaborar correções no corpo do texto.
+- Incrementar considerações finais.
+
+CAPÍTULO 6: 
+
+- 6.0.1, 6.0.2, etc não existem. Deve ter um \subsubsection lá ao invés de \subsection.
+- Por que esta usando em um trabalho de sistemas de computação, o GQM? 
+- Por que escolheu o GQM ao invés de outro modelo?
+- Ficou meio nebuloso falar que só foi feito teste com até 400 veículos, mas há testes com 800 e 1600. Poderia explicar isto em um parágrafo? Estou entendendo que por questões de tempo seu, você não quis avaliar 800 e 1600 para todas as velocidades, com e sem cripto. Seria isto?
+- Por que quando se dobra a quantidade de veículos de 100 para 200, o tempo médio é quase 5 vezes maior? A lógica remete a dobrar o tempo ao passo que se dobra a quantidade. Como explicar isto?
+- Por que 400 em 2G é mais rápido que 400 em 5G?
+- Sobre as duas perguntas acima, as tabelas 11 e 12 fazem referencia apenas ao changeServer e não ao tempo total da solicitação?
+- Onde esta a tabela que consolida os tempos médios das solicitações? Para todos os cenários, com e sem cripto. Imagino uma tabela simples, como a 11 e 12. 
+- Aumente o tamanho dos gráficos 25, 26, 27 e 31 (e todos que estejam neste mesmo formato).
+- OBS: Estou na página 80 ainda e não sei qual foi o cenário que obteve o melhor custo-benefício e desempenho. 
+- Repensar figura 30 e paragrafo anterior. 
+- Como foi captado o processamento dos servidores? Técnicas ou olhometro? 
+- Repensar figura 32 e 33, dá pra entender pouca coisa. Talvez seja o estilo do gráfico .. pense em outro formato. Talvez um grafico em barras.
+- O que o eixo X representa? 
+- A figura 34 é bem importante, mas não esta legal a apresentação da mesma. 
+- OBS: Estou na página 82 e até agora não esta explícito a avaliação dos cenários quanto ao desempenho dos mesmo. Qual foi melhor? Qual foi pior? 
+- Insira uma última subseção chamada: Discussão dos Resultados e insira lá toda a experiência que você teve, assim como os resultados de forma clara. Nesta seção, insira muitos percentuais: isto é X% mais rápido que aquilo, etc, etc. Isto é VITAL!
+
+CAPÍTULO 7:
+
+- Remover título da seção 7.1 e 7.2
+- Elaborar melhor a conclusão. 
+- Atingiu os objetivos?
+- A hipótese da dissertação foi comprovada?
+- O que foi melhor?
+- O que foi pior?
+- Quantos %?
+- Por que? 
+
+REFERÊNCIAS: 
+
+- Nas referências, o esquema de falar quantas vezes a a referência foi citada no texto eu nunca vi e não me lembro disto na norma da ABNT. Verificar!
+
+APÊNDICES: 
+
+- Crie um apêndice com TODOS os resultados brutos possíveis dos seus testes. Isto é muito importante para dar transparência. 
+
+ANEXO: 
+
+- Crie um anexo com suas publicações (aprovadas e submetidas).
+
+OBSERVAÇÕES GERAIS:
+
+- Fique atento para não fazer juízo de valor no texto. Ex: Infelizmente, etc.
+- A gramática e semântica do texto deve ser revista.
+- Não vi a página de epígrafe, nem agradecimentos. Acredito que isto faz parte do modelo requerido. 
+- IMPORTANTE: Faça uma figura da arquitetura computacional da dissertação.
+- IMPORTANTE: Onde esta a seção de Trabalhos Relacionados? Isto é VITAL! 
+
+Se eu pudesse fazer uma observação final, seria sobre os testes. A seção tem bastante resultados, mas as estrutura deles não esta adequada. Tenho certeza que seguindo o que disse ali você vai achar o caminho. Muitas vezes estamos tão dentro do contexto que não vemos de fora como isto pode estar sendo observado. É bem comum, fique tranquilo!
+
++++++++++++++
+
+Aguardo um posicionamento seu sobre as correções. Leia com bastante atenção este email em conjunto com o PDF que tem MUITAS anotações e marcações. Seria interessante marcar um Skype pro inicio da semana para conversarmos e tirar qualquer dúvida sua sobre o trabalho e o que você deve fazer. Digo isto pois espero que a próxima versão já esteja bem finalizada para ajustar o mínimo e entregarmos para a banca. 
+
+Vamos em frente e qualquer coisa, só perguntar!
