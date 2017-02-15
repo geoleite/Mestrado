@@ -147,9 +147,9 @@ Dispon{\'\i}vel em:
   consensus with one faulty process.
 \emph{Journal of the ACM (JACM)}, ACM, v.~32, n.~2, p. 374--382, 1985.}
 
-\bibitem[F{\"u}{\ss}ler et al. 2003]{fussler2003mobicom}
-\abntrefinfo{F{\"u}{\ss}ler et al.}{F{\"U}{SS}LER et al.}{2003}
-{F{\"U}{SS}LER, H. et al. Mobicom poster: location-based routing for vehicular
+\bibitem[F{\"u}ssler et al. 2003]{fussler2003mobicom}
+\abntrefinfo{F{\"u}ssler et al.}{F{\"U}SSLER et al.}{2003}
+{F{\"U}SSLER, H. et al. Mobicom poster: location-based routing for vehicular
   ad-hoc networks.
 \emph{ACM SIGMOBILE Mobile Computing and Communications Review}, ACM, v.~7,
   n.~1, p. 47--49, 2003.}
@@ -179,9 +179,10 @@ Dispon{\'\i}vel em:
   microscope. In:  ACM. \emph{Proceedings of the 5th international conference
   on Mobile systems, applications and services}. [S.l.], 2007. p. 206--219.}
 
-\bibitem[HAJJI e BARGAOUI]{hajjidesign}
-\abntrefinfo{HAJJI e BARGAOUI}{HAJJI; BARGAOUI}{}
-{HAJJI, T.; BARGAOUI, H. Design of a vanet testbed based on cloud computing.}
+\bibitem[HAJJI e BARGAOUI 2015]{hajjidesign}
+\abntrefinfo{HAJJI e BARGAOUI}{HAJJI; BARGAOUI}{2015}
+{HAJJI, T.; BARGAOUI, H. Design of a vanet testbed based on cloud computing.
+\emph{European Conference on Networks and Communications}, 2015.}
 
 \bibitem[Hall e Leahy 2008]{hall2008open}
 \abntrefinfo{Hall e Leahy}{HALL; LEAHY}{2008}

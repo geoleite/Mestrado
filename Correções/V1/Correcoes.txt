@@ -1,10 +1,10 @@
 CAPÍTULO 1:
 
-- Pg 2: Prof. Dr. Douglas .... esta no feminino .....
-- Pg 3: Universidade Federal de Santa Catarina
-- Pg 3: Inserir na banca: "Mario Antonio Ribeiro Dantas - Universidade Federal de Santa Catarina (UFSC)" e "Edward David Moreno Ordonez - Universidade Federal de Sergipe (UFS).
+OK - Pg 2: Prof. Dr. Douglas .... esta no feminino .....
+OK - Pg 3: Universidade Federal de Santa Catarina
+OK - Pg 3: Inserir na banca: "Mario Antonio Ribeiro Dantas - Universidade Federal de Santa     Catarina (UFSC)" e "Edward David Moreno Ordonez - Universidade Federal de Sergipe (UFS).
 - Rever resumo.
-- Pg 8: se não tem algoritmos, remover página.
+OK- Pg 8: se não tem algoritmos, remover página.
 - Evite usar parágrafos de 1, 2 ou 3 linhas. Prejudica o estilo e a leitura. Todas as vezes que vi no texto, marquei de amarelo.
 - Justificativa: Vi pouco de justificativa na justificativa. Do meio para o final parece mais uma introdução. Acho que muita coisa pode subir para a introdução .. rever!
 -  Rever hipótese.
@@ -97,3 +97,15 @@ Se eu pudesse fazer uma observação final, seria sobre os testes. A seção tem
 Aguardo um posicionamento seu sobre as correções. Leia com bastante atenção este email em conjunto com o PDF que tem MUITAS anotações e marcações. Seria interessante marcar um Skype pro inicio da semana para conversarmos e tirar qualquer dúvida sua sobre o trabalho e o que você deve fazer. Digo isto pois espero que a próxima versão já esteja bem finalizada para ajustar o mínimo e entregarmos para a banca. 
 
 Vamos em frente e qualquer coisa, só perguntar!
+
+
+Respostas: 
+* TIaaS -> Segundo o autor significa Information of traffic as Service
+
+* Pq usou máquinas diferentes para os clientes: devido a quantidade de maq disponíveis
+
+* Pq 120.000 milissegundos. Baseado nos testes iniciais.
+
+* Pq o resultado obtido pela maquina mac com 50 veículos estava sendo semelhante ao resultado de 25 hosts na maquina windows
+
+* na introdução:  (SYSTEMATICS; MEYER, 2011) (DIB et al., 2007).
