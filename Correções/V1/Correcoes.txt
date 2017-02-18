@@ -109,3 +109,5 @@ Respostas:
 * Pq o resultado obtido pela maquina mac com 50 veículos estava sendo semelhante ao resultado de 25 hosts na maquina windows
 
 * na introdução:  (SYSTEMATICS; MEYER, 2011) (DIB et al., 2007).
+
+
