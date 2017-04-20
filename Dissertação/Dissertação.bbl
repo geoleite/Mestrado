@@ -84,6 +84,13 @@ Tese (Doutorado) --- UNIVERSIDADE FEDERAL DO RIO DE JANEIRO, 2008.}
   communications. In:  IEEE. \emph{Mobile and Ubiquitous Systems-Workshops,
   2006. 3rd Annual International Conference on}. [S.l.], 2006. p.~1--8.}
 
+\bibitem[Comi et al. 2015]{comi2015evolutionary}
+\abntrefinfo{Comi et al.}{COMI et al.}{2015}
+{COMI, A. et al. An evolutionary approach for cloud learning agents in
+  multi-cloud distributed contexts. In:  IEEE. \emph{Enabling Technologies:
+  Infrastructure for Collaborative Enterprises (WETICE), 2015 IEEE 24th
+  International Conference on}. [S.l.], 2015. p. 99--104.}
+
 \bibitem[Coulouris et al. 2013]{coulouris2013sistemas}
 \abntrefinfo{Coulouris et al.}{COULOURIS et al.}{2013}
 {COULOURIS, G. et al. \emph{Sistemas Distribu{\'\i}dos-: Conceitos e Projeto}.
@@ -153,6 +160,12 @@ Dispon{\'\i}vel em:
   ad-hoc networks.
 \emph{ACM SIGMOBILE Mobile Computing and Communications Review}, ACM, v.~7,
   n.~1, p. 47--49, 2003.}
+
+\bibitem[Gerla 2012]{gerla2012vehicular}
+\abntrefinfo{Gerla}{GERLA}{2012}
+{GERLA, M. Vehicular cloud computing. In:  IEEE. \emph{Ad Hoc Networking
+  Workshop (Med-Hoc-Net), 2012 The 11th Annual Mediterranean}. [S.l.], 2012. p.
+  152--155.}
 
 \bibitem[Gorender e Mac{\^e}do 2002]{gorender2002modelo}
 \abntrefinfo{Gorender e Mac{\^e}do}{GORENDER; MAC{\^E}DO}{2002}
@@ -425,6 +438,12 @@ Ci{\^e}ncia da Computa{\c{c}}{\~a}o, 2013.}
 \abntrefinfo{Solingen et al.}{SOLINGEN et al.}{2002}
 {SOLINGEN, R. V. et al. Goal question metric (gqm) approach.
 \emph{Encyclopedia of software engineering}, Wiley Online Library, 2002.}
+
+\bibitem[Sookhak, Yu e Tang 2017]{sookhak2017secure}
+\abntrefinfo{Sookhak, Yu e Tang}{SOOKHAK; YU; TANG}{2017}
+{SOOKHAK, M.; YU, F.~R.; TANG, H. Secure data sharing for vehicular ad-hoc
+  networks using cloud computing. In:  \emph{Ad Hoc Networks}. [S.l.]:
+  Springer, 2017. p. 306--315.}
 
 \bibitem[Souza Roniel de;~Soares 2014]{souzasoaressbrc}
 \abntrefinfo{Souza Roniel de;~Soares}{SOUZA RONIEL DE;~SOARES}{2014}

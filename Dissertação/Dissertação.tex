@@ -531,10 +531,11 @@ Versão original
 LEITE, George Junior. \textbf{\imprimirtitulo}. \imprimirdata. \pageref{LastPage} f. Dissertação (Mestrado em Ciência da Computação) – Pró-Reitoria de Pós-Graduação e Pesquisa, Universidade Federal de Sergipe, Sergipe, 2017.
 %\end{flushleft}
 
-Em consequência do crescimento populacional, as grandes cidades enfrentam problemas cotidianos relacionados à mobilidade urbana tais como: congestionamentos, baixa qualidade das rodovias, ineficiência de transportes públicos, entre outros. Iniciativas de sistemas de transportes inteligentes (STI) agem como uma solução eficiente para melhorar o funcionamento e desempenho dos sistemas de tráfego, reduzindo congestionamentos e aumentando a segurança para os cidadãos. Atualmente, pesquisadores vem buscando nas redes veiculares ad-hoc (VANET) uma possível solução para os problemas referentes à mobilidade urbana. Contudo, VANETs ainda apresenta uma série de desafios que devem ser resolvidos para que seu uso seja consolidado.  Deste modo, o presente trabalho apresenta uma arquitetura denominada i9Vanets, cujo intuito é o gerenciamento virtualizado por meio de uma rede veicular para auxiliar nas soluções dos principais desafios relacionados à VANETs tais como: interferências na comunicação devido a árvores e prédios;  alta mobilidade dos nós; alta e baixa densidade dos nós em uma área; garantia de confidencialidade, integridade e disponbilidade, autenticidade e não repúdio. Também é apresentada uma análise, dos testes realizados em laboratório, com objetivo de avaliar seu desempenho e capacidade operacional. Sendo assim, a conclusão deste trabalho, foi apresentada a viabilidade técnica da arquitetura i9Vanets bem como suas possíveis aplicações.
+Em consequência do crescimento populacional, as grandes cidades enfrentam problemas cotidianos relacionados à mobilidade urbana tais como: congestionamentos, baixa qualidade das rodovias, ineficiência de transportes públicos, entre outros. Iniciativas de sistemas de transportes inteligentes (STI) agem como uma solução eficiente para melhorar o funcionamento e desempenho dos sistemas de tráfego, reduzindo congestionamentos e aumentando a segurança para os cidadãos. Atualmente, pesquisadores vem buscando nas redes veiculares ad-hoc (VANET) uma possível solução para os problemas referentes à mobilidade urbana. Contudo, VANETs ainda apresenta uma série de desafios que devem ser resolvidos para que seu uso seja consolidado.  Deste modo, o presente trabalho apresenta uma arquitetura denominada i9Vanets, cujo intuito é o gerenciamento virtualizado por meio de uma rede veicular para auxiliar nas soluções dos principais desafios relacionados à VANETs tais como: interferências na comunicação devido a árvores e prédios;  alta mobilidade dos nós; alta e baixa densidade dos nós em uma área; garantia de confidencialidade, integridade e disponbilidade, autenticidade e não repúdio. Também é apresentada uma análise, dos testes realizados em laboratório, com objetivo de avaliar seu desempenho e capacidade operacional. Sendo assim, a conclusão deste trabalho mostrou a viabilidade técnica da plataforma i9Vanets, por meio de um experimento em laboratório,  bem como suas possíveis aplicações.
 
  
 Palavras-chaves: Rede Veicular. Computação em Nuvem e Arquitetura Distribuída.
+
 \end{resumo}
 
 % resumo em inglês
@@ -587,9 +588,9 @@ Keywords: Vehicle Network. Cloud Computing and Distributed Architecture .
 % ---
 % inserir lista de algoritmos
 % ---
-\pdfbookmark[0]{\listalgorithmname}{loa}
+%\pdfbookmark[0]{\listalgorithmname}{loa}
 %\listofalgorithms
-\cleardoublepage
+%\cleardoublepage
 
 % ---
 % inserir lista de tabelas
@@ -624,6 +625,8 @@ Keywords: Vehicle Network. Cloud Computing and Distributed Architecture .
 	\item[AI2AI] Agente da Infra-estrutura para outro Agente da Infra-estrutura
 	\item[AVC] Nuvens Veiculares Autónomas
 	\item[SDN] Software-Defined Networking
+	\item[WSN] Wireless Sensor Network
+	
 	%\item[IP] Internet Protocol
 	%\item[MAC] Media Access Control
 	%\item[NBAPI] Northbound Application Programming Interface
@@ -688,15 +691,16 @@ Keywords: Vehicle Network. Cloud Computing and Distributed Architecture .
 %-------------------------------------------------------------------------
 \chapter{Introdução}
 
-A conectividade inerente às cidades inteligentes abre uma fronteira bastante promissora no que se refere ao controle de acesso às informações \cite{li2010travel} \cite{zhu2015intelligent} e arquiteturas distribuídas para sistemas inteligentes de transporte \cite{ice2001regional}. O que torna necessário a criação de propostas que auxiliem idéias no âmbito de cidades intelientes.
+
+A conectividade inerente às cidades inteligentes abre uma fronteira bastante promissora no que se refere ao controle de acesso às informações \cite{li2010travel} \cite{zhu2015intelligent} e arquiteturas distribuídas para sistemas inteligentes de transporte \cite{ice2001regional}. O que torna necessário a criação de propostas que auxiliem idéias no âmbito de cidades inteligentes.
 
 Um sistema inteligente de transporte ou \textit{Intelligent Transportation System} (ITS) representa ``a aplicação de sensores avançados, computadores, dispositivos eletrônicos e tecnologias de comunicação e gerenciamento estratégico integrado visando melhorar a segurança e a eficiência do sistema de gerenciamento de tráfego'' \cite{nasim2012distributed}.
 
-Os Sistemas Inteligentes de Transporte são, atualmente,  as  mais  importantes  aplicações  de  uma  rede  veicular,  fornecendo  serviços  de segurança  rodoviária \cite{xu2003design}  ou  informações  relativas  às  situações  de  tráfego.  De acordo com  \citeonline{sumra2011comparative} e \citeonline{luis2009melhoria}, o principal objetivo de uma  VANET (\textit{Vehicular ad-hoc Network}) é prover segurança aos passageiros nas estradas.
+Os Sistemas Inteligentes de Transporte são, atualmente,  as  mais  importantes  aplicações  de  uma  rede  veicular,  fornecendo  serviços  de segurança  rodoviária \cite{xu2003design}  ou  informações  relativas  às  situações  de  tráfego.  De acordo com  \citeonline{sumra2011comparative} e \citeonline{luis2009melhoria}, o principal objetivo de uma  VANET (\textit{Vehicular ad-hoc Network}) é prover segurança aos motoristas e passageiros nas estradas.
 
 De acordo com \citeonline{ball2010enhancing} e \citeonline{losilla2011comprehensive}, a segurança no trânsito é a motivação principal para as pesquisas no âmbito das redes veiculares.  Da mesma maneira, conforme a Organização Mundial da Saúde (OMS), acidentes acometidos por veículos são responsáveis por mais de um milhão de mortes e 50 milhões de feridos anualmente em todo o mundo \cite{peden2004world}. Nos Estados Unidos e no Brasil, acidentes relacionados a veículos são  a terceira maior causa de mortalidade evitável e incapacitação profissional precoce \cite{systematics2011crashes} \cite{el2007systematic}. 
 
-Ainda afirmado por  \citeonline{losilla2011comprehensive}, os congestionamentos também são uma grande preocupação como mostra a figura \ref{fig:transito}.  Só nos EUA, o congestionamento representa 115 bilhões de dólares em custos de combustível \cite{TTI}, com números semelhantes em outros países desenvolvidos. As baixas de tráfego no mundo ascendem a 1,17 milhões por ano. Neste contexto, os Sistemas de Transporte Inteligentes visam melhorar a eficiência e a segurança dos transportes através do uso avançado de processamento de informação, comunicação, controle, bem como, o uso de novas tecnologias.
+Ainda afirmado por  \citeonline{losilla2011comprehensive}, os congestionamentos também são uma grande preocupação como mostra a Figura \ref{fig:transito}.  Só nos EUA, o congestionamento representa 115 bilhões de dólares em custos de combustível \cite{TTI}, com números semelhantes em outros países desenvolvidos. As baixas de tráfego no mundo ascendem a 1,17 milhões por ano. Neste contexto, os Sistemas de Transporte Inteligentes visam melhorar a eficiência e a segurança dos transportes através do uso avançado de processamento de informação, comunicação, controle, bem como, o uso de novas tecnologias.
 
 \begin{figure}[h!]
 	\centering
@@ -733,9 +737,7 @@ Diante desse contexto, este trabalho apresenta como principal contribuição um 
 
 É crescente o número de pesquisas sobre VANETs  com intuito de aumentar a segurança viária, bem como ofertar e comercializar novos serviços a motoristas e passageiros. VANETs que usam veículos como nós móveis, são uma subclasse de rede móveis ad hoc chamadas de MANETs (\textit{Mobile Ad hoc Network}), elas fornecem comunicação entre os veículos próximos e entre veículos  e equipamentos à beira da rodovia mas, aparentemente difere de outras redes por suas próprias características do ambiente. 
 
-Diante da evolução das redes veiculares e da necessidade de garantir o tráfego de dados dentro da alta mobilidade dos nós numa VANET, constata-se a importância de utilizar tecnologias que permitam auxiliar na solução dos principais desafios relacionados a este tipo de rede.  
-
-O uso de VANETs representa uma boa oportunidade para melhora da segurança, eficiência e conforto relacionados ao trânsito nas grandes cidades, porém, possui características peculiares que apresentam obstáculos a serem contornados. 
+Diante da evolução das redes veiculares e da necessidade de garantir o tráfego de dados mediante a alta mobilidade dos nós em uma VANET, constata-se a importância de utilizar tecnologias que permitam auxiliar na solução dos principais desafios relacionados a este tipo de rede.  Portanto, para melhorar a segurança, eficiência e conforto relacionados ao trânsito nas grandes cidades, é preciso contornar os obstáculos  antes mesmo de uma solução ser colocada em prática.  
 
 Os nós numa rede VANET são muito dinâmicos pois os veículos possuem velocidade e direção variável. A alta mobilidade dos nós conduz a uma topologia de rede dinâmica caracterizada pela constante perda de comunicação fazendo com que os algoritmos de roteamentos tornem-se complexos e limitados. Normalmente, VANETs apresentam três aspectos para pesquisas: roteamento, segurança e privacidade, bem como suas aplicações \cite{liang2015vehicular}.
 
@@ -747,9 +749,9 @@ Trabalhos como  \citeonline{hadaller2007vehicular}, \citeonline{nandan2005co} e 
 
 Segundo \citeonline{falchetti2015vehicular}, os principais desafios técnicos que são abordados pela maioria dos pesquisadores, podem ser agrupados em seis categorias: mobilidade, latência, confiabilidade, criticidade (prioridade das mensagens), topologia e segurança. 
 
-Portanto, pesquisar sobre redes veiculares e computação em nuvem, traz a possibilidade de construção de uma plataforma capaz de criar uma VANET com gerenciamento virtualizado, facilitando a comunicação entre os nós virtuais da rede e simplificando a implementação dos algoritmos de roteamento, segurança e aplicações.
+Portanto, pesquisar sobre redes veiculares e computação em nuvem, traz a possibilidade de construção de uma plataforma capaz de criar uma VANET com gerenciamento virtualizado em nuvem, facilitando a comunicação entre os nós virtuais da rede e simplificando a implementação dos algoritmos de roteamento, segurança e aplicações.
 
-Com o uso da computação em nuvem, os autores  \citeonline{liu2015software} utilizaram um controlador SDN (\textit{Networking Defined Software}) para enviar mensagens para os veículos a partir de um RSU (Road-side Unit) concetado ao controlador, porém os veículos deveriam pertencer à mesma geolocalização.
+Com o uso da computação em nuvem, os autores  \citeonline{liu2015software} utilizaram um controlador SDN (\textit{Networking Defined Software}) para enviar mensagens para os veículos a partir de um RSU (Road-side Unit) conectado ao controlador, porém os veículos deveriam pertencer na mesma geolocalização.
 
 Foi criado por \citeonline{hajjidesign}, a plataforma Testbed que serve para testar a implementação real dos roteadores móveis em uma rede veicular virtualizada. A característica principal consiste na sua capacidade em satisfazer ao mesmo tempo as exigências de mobilidade do veículo e o número elástico de roteadores móveis aplicados.
 
@@ -772,6 +774,12 @@ Foi proposto por \citeonline{lee2014vehicular}, o VCN (\textit{Vehicular Cloud N
 	\label{fig:vcn}
 \end{figure}
 
+ \citeonline{gerla2012vehicular} introduziu um novo modelo computacional, a computação veicular em nuvem  (VCC). O VCC é uma variação da computação em nuvem móvel (MCC), que começa a partir de um modelo convencional de computação em nuvem. Sendo que a maioria das consultas são sobre o moundo que nos rodeia, ou seja possui relevância local, e os veículos são os melhores exemplos deste ambiente.
+
+\citeonline{sookhak2017secure} apresentou um novo metodo para abordar o problema de compartilhamento de dados em redes veiculares, utilizando a técnica de emparelhamento bilinear. Neste caso, foi utilizado computação em nuvem para armazenar a grande quantidade de dados e executar o processo de re-criptografia.
+
+ Foi apresentado por \citeonline{comi2015evolutionary}, uma abordagem evolutiva baseada na clonagem de agentes, ou seja, um mecanismo de reprodução de agentes que permite que os fornecedores substituam um agente ``insatisfatório'' agindo em um ``contexto de nuvem'' por um clone de um agente existente com conhecimento adequado e boa reputação no contexto multi-nuvem. Por esta abordagem, os desempenhos dos agentes de nuvem podem ser melhorados porque são substituídos por clones de agentes que têm mostrado um comportamento melhor.
+
 %%%%%%%%%% Também ficou solto
 %
 %Gerla (2012) \nocite{gerla2012vehicular}, introduziu um novo modelo de computação em, o VCC   (\textit{Vehicle Cloud Computing}).  VCC é uma variante do MCC (textit{Movel Cloud Computing}) móvel de computação em nuvem (MCC) \cite{fernando2013mobile}.
@@ -782,12 +790,14 @@ Como criar uma plataforma em nuvem capaz de permitir a construção de aplicaç�
 
 \subsection{Hipótese}
 
-Avaliar se o tempo de resposta da arquitetura proposta permite os mais variados tipos de aplicações em VANETs, dada a particularidade deste tipo de rede.
+É possível criar uma plataforma aberta, flexível e extensível capaz de permitir o gerenciamento de redes veiculares como serviço (VaaS) por meio de uma solução em nuvem, sendo capaz de atender aos requisitos mínimos de tempo  para a maioria das aplicações voltadas para redes veiculares?
+
+%Avaliar se o tempo de resposta da arquitetura proposta permite os mais variados tipos de aplicações em VANETs, dada a particularidade deste tipo de rede.
 
 \section{Objetivos da Dissertação}
 
 \subsection{Objetivo Geral}
-Propor uma arquitetura de software flexível e extensível, com capacidade de virtualizar nós de uma rede VANET, realizando a comunicação entre os elementos de forma virtual na tentativa de corroborar com a solução de alguns dos principais desafios relacionados ás redes veiculares.
+Propor uma arquitetura de software flexível e extensível, com capacidade gerenciar, de forma virtualizada, nós de uma rede VANET, realizando a comunicação entre os elementos de forma virtual na tentativa de corroborar com a solução de alguns dos principais desafios relacionados às redes veiculares.
 
 %é apresentar uma arquitetura de software flexível e extensível, com capacidade de virtualizar nós de uma rede VANET, realizando a comunicação entre os elementos de forma virtual na tentativa de corroborar com a solução de alguns dos principais desafios relacionados às redes veiculares.
 
@@ -796,29 +806,31 @@ Propor uma arquitetura de software flexível e extensível, com capacidade de vi
 \begin{itemize}
 	\item{Elaborar uma arquitetura de software de maneira que permita a extensabilidade, flexibilidade e escalabilidade;}	
 	%\item{Construir a arquitetura utilizando a linguagem Java;}	
-	\item{Implementar uma versão para cada módulo definido para a arquitetura;}	
+	\item{Construir uma plataforma seguindo os requisitos da arquitetura definida;}	
 %	\item{Construir uma aplicação como prova de conceito;}	
 	\item{Realizar testes simulados para avaliar seu desempenho e capacidade.}	
 \end{itemize} 
 
 \section{Metodologia}
 
-No desenvolvimento desta dissertação, foram empregadas a pesquisa bibliográfica, pesquisa quantitativa e a pesquisa experimental. Na pesquisa bibliográfica foi verificado o estado da arte sobre redes veiculares e seus principais desafios. A pesquisa quantitativa foi utilizada para poder quantificar dentre as aplicações relacionadas à VANETs quais os tempos de comunição necessários para viabilidade da solução. E por fim, a pesquisa experimental, pois foram realizados experimentos na arquitetura e gerados dados em um ambiente simulado para responder a hipótese levantada na problemática.
+No desenvolvimento desta dissertação, foram empregadas a pesquisa bibliográfica, pesquisa quantitativa e a pesquisa experimental. Na pesquisa bibliográfica foi verificado o estado da arte sobre redes veiculares e seus principais desafios. A pesquisa quantitativa foi utilizada para poder quantificar dentre as aplicações relacionadas à VANETs, quais os tempos de comunicação necessários para viabilidade da solução. E por fim, a pesquisa experimental, pois foi criado uma plataforma para que pudesser ser realizados experimentos e gerados dados em um ambiente simulado para responder a hipótese levantada na problemática.
 
-Na definição do escopo e das metas desta pesquisa, ficou estabelecido definir e construir uma arquitetura de software modular de maneira que cada módulo abstraia detalhes de implementação dos demais, permitindo usufruir de ``contratos'' no uso efetivo dos módulos.
+Na elaboração do escopo e das metas desta pesquisa, foi definido uma arquitetura de software que permitisse construir uma plataforma modular de maneira que cada módulo funcione de forma independente, abstraindo detalhes de implementação dos demais, possibilitando usufruir de ``contratos'' conceituais da orientação a objetos e da arquitetura \textit{Publish-Subscribe} na comunicação entre os módulos.
 
-Os cenários para os experimentos foram definidos utilizando movimentações reais dentro da cidade de Aracaju-Sergipe Brasil, os quais, foram extraídos 12 milhoes de movimentações de um sistema de monitoramento de veículos de uma empresa de taxi .
+Os cenários para os experimentos foram definidos utilizando movimentações reais, extraídas de um software de monitoramento de uma empresa de taxi, com 120 veículos, na cidade de Aracaju-Sergipe Brasil, os quais foram extraídos 12 milhoes de registros corresponente ao periodo 10 de janeiro à 30 de junho de 2016. Cada registro contém dados referente à posição geográfica, latitude e longitude e velocidade.
 
-Para alcançar os resultados, foi necessário estabelecer conexões entre os nós de uma rede VANETs, permitindo a criação de rede lógica, de maneira dinâmica, ``aleatória'' e mantendo a integridade dos dados.
+Por meio do uso do simulador de rede Mininet, foram criados \textit{hosts} virtuais, os quais representavam os veículos, onde cada um enviava uma mensagem com a localização geográfica, velocidade, direção e horário para o servidor em nuvem. Sendo estabelecido como métrica e técnica de avaliação desta pesquisa, o tempo de envio da mensagem pelo veículo e o retorno da confirmação de entrega e o tempo de processamento de cada mensagem enviada ao servidor.  As velocidades de comunicação utilzadas no experimento deveriam respeitar as velocidades do 2G, 3G, 4G e 5G, permitindo avaliar se as velocidades atuais da telefonia móvel viabilizam a solução e um teste de carga para medir a capacidade operacional da plataforma.
 
-A métrica e a técnica de avaliação desta pesquisa foi o tempo de processamento de cada mensagem enviada ao servidor como também, o tempo de comunicação entre os veículos e os servidores em nuvem, contrapondo entre as velocidades do 2G, 3G, 4G e 5G, permitindo avaliar se as velocidades atuais da telefonia móvel suportam a solução e um teste de carga para medir a capacidade operacional da plataforma.
+%Para alcançar os resultados, foi necessário estabelecer conexões entre os nós de uma rede VANETs, permitindo a criação de rede lógica, de maneira dinâmica, ``aleatória'' e mantendo a integridade dos dados.
+
+%A métrica e a técnica de avaliação desta pesquisa foi o tempo de processamento de cada mensagem enviada ao servidor como também, o tempo de comunicação entre os veículos e os servidores em nuvem, contrapondo entre as velocidades do 2G, 3G, 4G e 5G, permitindo avaliar se as velocidades atuais da telefonia móvel suportam a solução e um teste de carga para medir a capacidade operacional da plataforma.
  
 %Para execução da simulação com dados reais, foi constuído uma aplicação que conectava ao servidor em nuvem e realizava as devidas transmissões, sendo que as coordenadas vinham de um arquivo
 \section{Contribuições}
 
-A computação veicular em nuvem é um novo campo de pesquisa com o potencial de mudar a vida das pessoas. Ele  traz a eficiência, segurança e conforto para motoristas e passageiros \cite{falchetti2015vehicular}. Sendo a principal contribuição deste trabalho, a construção de uma arquitetura para criação de redes veiculares em nuvem, como também, a análise dos dados coletados a partir dos experimentos. Nesse sentido, este estudo mostra que também é válido o uso de VCN no auxílio das soluções para os principais desafios relacionados à VANETs.
+A computação veicular em nuvem é um novo campo de pesquisa com o potencial de mudar a vida das pessoas. Ele  traz a eficiência, segurança e conforto para motoristas e passageiros \cite{falchetti2015vehicular}. Sendo a principal contribuição deste trabalho, a construção de uma arquitetura para criação de redes veiculares em nuvem, como também, a análise dos dados coletados a partir dos experimentos realizado sobre a plataforma desenvolvida seguindo a especificação da arquitetura. Nesse sentido, este estudo mostra que também é válido o uso de VCC no auxílio das soluções para os principais desafios relacionados à VANETs.
 
-Outra contribuição importante foi poder instalar e analisar aspectos de segurança nas redes veiculares, podendo apenas assinar a mensagem ou criptografá-la, seguindo com análise de viabilidade de ambos os casos. Conclui-se que, o desempenho e a eficiência da arquitetura atendem aos requisitos relacionados à VANETs. E assim, demonstrar que o tempo de conexão e processamento em uma rede VCN, em ambiente de simulação, atendem às necessidades de vários tipos de aplicações relacionadas a VANETs.
+Outra contribuição importante foi poder instalar e analisar aspectos de segurança nas redes veiculares, podendo apenas assinar a mensagem ou criptografá-la, seguindo com análise de viabilidade de ambos os casos. Conclui-se que, o desempenho e a eficiência da arquitetura atendem aos requisitos relacionados à VANETs. E assim, demonstrar que o tempo de conexão e processamento em uma rede VCC, em ambiente de simulação, atendem às necessidades de vários tipos de aplicações relacionadas as redes veiculares.
 
 Dentro desse contexto, este trabalho apresenta como principal contribuição, um modelo de arquitetura de software flexível e extensível, que utiliza rede veicular ad-hoc (VANET) e  Computação em Nuvem, com a finalidade de proporcionar uma alternativa para os principais desafios relacionados a VANETs .
 
@@ -839,9 +851,9 @@ As Redes de Sensores sem Fio ou WSN (\textit{Wireless Sensor Network}) estão em
 \section{Definição}
 Uma rede de sensores sem fio é uma tecnologia específica que ajuda na criação de aplicações com foco em cidades inteligentes. O seu objetivo consiste em criar uma rede que contenha muitos nós de sensores ``inteligentes'' que possam detectar múltiplos parâmetros de interesse para uma melhor gestão da cidade.
 
-Para realizar tarefas de detecção, a maioria dos Sistemas de Transporte Inteligentes atuais contam com sensores caros, que oferecem apenas funcionalidade limitada. Uma tendência mais recente, consiste em utilizar WSN para tal finalidade, o que reduz o investimento necessário e permite o desenvolvimento de novas aplicações colaborativas e inteligentes, que contribuem ainda mais para melhorar tanto a segurança de condução como a eficiência do tráfego \cite{losilla2011comprehensive}.
+Segundo \citeonline{losilla2011comprehensive}, para realizar tarefas de detecção, a maioria dos Sistemas de Transporte Inteligentes atuais contam com sensores caros, que oferecem apenas funcionalidade limitada. Uma tendência mais recente, consiste em utilizar WSN para tal finalidade, o que reduz o investimento necessário e permite o desenvolvimento de novas aplicações colaborativas e inteligentes, que contribuem ainda mais para melhorar tanto a segurança de condução como a eficiência do tráfego \cite{losilla2011comprehensive}.
 
-Da mesma forma que em redes de sensores sem fio, os nós de uma rede VANET necessitam trocar informações com outros nós próximos, o que tornam as técnicas de WSN aplicáveis às redes veiculares. Entretanto, há o desafio da alta mobilidade dos nós em uma rede VANET.
+Da mesma forma que em redes de sensores sem fio, os nós de uma rede VANET necessitam trocar informações com outros nós próximos, o que tornam as técnicas de WSN aplicáveis às redes veiculares. Entretanto, há o desafio da alta mobilidade dos nós em uma rede VANET o que torna o processo de comunicação complexo.
 
 % e um controle do tráfego urbano. Cada nó de rede esgota sua energia porque a capacidade da bateria é limitada. Neste trabalho, propomos estudar o problema das redes de sensores sem fio em cidades inteligentes, com foco em baixo custo e economia de energia. É necessário estudar a arquitetura de um nó sensor que se caracteriza por uma capacidade de energia limitada, tornando a otimização do consumo de energia na rede a principal restrição para prolongar a vida útil da rede. Vamos discutir os diferentes fatores envolvidos no consumo de energia e vamos apresentar algumas técnicas para preservá-lo. Neste trabalho, apresentaremos uma visão geral de nossa solução para a conservação de energia na WSN. Vamos descrever a nossa solução que visa evitar pacotes de transmissão freqüentes de dados enviados para o controlador de luz. Então, vamos detalhar os dois simuladores (GLD e SUMO) que usamos. Resultados de simulação têm mostrado que a nossa solução permite a minimização do número de pacotes enviados, e, portanto, reduzir o consumo de energia, além disso, uma vida útil da rede será maior.
 
@@ -888,14 +900,14 @@ O DMS pode ser executado em diferentes níveis. Em um nível superior, ele pode 
 
 Este subsistema é responsável por executar ações necessárias que promovam mudanças no fluxo de tráfego de acordo com o objetivo da aplicação ITS. É composto principalmente por dispositivos que fornecem estímulos visuais e acústicos aos condutores, embora outros, destinados à automação de veículos, também pertençam a este subsistema. Os semáforos ou os sinais de mensagem variável instalados ao longo das estradas são opções atrativas que proporcionam um controle rigoroso e adaptabilidade a diferentes situações, respectivamente. Eles oferecem a vantagem de serem infra-estruturas rodoviárias amplamente adotadas, adequadas para reutilização em aplicações para ITS, o que ajudaria a reduzir os custos de implantação \cite{losilla2011comprehensive}. 
 
-O emprego de sistemas no veículo, oferece, por um lado, a possibilidade de apresentar informação personalizada para cada veículo e, por outro lado, a possibilidade de utilizar sinais acústicos e mensagens que diminuem as distrações durante a condução. Além disso, as informações provenientes dos sistemas rodoviários podem ser integradas nos sistemas de informações no veículo, o IVI (\textit{In-Vehicle Infotainment}), por exemplo, para a sua fusão com mapas digitais ou outros serviços de informação (horários de transporte, previsões meteorológicas, etc.). Atualmente, o número considerável e crescente de smartphones, navegadores ou tablets abre o caminho para a adoção de sistemas dentro do veículo. No entanto, há um interesse crescente dos fabricantes de veículos em incorporar sistemas IVI em seus produtos como um diferencial competitivo. A este respeito, novos modelos de automóveis de empresas importantes estão equipados com sistemas como o iDrive da BMW \cite{niedermaier2009new}, o Audi MMI , a Ford SYNC  ou GENIVI Apollo da aliança GENIVI apud  \citeonline{losilla2011comprehensive}, que visam facilitar o desenvolvimento das aplicações IVI.
+O emprego de sistemas no veículo, oferece, por um lado, a possibilidade de apresentar informação personalizada para cada veículo e, por outro lado, a possibilidade de utilizar sinais acústicos e mensagens que diminuem as distrações durante a condução. Além disso, as informações provenientes dos sistemas rodoviários podem ser integradas nos sistemas de informações no veículo, o IVI (\textit{In-Vehicle Infotainment}), por exemplo, para a sua fusão com mapas digitais ou outros serviços de informação (horários de transporte, previsões meteorológicas, etc.). No entanto, há um interesse crescente dos fabricantes de veículos em incorporar sistemas IVI em seus produtos como um diferencial competitivo. A este respeito, novos modelos de automóveis de empresas importantes estão equipados com sistemas como o iDrive da BMW \cite{niedermaier2009new}, o Audi MMI , a Ford SYNC  ou GENIVI Apollo da aliança GENIVI apud  \citeonline{losilla2011comprehensive}, que visam facilitar o desenvolvimento das aplicações IVI.
 
 
 %Nesse trabalho, vamos apresentar as Redes de Sensores Sem Fio. Primeiramente, tentaremos mostrar os problemas que motivaram sua criação e, depois, tentar entender seu funcionamento de modo geral através de uma abordagem mais técnica. Por fim, veremos algumas aplicações e analisaremos as tendências para esse tipo de rede.
 
 \section{Considerações Finais do Capítulo}
 
-Neste capítulo foi abordado a impotância das redes de sensores sem fio em soluções voltadas para cidades inteligentes e principalmente  a arquitetura de referência aplicada a ITS. Também foi apresentado a arquitetura de rede e topologia com os subsistemas que o compoe.
+Neste capítulo foi abordado a importância das redes de sensores sem fio em soluções voltadas para cidades inteligentes e principalmente  a arquitetura de referência aplicada à ITS, sendo dividido em quatro tarefas principais, são elas: aquisição de informação, distribuição das informações,  processamento de dados e execução das ações apropriadas. Redes veiculares também são consideradas uma rede de sensores sem fio, visto que pode fazer uso de sensores do veículo tais como, velocidade, rotação do motor, direção, posicionamento geográfico entre outros. Tais informações podem ser transmitidas para outros veículos de forma que seja montada uma malha de informações ajudando os motoristas na tomada de decisão.
 
 \chapter{Sistemas Distribuídos}
 
@@ -906,9 +918,7 @@ Com o surgimento das redes locais (LAN), o homem tenta aproveitar melhor o poder
 
 De acordo com \citeonline{distribuidos2007principios}, um sistema distribuído é um conjunto de computadores independentes entre si, que se apresenta a seus usuários como um sistema único e coerente. Já  \citeonline{coulouris2013sistemas}, define sistemas distribuídos como sendo uma coleção de computadores autônomos interligados através de uma rede de computadores e equipados com software que permita o compartilhamento de hardware, software e dados.
 
-De acordo com as definições, os sistemas distribuídos apresentam algumas características: concorência de recursos,  falta de um relógio e falhas de componentes independentes. Sendo o compartilhamento de recursos um dos principais motivos para se utilizar sistemas distribuídos. 
-
-Os desafios atrelados à construção de sistemas distribuídos são: a heterogeneidade de seus componentes, ser um sistema aberto, segurança e escalabilidade, tolerância a falhas, a concorrência aos recursos e a transparêcia \cite{coulouris2013sistemas}.
+De acordo com as definições, os sistemas distribuídos apresentam algumas características: concorência de recursos,  falta de um relógio global e falhas de componentes independentes. Sendo o compartilhamento de recursos um dos principais motivos para se utilizar sistemas distribuídos. Contudo, a construção de sistemas distribuídos apresentam alguns desafios como:  a heterogeneidade de seus componentes, ser um sistema aberto, segurança e escalabilidade, tolerância a falhas, a concorrência aos recursos e a transparêcia \cite{coulouris2013sistemas}.
 
 A miniaturização dos dispositivos  e a interligação em redes sem fio, tem ocasionado uma convergência de equipamentos cada vez menores com sistemas distribuídos. A portabilidade desses dispositivos, torna a computação móvel possível e fundamental para que a computação ubíqua ou pervasiva seja utilizada cada vez mais pelo usuário e de maneira transparente e natural.
 
@@ -918,13 +928,11 @@ Os sistemas distribuídos são encontrados em toda parte, contudo, há desafios 
 
 \subsection{Heterogeneidade}
 
-Segundo \citeonline{coulouris2013sistemas}, os aspectos que devem ser levados em consideração pela heterogeneidade, estão relacionados à rede, hawdare, sistemas operacionais, linguagens de programação e implementações.
+Segundo \citeonline{coulouris2013sistemas}, os aspectos que devem ser levados em consideração pela heterogeneidade, estão relacionados à rede, ao hawdare do computador, sistemas operacionais, linguagens de programação e implementações de diferentes desenvolvedores. Em uma rede veicular, tais aspectos estão bem ligados visto que há vários fabricantes de veículos e cada um possui tecnologia própria.
 
 \subsection{Sistemas Abertos}
 
-Um sistema é considerado aberto quando é possível estendê-lo de várias maneiras. O fato de um SD ser ou não um sistema aberto é determinado pelo grau com que os novos serviços podem ser inseridos para uso por uma variedade de aplicações clientes \cite{coulouris2013sistemas}.
-
-Para que um sistema seja considerado aberto, é necessário publicar as principais interfaces dos componentes de software. Entretanto, a publicação do padrão de comunicação com o software é apenas o início para adicionar novos serviços a um sistema distribuído.
+Um sistema é considerado aberto quando é possível estendê-lo de várias maneiras. O fato de um SD ser ou não um sistema aberto é determinado pelo grau com que os novos serviços podem ser inseridos para ser utilizado por uma variedade de aplicações clientes \cite{coulouris2013sistemas}. Sendo assim, é necessário publicar as principais interfaces dos componentes de software. Entretanto, a publicação do padrão de comunicação com o software é apenas o início para adicionar novos serviços a um sistema distribuído.
 
 \subsection{Segurança}
 
@@ -938,7 +946,7 @@ Um dos grandes objetivos dos sistemas distribuídos, é permitir o aumento de ca
 
 \subsection{Tolerância a Falhas}
 
-Infelizmente os sistemas de computador falham, seja por motivo de hardware ou software, os programas podem produzir resultados incorretos. Em um ambiente com sistema distribuído, alguns componentes podem falhar enquanto outros continuam funcionando, sendo considerado algo complexo tratar corretamente cada problema que pode ocorrer. A tolerância a falhas é fundamental para o bom funcionamento das aplicações de segurança crítica \cite{gorender2002modelo} . Dentre as técnicas para tolerância a falhas temos: 
+Os sistemas de computador falham, seja por motivo de hardware ou software, os programas podem produzir resultados incorretos. Em um ambiente com sistema distribuído, alguns componentes podem falhar enquanto outros continuam funcionando, sendo considerado algo complexo tratar corretamente cada problema que pode ocorrer. A tolerância a falha é fundamental para o bom funcionamento das aplicações de segurança crítica \cite{gorender2002modelo} . Dentre as técnicas para tolerância a falhas temos: 
 
 \begin{itemize}
 	\item{\textbf{Detecção de Falhas}: algumas falhas podem ser detectadas antes que mesmo que afete o sistema. Para isso, somas de verificação podem ser utilizadas para verificar a integridade da informação por exemplo, mas outras falhas não há como prevê, como, por exemplo, a parada de um servidor.} 	
@@ -949,7 +957,7 @@ Infelizmente os sistemas de computador falham, seja por motivo de hardware ou so
 
 \subsection{Transparência}
 
-A transparência tem como objetivo ``esconder'' do usuário ou programador detalhes da separação dos componentes em um sistema distribuído, de maneira que seja percebido como um todo.
+A transparência tem como objetivo ``esconder', do usuário ou programador, detalhes da separação dos componentes em um sistema distribuído, de maneira que seja percebido como um todo ao invés de uma coleção de componentes independentes. Segundo \cite{coulouris2013sistemas}, há dois critérios de transparência que são considerados importantes, a transparência de acesso e de localização, sendo também conhecida como transparência de rede. Sua presença ou falta, afeta substancialmente a utilização de recursos distribuídos.
 
 %Em um ambiente de redes veiculares em nuvem, é fundamental o uso de sistemtas distribuídos para que se consiga atender à demanda, permitindo a escalabilidade.
 
@@ -963,17 +971,13 @@ As arquiteturas IntServ e DiffSer foram propostas pela IETF (\textit{Internet En
 
 \subsection{Comunicação Cliente-Servidor}
 
-A comunicação baseada no Cliente-Servidor foi projetada para suportar a troca de mensagens em interações tipicamente síncronas, pois o processo no cliente bloqueia a execução até a chegada da resposta. Também é considerada confiável, já que a resposta é a confirmação da chegada da requisição no servidor \cite{coulouris2013sistemas}.
-
-O protocolo utilizado na comunicação Cliente-Servidor é baseado em três primitivas de comunicação: \textit{doOperation}, \textit{getRequest} e \textit{sendReply}. A maioria dos sistemas RMI (Remote Mehthd Invocation)e RPC (\textit{Remote Procedure Call}).
+A comunicação baseada no Cliente-Servidor foi projetada para suportar a troca de mensagens em interações tipicamente síncronas, pois o processo no cliente bloqueia a execução até a chegada da resposta. Também é considerada confiável, já que a resposta é a confirmação da chegada da requisição no servidor \cite{coulouris2013sistemas}. E o protocolo é baseado em três primitivas de comunicação: \textit{doOperation}, \textit{getRequest} e \textit{sendReply}. A maioria dos sistemas RMI (\textit{Remote Mehthod Invocation}) e RPC (\textit{Remote Procedure Call}).
 
 O método \textit{doOperation} é utilizado para invocar processos remotos. Seus parâmetros especificam  o objeto remoto e a operação a ser executada. A segunda primitiva, o \textit{getRequest}, é executado por um processo no servidor, para ler as requisições do serviço. Após execução do processo, pelo servidor, será executado o \textit{sendReply} para enviar a mensagem de resposta para o cliente, fazendo com que o método \textit{doOperation} seja desbloqueado liberando a aplicação cliente.
 
 \subsection{Comunicação em Grupo}
 
-Para fornecer tolerância a falhas à disponibilidade, é necessário o uso de difusão seletiva (\textit{multicast}) em situações que precise realizar uma comunicação de um processo com um grupo de processos.
-
-A troca de mensagem \textit{multicast} fornecem uma infra-estrutura importante para construção de sistemas distribuídos com as seguintes características:
+Para fornecer tolerância a falhas à disponibilidade, é necessário o uso de difusão seletiva (\textit{multicast}) em situações que precise realizar uma comunicação de um processo com um grupo de processos. Sendo que a troca de mensagens \textit{multicast} fornecem uma infra-estrutura importante para construção de sistemas distribuídos com as seguintes características:
 
 \begin{itemize*}
 	\item{Tolerância a falhas baseada em serviços replicados: as requisições do cliente são solicitadas para todos os membros do grupo onde cada um é responsável por executar a mesma operação. Mesmo se alguma requisição falhar, o cliente pode ser atendido.}
@@ -1051,13 +1055,13 @@ Sobre a segurança, o \textit{WebSocket} apresenta as mesmas vulnerabilidades em
 
 \section{Considerações Finais do Capítulo}
  
-Neste capítulo foi mensioado as caracteísticas e desafios relacionados à construção de sistemas distribuídos, os tipos de comunicação cliente-servidor e em grupo, como também as tecnologias para se criar sistemas distribuídos tais como: CORBA, JAVA-RMI, WebServices e WebSocket.
+Neste capítulo, foi mensionado as caracteísticas e desafios relacionados à construção de sistemas distribuídos, os tipos de comunicação cliente-servidor e em grupo, como também as tecnologias para se criar sistemas distribuídos tais como: CORBA, JAVA-RMI, WebServices e WebSocket. Em um ambiente VANET, a heterogeneidade está presente, visto que é uma das grandes preocupações no momento do desenvolvimento de uma solução. E em uma rede veicular com gerenciamento em nuvem, a comunicação entre os veículos e os servidores devem considerar o menor tempo possível, sendo necessário utilizar tecnologias de comunicação que permitam um melhor desempenho.
 
 \chapter{Redes Veiculares}
 
 \section{Definição}
 
-As VANETs que usam veículos como nós móveis são uma subclasse de rede móveis ad hoc chamadas de MANETs. Elas fornecem comunicação entre os veículos próximos e entre veículos e equipamentos à beira da rodovia. Os nós numa rede VANET são muito mais dinâmicos, pois os veículos possuem velocidade e direção variável. A alta mobilidade dos nós conduz a uma topologia de rede dinâmica caracterizada pela constante perda de comunicação \cite{bubenikova2014security} \cite{jakubiak2008state} e podem ser categorizadas segundo o tipo de ligações existentes. Dessa maneira, consideremos as três arquiteturas de redes veiculares \cite{luis2009melhoria}, como mostra a Figura \ref{fig:arquiteturas_vanets}: 
+As VANETs que usam veículos como nós móveis são uma subclasse de rede móveis ad hoc chamadas de MANETs. Elas fornecem comunicação entre os veículos próximos e entre veículos e equipamentos à beira da rodovia. Os nós numa rede VANET são muito mais dinâmicos, pois os veículos possuem velocidade e direção variável. A alta mobilidade dos nós conduz a uma topologia de rede dinâmica caracterizada pela constante perda de comunicação \cite{bubenikova2014security} \cite{jakubiak2008state} e podem ser categorizadas segundo o tipo de ligações existentes. Dessa maneira, podemos considerar três arquiteturas de redes veiculares \cite{luis2009melhoria}, como mostra a Figura \ref{fig:arquiteturas_vanets}: 
 
 
 \begin{itemize}
@@ -1090,7 +1094,7 @@ As aplicações VANETs podem ser divididas em 3 classes: segurança, entretenime
 
 %As redes veiculares ad-hoc caracterizam-se por serem redes sem fio em que todos os nós são efetivamente ativos na comunicação, ou seja, não necessitam de uma infraestrutura fixa de centralização.
 
-Como mensionado anteriormente, as redes veiculares apresentam como principal caracteristica a sua alta mobilidade, e é justamente por isso que surge uma série de desafios a serem tratados. Dentre os maiores desafios encontram-se:
+As redes veiculares ad-hoc caracterizam-se por serem redes sem fio emque toeos os nós são efetivamente ativos na comunicação. Entretanto, as redes veiculares apresentam como principal caracteristica a sua alta mobilidade, e é justamente por isso que surge uma série de desafios a serem tratados antes mesmo de uma solução ser posta em prática. Dentre os maiores desafios encontram-se:
 
 \begin{itemize}
 	\item{\textbf{meio físico}: interferências devido a prédios,  árvores e outros obstáculos;}
@@ -1102,7 +1106,7 @@ Como mensionado anteriormente, as redes veiculares apresentam como principal car
 	
 \end{itemize} 
 
-Cada um dos desafios relacionados está sendo tratado na arquitetura I9Vanet, uma vez que o objetivo da arquitetura é justamente ajudar a resolver tais problemas.
+%Cada um dos desafios relacionados está sendo tratado na arquitetura I9Vanet, uma vez que o objetivo da arquitetura é justamente ajudar a resolver tais problemas.
 
 
 \section{Segurança}
@@ -1207,9 +1211,7 @@ O método mais simples e eficiente para assinatura digital, é atribuir, a cada 
 
 \section{Algoritmos de Roteamento}
 
-Os algoritmos de roteamento em redes veiculares são um dos desafios estabelecidos, já que não existem rotas pré-definidas e nem estimativa da quantidade de nós de uma rede e o fator primordial é a alta mobilidade dos nós. Então, como calcular as rotas necessárias para encaminhar os pacotes com sucesso desde a origem até ao destino? 
-
-Foram realizados diversos estudos com a finalidade de comparar o desempenho dos algoritmos aplicados para redes móveis, de modo a corrigir as suas limitações, alguns sofreram adaptações, enquanto outros foram criados \cite{luis2009melhoria}. Dentre os principais algoritmos de roteamento, com foco nas redes veiculares, temos os protocolos: ad-hoc, baseados em localização, baseado em \textit{clusters}, por \textit{broadcast} e geocast.
+Os algoritmos de roteamento em redes veiculares são um dos desafios reconhecidos na literatura, já que não existem rotas pré-definidas e nem estimativa da quantidade de nós de uma rede e o fator primordial é a alta mobilidade dos nós. Então, como calcular as rotas necessárias para encaminhar os pacotes com sucesso desde a origem até ao destino em uma rede veicular ad-hoc? Pensando nisso, há diversos estudos com finalidade de comparar o desempenho dos algoritmos de roteamento aplicados à redes móveis, de modo que alguns estão sendo adaptados para a corrigir suas limitações e poderem ser aplicados a este tipo de rede, visto que alguns sofreram adaptações, enquanto outros foram criados \cite{luis2009melhoria}. Dentre os principais algoritmos de roteamento, com foco nas redes veiculares, temos os protocolos: ad-hoc, baseados em localização, baseado em \textit{clusters}, por \textit{broadcast} e geocast.
 %Ad-hoc, PRAODV/PROADV-M, GPSR, GSR, A-STAR, COIN, CBLR, Geocast, DRG/ROVER.
 
 \subsection{Protocolos Ad-hoc}
@@ -1270,7 +1272,7 @@ Ainda não foi encontrada a melhor forma de se criar um protocolo de roteamento 
 \begin{longtable}{ p{.15\textwidth}  p{.13\textwidth}   p{.22\textwidth}  p{.15\textwidth} p{.17\textwidth}} 
 	\hline
 	\rowcolor[gray]{0.7}
-	Protocolo de Roteamento	& Tipo Protocolo & Informação Sobre Posição  & Estrutura Hierárquica & Cenário de Mobilidade  \\ \hline
+	Protocolo de Roteamento	& Comunicação & Informação Sobre Posição  & Estrutura Hierárquica & Cenário de Mobilidade  \\ \hline
 	
 	AODV	& Unicast & Não & Não & ---  \\ \hline
 	DSR	& Unicast & Não & Não & ---  \\ \hline
@@ -1294,11 +1296,11 @@ Ainda não foi encontrada a melhor forma de se criar um protocolo de roteamento 
 
 \section{Aplicações}
 
-Há uma série de aplicações que as redes veiculares podem atuar, porém para cada aplicação é necessário conhecer as características que as cercam, tais como: segurança da informação; tempo de resposta; garantia na entrega; entre outros.
+Há uma série de aplicações que podem ser desenvolvidas para redes veiculares com foco em cidades inteligentes, entretanto para cada aplicação, é necessário conhecer as características que as cercam, tais como: segurança da informação; tempo de resposta; garantia na entrega; entre outros. 
 
 Segundo \citeonline{autoentusiastasclassic}, há uma relação entre velocidade dos veículos e a distância entre eles. Esta relação é diretamente proporcional, indicando que quanto maior a velocidade, maior deve ser a distância entre os veículos. Isto ocorre naturalmente, pois o motorista precisa considerar-se seguro no trânsito. Porém, esta condição é dinâmica variando a cada instante, e para agravar, a relação entre velocidade do fluxo e a distância dos veículos, define um fator de realimentação positiva, e sistemas com esta característica tendem à instabilidade, gerando transtornos no trânsito. Então, um sistema capaz de alertar o motorista caso o mesmo esteja a uma distância ``não segura'' do veículo da frente, pode ser alcançado com sistemas baseados em VANETs. 
 
-Outra aplicação, com foco em redes veiculares, pode ser produzida por meio de alertas de colisão em uma via de fluxo intenso. O condutor possui um tempo de percepção mais um tempo de reação e somente após a soma dos tempos poderá executar uma reação. Esta situação mostra a importância de agregar aos veículos uma rede de comunicação no qual os mesmos e seus motoristas poderão trocar informações de ocorrências emergenciais e preventivas no trânsito. Esta situação fica claramente evidenciada na Figura \ref{fig:vanetqian}. 
+Outra aplicação, com foco em redes veiculares, pode ser produzida por meio de alertas de colisão em uma via de fluxo intenso. O condutor possui um tempo de percepção mais um tempo de reação e somente após a soma dos tempos poderá executar uma reação. Esta situação mostra a importância de agregar aos veículos uma rede de comunicação no qual os mesmos e seus motoristas poderão trocar informações de ocorrências emergenciais e preventivas no trânsito. Esta situação fica claramente evidenciada na Figura \ref{fig:vanetqian}. Há também a possibilidade de aplicações voltadas para o entretenimento com o uso de \textit{chats}, \textit{downloads} de vídeos ou até mesmo propagandas comerciais nas proximidades do veículos. 
 
 \begin{figure}[h!]
 	\centering
@@ -1307,12 +1309,12 @@ Outra aplicação, com foco em redes veiculares, pode ser produzida por meio de 
 	\label{fig:vanetqian}
 \end{figure}
 
-Há também a possibilidade de aplicações voltadas para o entretenimento com o uso de \textit{chats} ou até mesmo propagandas comerciais nas proximidades do veículos.
+
 
 Por ser uma área crescente, as redes veiculares tem atraído empresas automobilísticas e órgãos controladores  a exemplo do órgão americano de pesquisa de inovação tecnológica, RITA (\textit{Research and Innovative Technology Administration}) o qual é coordenado pelo departamento de transporte dos EUA. O projeto Car 2 Car (\textit{Communication Consortion}), criado por cinco fabricantes de automóveis europeus (BMW, Volvo, Volkswagen, Honda, e Audi) e apoiada por fornecedores de equipamentos, organizações de pesquisa e outros parceiros, com objetivo de aumentar ainda mais a segurança e a eficiência do tráfego rodoviário através de Sistemas de Transporte Inteligente Cooperativos (C-ITS) com a comunicação veículo para veículo (V2V) suportada pela comunicação veículo infraestrutura (V2I) . 
 
 \section{Considerações Finais do Capítulo}
-Neste capítulo, foi apresentado os principais desafios relacionados à redes veiculares os quais a presente pesquisa se debruça na tentativa de criar alternativas para tais desafios. Explana também sobre as arquiteturas aplicadas às VANETs, a necessidade de segurança e os tipos de ataques possíveis e os principais algoritmos de roteamentos.
+Neste capítulo foi apresentado as peculiaridades e os principais desafios relacionados às redes veiculares, os quais a presente pesquisa se debruça na tentativa de criar alternativas utilizando em conjunto a computação em nuvem para gerenciamento virtualizado de uma VANET. Explana também sobre as arquiteturas aplicadas às VANETs, a importância da comunicação segura para proteção dos motoristas e passageiros, citando alguns tipos de ataques possíveis e os principais algoritmos de roteamentos.
 
 \chapter{Arquitetura I9Vanet}\label{sec:i9vanet}
 
@@ -1323,7 +1325,7 @@ A arquitetura consiste em um modelo aberto, dividido em módulos com funções b
 
 \section{Módulos da Arquitetura I9Vanets}
 
-A Figura \ref{fig:dModulos} mostra os módulos necessários da arquitetura I9VANETS:  \textit{Applications, Server Management Cloud, Routing between Nodes, Secutity OBU/RSU, Infra-Cloud Communication} e \textit{Vehicle-Cloud Communication}. Sendo que cada módulo, segue um modelo de arquitetura com objetivos bem definidos, sendo que suas interfaces de comunicação são padronizadas, permitindo substituir um módulo por outro, com a mesma característica, sem que interfira no modelo.
+A Figura \ref{fig:dModulos} mostra os módulos necessários da arquitetura I9VANETS:  \textit{Applications, Server Management Cloud, Routing between Nodes, Secutity OBU/RSU, Infra-Cloud Communication} e \textit{Vehicle-Cloud Communication}. Sendo que cada módulo, segue um modelo de arquitetura com objetivos bem definidos, visto que suas interfaces de comunicação são normatizadas por métodos específicos, permitindo substituir um módulo por outro, com a mesma característica, sem que interfira no funcionamento da plataforma.
 
 \begin{figure}[h!]
 	\centering
@@ -1402,9 +1404,7 @@ O módulo de comunicação é responsável por definir a troca de mensagens entr
 
 A forma como a comunicação será efetivamente implementada, não é preocupação da arquitetura, cabe ao desenvolvedor utilizar a tecnologia (socket, webservices, websocket, push, etc) que mais se adequa à sua necessidade e/ou região. As informações trocadas são de entrada e saída, portanto, os equipamentos RSU podem enviar como também receber informações dos servidores. Em VANETs, pode existir a comunicação entre veículos e dispositivos à beira da rodovia (V2I), todavia, não é o propósito desta arquitetura realizar, de forma direta, a comunicação entre os equipamentos, contudo será realizada entre os respectivos agentes virtuais em nuvem. 
 
-Todos os equipamentos RSU serão virtualizados e representados por agentes virtuais. Sendo assim, pode haver a comunicação entre agente RSU e o agente do veículo (AV2AI), como também entre agentes RSUs (AI2AI), como mostrado na Figura \ref{fig:dComunicacaoAgentes}.
-
-Os dispositivos RSUs disponibilizam as seguintes informações: identificação, latitude, longitude, altitude, temperatura, pressão, umidade relativa do ar e um campo textual para informações extras. A plataforma prevê  3 operações:
+Todos os equipamentos RSU serão virtualizados e representados por agentes virtuais. Sendo assim, pode haver a comunicação entre agente RSU e o agente do veículo (AV2AI), como também entre agentes RSUs (AI2AI), como mostrado na Figura \ref{fig:dComunicacaoAgentes}. Os dispositivos RSUs disponibilizam as seguintes informações: identificação, latitude, longitude, altitude, temperatura, pressão, umidade relativa do ar e um campo textual para informações extras. A plataforma prevê  3 operações:
 
 \begin{itemize}
 	\item{\textbf{Conectar}: realiza a conexão com o servidor, informando identificador do dispositivo, a latitude e longitude;}	
@@ -1446,9 +1446,7 @@ A segurança na troca de informações em redes veiculares é um dos desafios qu
 
 Na arquitetura I9Vanet, foi pensado em um processo de comunicação entre os equipamentos, OBU e RSU, e os servidores em nuvem, de forma que deve garantir os princípios da autenticidade, integridade, confidencialidade e não repúdio, através do uso de assinatura digital baseado em algoritmos assimétricos e criptografia dos dados. Toda via, este último foi definido de forma parametrizada para que fosse feito análise comparativa entre a comunicação aberta e criptografada.
 
-A geração das chaves para cada equipamento deve ser controlada pelo órgão responsável pelos veículos, a exemplo do Brasil, o DENATRAN (Departamento Nacional de Trânsito). Quando um novo veículo for cadastrado em sua base, ``veículo zero quilômetro'', devem ser geradas as chaves pública e privada, sendo que a pública deve ser enviada para os servidores em nuvem  responsáveis  pelo gerenciamento da arquitetura I9Vanets e a privada, inserida no equipamento embarcado.
-
-A cada renovação de licenciamento um novo token deve ser gerado e fornecido ao equipamento e publicado nos servidores. Como também, em caso de venda de um veículo, ao passar para o nome do novo proprietário, deve ser gerado um novo token.
+A geração das chaves para cada equipamento deve ser controlada pelo órgão responsável pelos veículos, a exemplo do Brasil, o DENATRAN (Departamento Nacional de Trânsito). Quando um novo veículo for cadastrado em sua base, ``veículo zero quilômetro'', devem ser geradas as chaves pública e privada, sendo que a pública deve ser enviada para os servidores em nuvem  responsáveis  pelo gerenciamento da plataforma I9Vanets e a privada, inserida no equipamento embarcado do veículo. A cada renovação de licenciamento, um novo token deve ser gerado e fornecido ao equipamento e publicado nos servidores. Como também, em caso de venda de um veículo, ao passar para o nome do novo proprietário, deve ser gerado um novo token.
 
 Se o parametro de criptografia estiver habilitado, o primeiro passo, no momento da conexão, é a troca de chave secreta para que toda comunicação seja segura. Para isso, assim que o comando \textit{onConnection} for executado, o servidor enviará o comando \textit{createSecretKey} com a chave secreta, criptografada com a chave pública do veículo. Assim o mesmo poderá descriptografar com sua chave privada e utilizá-la na criptografia de cada envio e recebimento de mensagens de agora em diante. 
 
@@ -1498,7 +1496,7 @@ Como foi dito anteriormente,  as redes veiculares são vulneráveis a muitos ata
 
 %Não é possível prever a quantidade de veículos conectatos a um servidor, e isto criou a necessidade de aumentar a capacidade de dispositivos conectados através de uma plataforma de gerenciamento de servidores.
 
-Partindo do princípio que não é possível prever a quantidade de veículos conectatos a um servidor, isto criou a necessidade de construir uma plataforma de gerenciamento com objetivo de aumentar a capacidade de dispositivos conectados à arquitetura. Então, pensando nisso, foi definido que os servidores devem ser distribuídos hierarquicamente de forma que permitam controlar regiões, denominadas domínios, separadamente e independentemente. Cada servidor deverá conter informações do servidor pai, no caso, o servidor nível 0, o qual  não possui pai. A Figura \ref{fig:dDominios} mostra como exemplos de domínios, onde cada cerca virtual representa um servidor.
+Partindo do princípio que não é possível prever a quantidade de veículos conectatos a um servidor, isto criou a necessidade de construir uma plataforma de gerenciamento com objetivo de aumentar a capacidade de dispositivos conectados à plataforma. Então, pensando nisso, foi definido que os servidores devem ser distribuídos hierarquicamente de forma que permitam controlar regiões, denominadas domínios, separadamente e independentemente. Cada servidor deverá conter informações do servidor pai, no caso, o servidor nível 0, o qual  não possui pai. A Figura \ref{fig:dDominios} mostra como exemplos de domínios, onde cada cerca virtual representa um servidor.
 
 \begin{figure}[h!]
 	\centering
@@ -1561,7 +1559,7 @@ A cada envio do comando \textit{SendMoviment} pelos veículos, o servidor deve v
 
 O GeoTools é uma biblioteca feita em Java \textit{open source} que provê ferramentas para manipulação de dados geoespacial em memória. O objetivo da biblioteca é permitir que programadores que estejam desenvolvendo aplicações geoespaciais se concentrem na construção do negócio fim, enquanto reutilizam ferramentas genéricas para funções básicas \cite{hall2008open}.
 
-A mesma funcionalidade do GeoTools poderia ser atingida com as funções do PostGIS, porém ao realizar pequenos testes, foi percebido que o tempo da consulta é 10 vezes maior que a do GeoTools, o que poderia comprometer o processo de avaliação da arquitetura.
+A mesma funcionalidade do GeoTools poderia ser atingida com as funções do PostGIS, porém ao realizar pequenos testes comparativos, foi percebido que o tempo da consulta é 10 vezes maior que a do GeoTools, o que poderia comprometer o processo de avaliação da arquitetura. Entretanto, o Postgis foi utilizado apenas para armazenar o polígono que representa as cercas virtuais dos domínios.
 
 
 \subsection{Módulo de Roteamento}
@@ -1575,7 +1573,7 @@ Toda comunicação entre os nós é realizada entre os agentes virtuais da rede 
 O módulo de roteamento pode ser definido de acordo com a necessidade, bastando implementar a classe \textbf{RouterNetwork}, porém para fins de avaliação da arquitetura foi implementado uma adaptação do algoritmo conhecido como \textit{geocast routing}, no qual o objetivo é entregar um pacote aos nós que pertencam a uma certa região, denominada \textit{Zone of Relevance} que utiliza um OBU como nó cabeça de uma rede veicular.
 % os RSU como cluster da rede. Pondendo ser utilizando RSU físicos ou virtuais, ou seja, não é necessário implantar um RSU à beira da rodovia, basta definir pontos no mapa e este pode funcionar como um RSU virtual, tendo o comportamento de cluster da rede VANET.
 
-Os veículos quando iniciam o processo de conexão com o servidor, buscam uma rede  já existente para se conectar. O veículo ``cabeça'' desta rede deve estar a uma distância máxima de 1 KM e seguir na mesma direção na via, caso contrário, este veículo criará uma nova rede esperando que novos veículos solicitem acesso.
+Os veículos quando iniciam o processo de conexão com o servidor, buscam uma rede  já existente para se conectar. O veículo ``cabeça'' desta rede deve estar a uma distância máxima de 1 KM, parametrizável, e seguir na mesma direção na via, caso contrário, este veículo criará uma nova rede esperando que novos veículos solicitem acesso.
 
 A cada transmissão de um veículo, através da operação \textbf{sendMoviment}, o algoritmo de roteamento seguirá uma dentre três opções, são elas: permanecer na rede atual; entrar em uma nova; criar uma nova rede veicular.
 
@@ -1591,19 +1589,19 @@ Podem ser implementados váriados tipos de aplicações com os dados que a arqui
 
 \section{Processo de Negócio}
 
-A figura \ref{fig:bpmcriptografia} e \ref{fig:bpm} mostram os diagramas de processos de negócio da arquitetura I9Vanet com e sem criptografia, respectivamente. No primeiro processo, o início, Figura \ref{fig:bpmcriptografia}(1), se dá quando o veículo é ligado e abre a primeira conexão com o servidor raiz, Figura \ref{fig:bpmcriptografia}(2). Em seguida, o processo de negociação da chave a ser utilizada na criptografia Figura \ref{fig:bpmcriptografia}(3), a chave é criptografada, pelo servidor com a chave pública do veículo e enviada  para o nó da rede, Figura \ref{fig:bpmcriptografia}(4). A partir deste momento, toda comunicação será criptografada e em ambos os modelos, toda mensagem será assinada. 
+As Figuras \ref{fig:bpmcriptografia} e \ref{fig:bpm} mostram os diagramas de processos de negócio da plataforma I9Vanet com e sem criptografia, respectivamente. No primeiro processo, o início, Figura \ref{fig:bpmcriptografia}(1), se dá quando o veículo é ligado e abre a primeira conexão com o servidor raiz, Figura \ref{fig:bpmcriptografia}(2). Em seguida, o processo de negociação da chave a ser utilizada na criptografia Figura \ref{fig:bpmcriptografia}(3), a chave é criptografada, pelo servidor com a chave pública do veículo e enviada  para o nó da rede, Figura \ref{fig:bpmcriptografia}(4). A partir deste momento, toda comunicação será criptografada e em ambos os modelos, toda mensagem será assinada. 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/BPMCriptofrafado.png}
-	\caption{Modelo de processo de negócio da arquitetura I9Vanet com criptografia.}
+	\caption{Modelo de processo de negócio da plataforma I9Vanet com criptografia.}
 	\label{fig:bpmcriptografia}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\columnwidth]{images/BPM.png}
-	\caption{Modelo de processo de negócio da arquitetura I9Vanet sem criptografia.}
+	\caption{Modelo de processo de negócio da plataforma I9Vanet sem criptografia.}
 	\label{fig:bpm}
 \end{figure}
 
@@ -1624,11 +1622,11 @@ O processo de avaliação iniciou-se na fase de planejamento com o intuito de an
 
 Com base na proposta da arquitetura i9Vanets, foram realizados dois tipos de experimentos. O primeiro, com o intuito de avaliar a sua aplicabilidade em ambientes de redes veiculares reais, teve a função de avaliar o fluxo de dados referentes às velocidades das tecnologias atualmente utilizados na telefonia móvel, sendo 2G, 3G, 4G e 5G. O segundo experimento objetivou dimensionar a capacidade de operação e o comportamento da arquitetura proposta a partir de excessivas requisições, sem limite de velocidade. Ambos os testes extraíram dados estatísticos a partir de métricas pré-definidas e planejadas.
 
-\subsection{Definição}
+\section{Definição}
 
 Analisar a arquitetura I9Vanets com finalidade de avaliar sua eficiência, a respeito do tempo de latência e capacidade de processamento, do ponto de vista de múltiplos acessos concorrentes no contexto de redes veiculares em nuvem.
 
-\subsection{Planejamento}
+\section{Planejamento}
 O experimento tem como alvo, os desenvolvedores de soluções que visam melhorar a mobilidade urbana com o uso de VANETs. Onde o objetivo foi avaliar a capacidade de processamento do servidor e medir o tempo de latência das comunicações da telefonia móvel, através dos seguintes questionamentos:
 \begin{itemize}
 	\item {Qual a taxa de processamento por minuto?}
@@ -1689,14 +1687,14 @@ De acordo com \citeonline{papadimitratos2008secure},  as aplicações voltadas p
 
 \section{Cenário Proposto}
 
-O ambiente proposto para avaliação consiste em simular movimentações de veículos na cidade de Aracaju-SE Brasil, representando uma área de 174 quilômetros quadrados, transmitindo e recebendo informações dos servidores que compõem a arquitetura I9Vanets. 
+O ambiente proposto para avaliação consiste em simular movimentações de veículos na cidade de Aracaju-SE Brasil, representando uma área de 174 quilômetros quadrados, transmitindo e recebendo informações dos servidores que compõem a plataforma I9Vanets. Foram definidos dois grupos de testes, o primeiro consistiu em avaliar o comportamento da arquitetura referente à quantidade de veículos em conjunto com a limitação das velocidades utilizadas pela telefonia móvel. O segundo, avaliou a capacidade de processamento dos servidores sem limitação da velocidade de acesso.
 %$$Km^{2n}$$
 
-Foram definidos dois grupos de testes, o primeiro consistiu em avaliar o comportamento da arquitetura referente à quantidade de veículos em conjunto com a limitação das velocidades utilizadas pela telefonia móvel. O segundo, avaliou a capacidade de processamento dos servidores sem limitação da velocidade de acesso.
+
 
 Cada teste realizado, do primeiro grupo, levou em consideração quantidades diferentes de dispositivos representando os veículos, sendo da seguinte forma: 50, 100, 200 e 400. Para cada faixa, também foi ajustada a largura de banda para definir a velocidade máxima de comunicação de cada dispositivo, seguindo os modelos 2G, 3G, 4G e 5G.
 
-Todo o ambiente, tanto o cliente quanto os servidores, foi montado em máquinas virtuais. No caso dos servidores,  foram criados 4 máquinas com linux ubuntu server 16.04 com o postgresql 9.5 e plugin postgis 2.0 e Glassfish 4.1.1 como servidor de aplicação. Todos os servidores possuíam a mesma configuração, sendo 1 GB de Ram e 2 processadores virtuais, e foram executados em uma única máquina física cuja configuração está presente na Tabela \ref{fig:cenarioConsiderado}. A disposição dos servidores virtuais foi definida em dois níveis hierárquicos, sendo o servidor nível 0, a raiz da hierarquia, e como filhos,  3 servidores no nível 1.
+Todo o ambiente, tanto o cliente quanto os servidores, foi montado em máquinas virtuais em 12 estações físicas. No caso dos servidores,  foram criados 4 máquinas com Linux Ubuntu Server 16.04 com o postgresql 9.5 e plugin postgis 2.0 e Glassfish 4.1.1 como servidor de aplicação. Todos os servidores possuíam a mesma configuração, sendo 1 GB de Ram e 2 processadores virtuais, e foram executados em uma única máquina física cuja configuração está presente na Tabela \ref{fig:cenarioConsiderado}. A disposição dos servidores virtuais foi definida em dois níveis hierárquicos, sendo o servidor nível 0, a raiz da hierarquia, e como filhos,  3 servidores no nível 1.
 
 % feito **** adiconar figura com os 4 servidores 
 
@@ -1722,7 +1720,7 @@ Um host virtual tem a função de representar um veículo real, inclusive com us
 \end{figure}
 
 
-A base de movimentação foi extraída separada por veículo e em seguida, armazenada em arquivo e colocada em cada máquina Mininet, para que cada host pudesse simular uma  movimentação real. Cada arquivo de movimentação recebeu um número, por exemplo: 1.csv, 2.csv e assim por diante. Então, os host virtuais realizaram um sorteio entre os arquivos disponíveis para efetuar a leitura das informações de movimentação e transmiti-la para o servidor. A Tabela \ref{tab:linhasArquivoMovimentacao} mostra exemplo do conteúdo de um arquivo de movimentação.
+A base de movimentação foi extraída separada por veículo e em seguida, armazenada em arquivo e colocada em cada máquina Mininet, para que cada host pudesse simular uma  movimentação real. Cada arquivo de movimentação recebeu um número, por exemplo: 1.csv, 2.csv e assim por diante. Então, os host virtuais realizaram um sorteio entre os arquivos disponíveis para efetuar a leitura das informações de movimentação e transmití-la para o servidor. A Tabela \ref{tab:linhasArquivoMovimentacao} mostra exemplo do conteúdo de um arquivo de movimentação.
 
 
 \begin{longtable}{ p{.30\textwidth}  p{.30\textwidth}   p{.30\textwidth}  p{.20\textwidth}} 
@@ -1777,7 +1775,7 @@ Para o segundo grupo dos testes, foi utilizado as mesmas máquinas virtuais, com
 
 \section{Experimentos}
 
-Ao iniciar cada experimento, os \textit{hosts} virtuais devem estabelecer a conexão com o servidor nível 0, contudo, se todos os ``veículos''  iniciarem a conexão ao ``mesmo tempo", ocasionará uma sobrecarga tanto na máquina cliente quanto no servidor. Pensando nisso, foi implementando na aplicação cliente um \textit{delay} forçado antes de iniciar o processo de conexão pela primeira vez. Cada \textit{host} obtém um número pseudo-randômico entre 0 e 120.000 milisegundos (2 minutos), o qual será usado para dar uma pausa na aplicação pra depois iniciar o processo de conexão, gerando assim, uma aleatoriedade inicial. Se por algum motivo a conexão do \textit{hosts} cliente cair ou der \textit{timeout}, ela será refeita automaticamente, não considerando mais o tempo de pausa inicial. 
+Ao iniciar cada experimento, os \textit{hosts} virtuais devem estabelecer a conexão com o servidor nível 0, contudo se todos os ``veículos''  iniciarem a conexão ao ``mesmo tempo", ocasionará uma sobrecarga tanto na máquina cliente quanto no servidor. Pensando nisso, foi implementando na aplicação cliente um \textit{delay} forçado antes de iniciar o processo de conexão pela primeira vez. Cada \textit{host} obtém um número pseudo-randômico entre 0 e 120.000 milisegundos (2 minutos), o qual será usado para dar uma pausa na aplicação pra depois iniciar o processo de conexão, gerando assim, uma aleatoriedade inicial. Se por algum motivo a conexão do \textit{hosts} cliente cair ou der \textit{timeout}, ela será refeita automaticamente, não considerando mais o tempo de pausa inicial. 
 
 %******* Quais operações são realizadas a cada transmissão ver fluxo
 %******* Informar as velocidades de cada teste 2g, 3g ,4g, 5hg
@@ -1859,26 +1857,38 @@ Conforme dito anteriormente, foram definidos 36 cenários de testes, sendo 32 le
 	\item{\textbf{Experimento 2}: rodando o teste com 50  veículos com o uso da criptografia e  foram utilzadas duas máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
 	\item{\textbf{Experimento 3}: rodando o teste com 100  veículos sem o uso da criptografia e foram utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
 	\item{\textbf{Experimento 4}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{;}
-	\item{.}
+	\item{\textbf{Experimento 5}: rodando o teste com 200  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 6}: rodando o teste com 200  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 7}: rodando o teste com 400  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 8}: rodando o teste com 500  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 9}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 10}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 11}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 12}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 13}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 14}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 15}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 16}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 17}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 18}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 19}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 20}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 21}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 22}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 23}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 24}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 25}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 26}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 27}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 28}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 29}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 30}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 31}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 32}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 33}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 34}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 35}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
+	\item{\textbf{Experimento 36}: rodando o teste com 100  veículos com o uso da criptografia, sendo utilzadas quatro máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas.}
 \end{enumerate*}
 
 
@@ -2038,7 +2048,7 @@ Entretanto, os testes com o cenário de 200 veículos apresentaram uma variaçã
 	}
 \end{figure}
 
-No experimento com 400 veículos,  a velocidade 2G apresentou o pior resultado em relação às outras velocidades, contendo, de maneira significativa, médias entre 600 e 700 milisegundos. O mesmo não ocorreu  com as velocidades de 3G, 4G e 5G, que apresentaram grande concentração entre os tempos de 0 à 150 milisegundos como mostra a Figura \ref{fig:imgHistFreq400}.
+No experimento com 400 veículos,  a velocidade 2G apresentou o pior resultado em relação às outras velocidades, contendo, de maneira significativa, médias entre 600 e 700 milisegundos. Isso não ocorreu  com as velocidades de 3G, 4G e 5G, que apresentaram grande concentração entre os tempos de 0 à 150 milisegundos como mostra a Figura \ref{fig:imgHistFreq400}.
 
 \begin{figure}[h!]
 	\caption{Análise de Histograma de Frequência do Teste  com 400 veículos com comunicação aberta.}
@@ -2417,20 +2427,24 @@ Durante os experimentos foram analisados as perdas em cada dispositivo por meio 
 
 \section{Discussão dos Resultados}
 
-\chapter{Conclusão e Trabalhos Futuros}\label{sec:conclusao}
-
-%\section{Conclusões deste Trabalho}
-O presente trabalho apresentou o modelo de uma arquitetura de \textit{software} para rede veiculares em nuvem, denominado I9Vanets, como também, uma avaliação com intuito de medir a sua eficácia e eficiência, visando atender às demandas e desafios relacionados à VANETs. Este modelo permite montar uma rede veicular em nuvem e realizar todo gerenciamento e comunicação de maneira virtual, tornando os equipamentos OBUs e RSUs mais simples e baratos.
-
-Foram realizados alguns testes estatísticos, com objetivo de analisar o comportamento da arquitetura. Sobre o teste da normalidade da distribuição, foi constatado que todos os testes com limite de conexão não apresentou uma distribuição normal indicando que os tempos médios concentraram-se nas extremidades, já o teste sem o controle de conexão de 1600 veículos,  mostrou que a distribuição de probabilidade associada às médias das requisições podem ser aproximadas, pois apresentou tempos médios concentrados ao centro. Outra análise realizada, foi relacionado à dispersão dos dados através do coeficiente de variação, o qual avaliou, sobre as amostras de RTT, que a dispersão em cada teste,  define um comportamento semelhante, porém o coeficiente de variação medido nos testes com controle do \textit{link}, apresentou grandes variações para a troca de mensagens criptografadas, sugerindo que o processo de encriptação e decriptação está afetando as requisições.
-
 Como foi dito, cada tipo de aplicação voltada para redes veiculares possui requisitos que devem ser levados em consideração como mostrado na Tabela \ref{tab:caracteristiasAppVanet}, e a arquitetura I9Vanets apresentou tempos médios adequados para todos os tipos de aplicações apresentados na tabela com exceção da velocidade 2G conforme apresentado na Figura \ref{fig:graficotempomedio}.
 
 Em relação ao nível de processamento dos servidores, o servidor nível 0 é o responsável pelas primeiras conexões feitas pelos veículos e durante a mudança de domínios. Pensando nisso, para uma melhor organização e diminuição de carga em um único servidor, é interessante que os domínios vizinhos fiquem, ao máximo, no mesmo nível de hierarquia tendo o mesmo servidor pai. Assim, essa sub-árvore responderia de maneira mais eficiente ao comando \textit{changeServer} e diminuiria a pressão sobre o servidor raiz.
 
-Uma outra possibilidade é que o servidor nível 0 seja utilizado apenas para coordenar a estrutura, retirando de si o papel de gerenciar os veículos. Assim ele teria o papel de receber as primeiras conexões  e encaminhá-las para o servidor correspondente, o mesmo na operação \textit{changeServer}'.
+Uma outra possibilidade é que o servidor nível 0 seja utilizado apenas para coordenar a estrutura, retirando de si o papel de gerenciar os veículos. Sendo assim, ele teria o papel de receber as primeiras conexões  e encaminhá-las para o servidor correspondente, o mesmo a ser realizado na operação \textit{changeServer}' no momento da troca de domínios.
 
-Os testes aplicados à arquitetura, com 800 e 1600 veículos, indicaram que o limite da organização proposta está em 1600 veículos e que mais veículos conectados a esta plataforma poderá comprometer o tempo de resposta. 
+Os testes aplicados à arquitetura, com 800 e 1600 veículos, indicaram que o limite da organização proposta está em 1600 veículos e que mais veículos conectados a esta plataforma poderá comprometer o tempo de resposta sendo necessário aumentar o número de servidores ou até mesmo, melhorar a capacidade de processamento dos mesmos. 
+
+\chapter{Conclusão e Trabalhos Futuros}\label{sec:conclusao}
+
+%\section{Conclusões deste Trabalho}
+Nesta dissertação abordou-se um tema que nos últimos anos tem sofrido apresentou o modelo de uma arquitetura de \textit{software} para rede veiculares em nuvem, denominado I9Vanets, como também, uma avaliação da plataforma criada sobre a arquitetura, com intuito de medir a sua eficácia e eficiência, visando atender às demandas e desafios relacionados à VANETs. Este modelo permite montar uma rede veicular em nuvem e realizar todo gerenciamento e comunicação de maneira virtual, tornando os equipamentos OBUs e RSUs mais simples e baratos.
+
+Contudo, apesar da plataforma I9Vanet realizar o gerenciamento virtual, é importante salientar que há peculiaridades referentes ao modelo de rede veicular ad hoc tradicional que apenas a comunicação direta veículo a veículo pode resolver, como por exemplo aplicações anti-colisão, alerta de ultrapassagem, entre outros. Entretanto, nada impede que os dois modelos trabalhem em conjunto, em modo híbrido na tentativa de aproveitar o melhor dos dois mundos, a escalabilidade e segurança da nuvem e acesso direto a sensores do veiculo e processamento local em redes ad-hoc tradicional. 
+
+%Foram realizados alguns testes estatísticos, com objetivo de analisar o comportamento da plataforma. Sobre o teste da normalidade da distribuição, foi constatado que todos os testes com limite de conexão não apresentou uma distribuição normal indicando que os tempos médios concentraram-se nas extremidades, já o teste sem o controle de conexão com 1600 veículos,  mostrou que a distribuição de probabilidade associada às médias das requisições podem ser aproximadas, indicando.... pois apresentou tempos médios concentrados ao centro. Outra análise realizada, foi relacionado à dispersão dos dados através do coeficiente de variação, o qual avaliou, sobre as amostras de RTT, que a dispersão em cada teste,  define um comportamento semelhante, porém o coeficiente de variação medido nos testes com controle do \textit{link}, apresentou grandes variações para a troca de mensagens criptografadas, sugerindo que o processo de encriptação e decriptação está afetando as requisições.
+
+
 
 %\section{Trabalhos Futuros}
 

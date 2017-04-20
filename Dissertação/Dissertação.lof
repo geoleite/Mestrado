@@ -1,35 +1,35 @@
 \select@language {brazil}
 \contentsline {figure}{\numberline {1}{\ignorespaces Imagem do tr\IeC {\^a}nsito \cite {autoentusiastasclassic}\relax }}{13}{figure.caption.8}
 \contentsline {figure}{\numberline {2}{\ignorespaces Modelo do VNC \cite {lee2014vehicular}\relax }}{17}{figure.caption.9}
-\contentsline {figure}{\numberline {3}{\ignorespaces Arquitetura de refer\IeC {\^e}ncia para aplica\IeC {\c c}\IeC {\~o}es ITS baseadas em WSN. \cite {losilla2011comprehensive}\relax }}{21}{figure.caption.10}
-\contentsline {figure}{\numberline {4}{\ignorespaces Gera\IeC {\c c}\IeC {\~a}o de componentes de cliente e servidor, a partir da interface para Web Services, CORBA e Java-RMI \cite {gray2004comparison}\relax }}{31}{figure.caption.12}
-\contentsline {figure}{\numberline {5}{\ignorespaces Etapas de uma conex\IeC {\~a}o \textit {WebSocket} \cite {themudo2014implementaccao}\relax }}{32}{figure.caption.13}
-\contentsline {figure}{\numberline {6}{\ignorespaces HTTP, HTTPS, WS e WSS \cite {themudo2014implementaccao}\relax }}{33}{figure.caption.14}
-\contentsline {figure}{\numberline {7}{\ignorespaces Arquiteturas de redes veiculares\cite {luis2009melhoria}\relax }}{35}{figure.caption.15}
-\contentsline {figure}{\numberline {8}{\ignorespaces Ataque DDOS \cite {wanghamsegurancca}.\relax }}{37}{figure.caption.16}
-\contentsline {figure}{\numberline {9}{\ignorespaces Ataque Buraco Negro \cite {wanghamsegurancca}.\relax }}{38}{figure.caption.17}
-\contentsline {figure}{\numberline {10}{\ignorespaces Ataque social \cite {wanghamsegurancca}.\relax }}{39}{figure.caption.18}
-\contentsline {figure}{\numberline {11}{\ignorespaces Ataque demodifica\IeC {\c c}\IeC {\~a}o de mensagem \cite {wanghamsegurancca}.\relax }}{40}{figure.caption.19}
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o VANET \cite {qian2008secure}.\relax }}{48}{figure.caption.20}
-\contentsline {figure}{\numberline {13}{\ignorespaces M\IeC {\'o}dulos definidos para a arquitetura I9Vanet.\relax }}{49}{figure.caption.21}
-\contentsline {figure}{\numberline {14}{\ignorespaces Modelo de comunica\IeC {\c c}\IeC {\~a}o V2A, I2A, AI2AI e AV2AI.\relax }}{52}{figure.caption.22}
-\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo de dom\IeC {\'\i }nios.\relax }}{57}{figure.caption.23}
-\contentsline {figure}{\numberline {16}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o dos servidores na nuvem.\relax }}{59}{figure.caption.24}
-\contentsline {figure}{\numberline {17}{\ignorespaces Modelo de processo de neg\IeC {\'o}cio da arquitetura I9Vanet com criptografia.\relax }}{61}{figure.caption.25}
-\contentsline {figure}{\numberline {18}{\ignorespaces Modelo de processo de neg\IeC {\'o}cio da arquitetura I9Vanet sem criptografia.\relax }}{62}{figure.caption.26}
-\contentsline {figure}{\numberline {19}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o do ambiente utilizado para a realiza\IeC {\c c}\IeC {\~a}o dos experimentos. Fonte: Criada pelo autor.\relax }}{66}{figure.caption.28}
-\contentsline {figure}{\numberline {20}{\ignorespaces Tela de monitoramento do Sistema TaxiFast.\relax }}{66}{figure.caption.29}
-\contentsline {figure}{\numberline {21}{\ignorespaces An\IeC {\'a}lise de Histograma de Frequ\IeC {\^e}ncia do Teste com 50 ve\IeC {\'\i }culos com comunica\IeC {\c c}\IeC {\~a}o aberta.\relax }}{73}{figure.caption.33}
-\contentsline {figure}{\numberline {22}{\ignorespaces An\IeC {\'a}lise de Histograma de Frequ\IeC {\^e}ncia do Teste com 100 ve\IeC {\'\i }culos com comunica\IeC {\c c}\IeC {\~a}o aberta.\relax }}{74}{figure.caption.34}
-\contentsline {figure}{\numberline {23}{\ignorespaces An\IeC {\'a}lise de Histograma de Frequ\IeC {\^e}ncia do Teste com 200 ve\IeC {\'\i }culos com comunica\IeC {\c c}\IeC {\~a}o aberta.\relax }}{75}{figure.caption.35}
-\contentsline {figure}{\numberline {24}{\ignorespaces An\IeC {\'a}lise de Histograma de Frequ\IeC {\^e}ncia do Teste com 400 ve\IeC {\'\i }culos com comunica\IeC {\c c}\IeC {\~a}o aberta.\relax }}{75}{figure.caption.36}
-\contentsline {figure}{\numberline {25}{\ignorespaces Gr\IeC {\'a}fico comparativo dos tempos m\IeC {\'\i }nimos entres os cen\IeC {\'a}rios.\relax }}{76}{figure.caption.37}
-\contentsline {figure}{\numberline {26}{\ignorespaces Gr\IeC {\'a}fico comparativo dos tempos m\IeC {\'e}dios entres os cen\IeC {\'a}rios.\relax }}{76}{figure.caption.38}
-\contentsline {figure}{\numberline {27}{\ignorespaces Gr\IeC {\'a}fico comparativo dos tempos m\IeC {\'a}ximos entres os cen\IeC {\'a}rios.\relax }}{76}{figure.caption.39}
-\contentsline {figure}{\numberline {28}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o dos gr\IeC {\'a}ficos de histograma para os RTTs com 800 ve\IeC {\'\i }culos.\relax }}{77}{figure.caption.40}
-\contentsline {figure}{\numberline {29}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o dos gr\IeC {\'a}ficos de histograma para os RTTs com 1600 ve\IeC {\'\i }culos.\relax }}{77}{figure.caption.41}
-\contentsline {figure}{\numberline {30}{\ignorespaces Gr\IeC {\'a}fico comparativo dos tempos m\IeC {\'\i }nimos entres os cen\IeC {\'a}rios 800 e 1600.\relax }}{78}{figure.caption.42}
-\contentsline {figure}{\numberline {31}{\ignorespaces Comparativo da capacidade de cada \textit {link} pela quantidade de ve\IeC {\'\i }culos.\relax }}{79}{figure.caption.44}
-\contentsline {figure}{\numberline {32}{\ignorespaces N\IeC {\'\i }vel de processamento dos servidores para o teste com 800 ve\IeC {\'\i }culos com conte\IeC {\'u}do criptografado.\relax }}{79}{figure.caption.45}
-\contentsline {figure}{\numberline {33}{\ignorespaces N\IeC {\'\i }vel de processamento dos servidores para o teste com 1600 ve\IeC {\'\i }culos com conte\IeC {\'u}do criptografado.\relax }}{80}{figure.caption.46}
-\contentsline {figure}{\numberline {34}{\ignorespaces Percentual de perda para cada experimento realizado.\relax }}{80}{figure.caption.47}
+\contentsline {figure}{\numberline {3}{\ignorespaces Arquitetura de refer\IeC {\^e}ncia para aplica\IeC {\c c}\IeC {\~o}es ITS baseadas em WSN. \cite {losilla2011comprehensive}\relax }}{22}{figure.caption.10}
+\contentsline {figure}{\numberline {4}{\ignorespaces Gera\IeC {\c c}\IeC {\~a}o de componentes de cliente e servidor, a partir da interface para Web Services, CORBA e Java-RMI \cite {gray2004comparison}\relax }}{33}{figure.caption.12}
+\contentsline {figure}{\numberline {5}{\ignorespaces Etapas de uma conex\IeC {\~a}o \textit {WebSocket} \cite {themudo2014implementaccao}\relax }}{33}{figure.caption.13}
+\contentsline {figure}{\numberline {6}{\ignorespaces HTTP, HTTPS, WS e WSS \cite {themudo2014implementaccao}\relax }}{34}{figure.caption.14}
+\contentsline {figure}{\numberline {7}{\ignorespaces Arquiteturas de redes veiculares\cite {luis2009melhoria}\relax }}{37}{figure.caption.15}
+\contentsline {figure}{\numberline {8}{\ignorespaces Ataque DDOS \cite {wanghamsegurancca}.\relax }}{39}{figure.caption.16}
+\contentsline {figure}{\numberline {9}{\ignorespaces Ataque Buraco Negro \cite {wanghamsegurancca}.\relax }}{40}{figure.caption.17}
+\contentsline {figure}{\numberline {10}{\ignorespaces Ataque social \cite {wanghamsegurancca}.\relax }}{41}{figure.caption.18}
+\contentsline {figure}{\numberline {11}{\ignorespaces Ataque demodifica\IeC {\c c}\IeC {\~a}o de mensagem \cite {wanghamsegurancca}.\relax }}{42}{figure.caption.19}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o VANET \cite {qian2008secure}.\relax }}{50}{figure.caption.20}
+\contentsline {figure}{\numberline {13}{\ignorespaces M\IeC {\'o}dulos definidos para a arquitetura I9Vanet.\relax }}{52}{figure.caption.21}
+\contentsline {figure}{\numberline {14}{\ignorespaces Modelo de comunica\IeC {\c c}\IeC {\~a}o V2A, I2A, AI2AI e AV2AI.\relax }}{55}{figure.caption.22}
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo de dom\IeC {\'\i }nios.\relax }}{60}{figure.caption.23}
+\contentsline {figure}{\numberline {16}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o dos servidores na nuvem.\relax }}{62}{figure.caption.24}
+\contentsline {figure}{\numberline {17}{\ignorespaces Modelo de processo de neg\IeC {\'o}cio da plataforma I9Vanet com criptografia.\relax }}{64}{figure.caption.25}
+\contentsline {figure}{\numberline {18}{\ignorespaces Modelo de processo de neg\IeC {\'o}cio da plataforma I9Vanet sem criptografia.\relax }}{64}{figure.caption.26}
+\contentsline {figure}{\numberline {19}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o do ambiente utilizado para a realiza\IeC {\c c}\IeC {\~a}o dos experimentos. Fonte: Criada pelo autor.\relax }}{69}{figure.caption.28}
+\contentsline {figure}{\numberline {20}{\ignorespaces Tela de monitoramento do Sistema TaxiFast.\relax }}{69}{figure.caption.29}
+\contentsline {figure}{\numberline {21}{\ignorespaces An\IeC {\'a}lise de Histograma de Frequ\IeC {\^e}ncia do Teste com 50 ve\IeC {\'\i }culos com comunica\IeC {\c c}\IeC {\~a}o aberta.\relax }}{78}{figure.caption.33}
+\contentsline {figure}{\numberline {22}{\ignorespaces An\IeC {\'a}lise de Histograma de Frequ\IeC {\^e}ncia do Teste com 100 ve\IeC {\'\i }culos com comunica\IeC {\c c}\IeC {\~a}o aberta.\relax }}{79}{figure.caption.34}
+\contentsline {figure}{\numberline {23}{\ignorespaces An\IeC {\'a}lise de Histograma de Frequ\IeC {\^e}ncia do Teste com 200 ve\IeC {\'\i }culos com comunica\IeC {\c c}\IeC {\~a}o aberta.\relax }}{80}{figure.caption.35}
+\contentsline {figure}{\numberline {24}{\ignorespaces An\IeC {\'a}lise de Histograma de Frequ\IeC {\^e}ncia do Teste com 400 ve\IeC {\'\i }culos com comunica\IeC {\c c}\IeC {\~a}o aberta.\relax }}{80}{figure.caption.36}
+\contentsline {figure}{\numberline {25}{\ignorespaces Gr\IeC {\'a}fico comparativo dos tempos m\IeC {\'\i }nimos entres os cen\IeC {\'a}rios.\relax }}{81}{figure.caption.37}
+\contentsline {figure}{\numberline {26}{\ignorespaces Gr\IeC {\'a}fico comparativo dos tempos m\IeC {\'e}dios entres os cen\IeC {\'a}rios.\relax }}{81}{figure.caption.38}
+\contentsline {figure}{\numberline {27}{\ignorespaces Gr\IeC {\'a}fico comparativo dos tempos m\IeC {\'a}ximos entres os cen\IeC {\'a}rios.\relax }}{82}{figure.caption.39}
+\contentsline {figure}{\numberline {28}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o dos gr\IeC {\'a}ficos de histograma para os RTTs com 800 ve\IeC {\'\i }culos.\relax }}{82}{figure.caption.40}
+\contentsline {figure}{\numberline {29}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o dos gr\IeC {\'a}ficos de histograma para os RTTs com 1600 ve\IeC {\'\i }culos.\relax }}{82}{figure.caption.41}
+\contentsline {figure}{\numberline {30}{\ignorespaces Gr\IeC {\'a}fico comparativo dos tempos m\IeC {\'\i }nimos entres os cen\IeC {\'a}rios 800 e 1600.\relax }}{83}{figure.caption.42}
+\contentsline {figure}{\numberline {31}{\ignorespaces Comparativo da capacidade de cada \textit {link} pela quantidade de ve\IeC {\'\i }culos.\relax }}{84}{figure.caption.44}
+\contentsline {figure}{\numberline {32}{\ignorespaces N\IeC {\'\i }vel de processamento dos servidores para o teste com 800 ve\IeC {\'\i }culos com conte\IeC {\'u}do criptografado.\relax }}{84}{figure.caption.45}
+\contentsline {figure}{\numberline {33}{\ignorespaces N\IeC {\'\i }vel de processamento dos servidores para o teste com 1600 ve\IeC {\'\i }culos com conte\IeC {\'u}do criptografado.\relax }}{85}{figure.caption.46}
+\contentsline {figure}{\numberline {34}{\ignorespaces Percentual de perda para cada experimento realizado.\relax }}{85}{figure.caption.47}
