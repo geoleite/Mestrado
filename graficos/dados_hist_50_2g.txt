@@ -1,0 +1,8 @@
+# Dados do histograma freq 50 2G 
+35 1
+45 35
+55  2
+65  2
+75  2
+85  1
+95  1
