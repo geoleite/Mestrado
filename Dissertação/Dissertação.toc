@@ -83,9 +83,8 @@
 \contentsline {subsection}{\numberline {6.5.1}Taxa de Transfer\IeC {\^e}ncia}{81}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Processamento}{82}{subsection.6.5.2}
 \contentsline {subsection}{\numberline {6.5.3}Perda de Pacotes}{84}{subsection.6.5.3}
-\contentsline {section}{\numberline {6.6}Discuss\IeC {\~a}o dos Resultados}{84}{section.6.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{86}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{85}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Refer\^encias}{87}{section*.48}

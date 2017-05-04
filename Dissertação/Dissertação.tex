@@ -1666,11 +1666,11 @@ Neste capítulo é proposto a arquitetura I9Vanet e os seus seis módulos: Comun
 
 %Com o objetivo de avaliar a plataforma para redes veiculares desenvolvida, chamada de I9Vanet, principalmente no que diz respeito à sua capacidade de comunicação entre nós  da rede, foram realizados alguns experimentos.
 
-Este capítulo visa avaliar uma plataforma desenvolvida sobre a arquitetura I9Vanets  por meio do paradigma GQM (Goal-Question-Metric) muito usado para planejar medições em projetos de softwares \cite{van2002goal}. As seguintes fases foram analisadas durante o processo de avaliação: fase de planejamento, de coleta de dados e de interpretação dos resultados.
+Este capítulo visa avaliar uma plataforma desenvolvida sobre a arquitetura I9Vanets  por meio do paradigma GQM (\textit{Goal-Question-Metric}) muito usado para planejar medições em projetos de softwares \cite{van2002goal}. As seguintes fases foram analisadas durante o processo de avaliação: fase de planejamento, de coleta de dados e de interpretação dos resultados.
 
-O processo de avaliação iniciou-se na fase de planejamento com o intuito de analisar a plataforma com relação à eficácia e eficiência da solução. O experimento teve como público alvo os desenvolvedores de software interessados na arquitetura como gerenciamento de uma rede VANET para ITS no contexto de cidades inteligentes.
+O processo de avaliação iniciou-se na fase de planejamento com o intuito de analisar a plataforma com relação à eficácia e eficiência da solução. O experimento teve como público alvo os desenvolvedores de software interessados na arquitetura como gerenciamento de uma rede VANET em nuvem para ITS no contexto de cidades inteligentes.
 
-Com base na proposta da arquitetura i9Vanets, foram realizados dois tipos de experimentos. O primeiro, com o intuito de avaliar a sua aplicabilidade em ambientes de redes veiculares reais, teve a função de avaliar o fluxo de dados referentes às velocidades das tecnologias atualmente utilizados na telefonia móvel, sendo 2G, 3G, 4G e 5G. O segundo experimento objetivou dimensionar a capacidade de operação e o comportamento da plataforma a partir de excessivas requisições, sem limite de velocidade. Ambos os testes extraíram dados estatísticos a partir de métricas pré-definidas e planejadas.
+Com base na proposta da plataforma i9Vanets, foram realizados dois tipos de experimentos. O primeiro, com o intuito de avaliar a sua aplicabilidade em ambientes de redes veiculares reais, teve a função de avaliar o fluxo de dados referentes às velocidades das tecnologias atualmente utilizados na telefonia móvel, sendo 2G, 3G, 4G e 5G. O segundo experimento objetivou dimensionar a capacidade de operação e o comportamento da plataforma a partir de excessivas requisições, sem limite de velocidade. Ambos os testes extraíram dados estatísticos a partir de métricas pré-definidas e planejadas.
 
 \section{Definição}
 
@@ -1683,7 +1683,7 @@ O experimento tem como alvo, os desenvolvedores de soluções que visam melhorar
 	%\item {Qual a latência média de cada requisição?}
 	\item {Qual a latência média de cada requisição para as velocidades de 2G, 3G, 4G e 5G?}
 	\item {A latência média com a mensagem criptografada irá aumentar em relação à mensagen aberta?}
-	\item {Qual a capacidade de processamento da arquitetura I9Vanet ?}
+	\item {Qual a capacidade de processamento da plataforma I9Vanet ?}
 \end{itemize} 
 
 Para isso, serão utilizadas as seguintes métricas: 
@@ -1748,7 +1748,7 @@ Todo o ambiente, tanto o cliente quanto os servidores, foi montado em máquinas 
 
 % feito **** adiconar figura com os 4 servidores 
 
-Para simulação dos clientes, os OBUs e RSUs, foram utilizadas máquinas virtuais com linux ubuntu server 14.04 LTS 32 bits com o Mininet 2.2.1 configurado. Cada rede virtual Mininet instanciou entre 25 e 50 hosts, para que seu desempenho não fosse comprometido. Todas as máquinas com Mininet  utilizaram a mesma configuração:  2GB de RAM e 2 processadores virtuais. O modelo do ambiente é mostrado na Figura \ref{fig:cenarioConsiderado}.
+Para simulação dos clientes, os OBUs e RSUs, foram utilizadas máquinas virtuais com linux Ubuntu Server 14.04 LTS 32 bits com o Mininet 2.2.1 configurado. Cada rede virtual Mininet instanciou entre 25 e 50 hosts, para que seu desempenho não fosse comprometido. Todas as máquinas com Mininet  utilizaram a mesma configuração:  2GB de RAM e 2 processadores virtuais. O modelo do ambiente é mostrado na Figura \ref{fig:cenarioConsiderado}.
 
 
 \begin{figure}[h!]
@@ -1758,7 +1758,7 @@ Para simulação dos clientes, os OBUs e RSUs, foram utilizadas máquinas virtua
 	\label{fig:cenarioConsiderado}
 \end{figure}
 
-Foi criado um script em Python, conforme Código \ref{src:python}, com intuito de automatizar a criação dos hosts, limitar largura de banda entre 2G, 3G, 4G e 5G, iniciar a execução da aplicação responsável por simular as funcionalidades dos OBUs e RSUs,  realizar a comunicação com a arquitetura I9Vanet e registrar em log os dados referentes à comunicação de cada host, em arquivos individuais.
+Foi criado um script em Python, conforme Código \ref{src:python}, com intuito de automatizar a criação dos hosts, limitar largura de banda entre 2G, 3G, 4G e 5G, iniciar a execução da aplicação responsável por simular as funcionalidades dos OBUs e RSUs,  realizar a comunicação com a plataforma I9Vanet e registrar em log os dados referentes à comunicação de cada host, em arquivos individuais.
 
 Um host virtual tem a função de representar um veículo real, inclusive com uso de movimentações reais, coletadas por 12 meses, de um sistema de monitoramento de veículos de uma empresa de taxi com 102 carros, totalizando mais de 12 milhões de movimentações. A Figura \ref{fig:monitoramento} mostra a tela do sistema de monitoramento de uma empresa de taxi.
 
@@ -1770,7 +1770,7 @@ Um host virtual tem a função de representar um veículo real, inclusive com us
 \end{figure}
 
 
-A base de movimentação foi extraída separada por veículo e em seguida, armazenada em arquivo e colocada em cada máquina Mininet, para que cada host pudesse simular uma  movimentação real. Cada arquivo de movimentação recebeu um número, por exemplo: 1.csv, 2.csv e assim por diante. Então, os host virtuais realizaram um sorteio entre os arquivos disponíveis para efetuar a leitura das informações de movimentação e transmití-la para o servidor. A Tabela \ref{tab:linhasArquivoMovimentacao} mostra exemplo do conteúdo de um arquivo de movimentação.
+A base de movimentação foi extraída, agrupada por veículo e em seguida, armazenada em arquivo e colocada em cada máquina Mininet, para que cada host pudesse simular uma  movimentação real. Cada arquivo de movimentação recebeu um número, por exemplo: 1.csv, 2.csv e assim por diante. Então, os \textit{hosts} virtuais realizaram um sorteio entre os arquivos disponíveis para efetuar a leitura das informações de movimentação e transmití-la ao servidor. A Tabela \ref{tab:linhasArquivoMovimentacao} mostra exemplo do conteúdo de um arquivo de movimentação.
 
 
 \begin{longtable}{ p{.30\textwidth}  p{.30\textwidth}   p{.30\textwidth}  p{.20\textwidth}} 
@@ -1825,7 +1825,7 @@ Para o segundo grupo dos testes, foi utilizado as mesmas máquinas virtuais, com
 
 \section{Experimentos}
 
-Ao iniciar cada experimento, os \textit{hosts} virtuais devem estabelecer a conexão com o servidor nível 0, contudo se todos os ``veículos''  iniciarem a conexão ao ``mesmo tempo", ocasionará uma sobrecarga tanto na máquina cliente quanto no servidor. Pensando nisso, foi implementando na aplicação cliente um \textit{delay} forçado antes de iniciar o processo de conexão pela primeira vez. Cada \textit{host} obtém um número pseudo-randômico entre 0 e 120.000 milisegundos (2 minutos), o qual será usado para dar uma pausa na aplicação pra depois iniciar o processo de conexão, gerando assim, uma aleatoriedade inicial. Se por algum motivo a conexão do \textit{hosts} cliente cair ou der \textit{timeout}, ela será refeita automaticamente, não considerando mais o tempo de pausa inicial. 
+Ao iniciar cada experimento, os \textit{hosts} virtuais devem estabelecer a conexão com o servidor nível 0, contudo se todos os ``veículos''  iniciarem a conexão ao ``mesmo tempo", ocasionará uma sobrecarga tanto na máquina cliente quanto no servidor. Pensando nisso, foi implementando na aplicação cliente um \textit{delay} forçado antes de iniciar o processo de conexão pela primeira vez. Cada \textit{host} obtém um número pseudo-randômico entre 0 e 120.000 milisegundos (2 minutos), o qual será usado para dar uma pausa na aplicação para depois iniciar o processo de conexão, gerando assim, uma aleatoriedade inicial. Se por algum motivo a conexão do \textit{hosts} cliente cair ou der \textit{timeout}, ela será refeita automaticamente, não considerando mais o tempo de pausa inicial. 
 
 %******* Quais operações são realizadas a cada transmissão ver fluxo
 %******* Informar as velocidades de cada teste 2g, 3g ,4g, 5hg
@@ -1900,7 +1900,7 @@ Para cada cenário, 50, 100, 200 e 400 veículos, os \textit{hosts} emulados usa
 	\label{tab:configuracaoCenarios}
 \end{longtable}
 
-Conforme dito anteriormente, foram definidos 36 cenários de testes, sendo 32 levando em consideração quantidades de veículos, largura de banda da comunicação e a criptografia ou não dos dados e 4 utilizando a velocidade total disponível com e sem criptografia dos dados. Os detalhes da para cada cenário está apresentado a seguir:
+Conforme dito anteriormente, foram definidos 36 cenários de testes, sendo 32 levando em consideração quantidades de veículos, largura de banda da comunicação e a criptografia ou não dos dados e 4 utilizando a velocidade total disponível com e sem criptografia dos dados. Os detalhes de cada cenário está apresentado a seguir:
 
 \begin{itemize*}
 	\item{\textbf{Experimento 1(2G), 2 (3G), 3(4G) e 4(5G)}: rodando o teste com 50  veículos sem a utilização da criptografia e foram utilizadas duas máquinas físicas com windows rodando 25 \textit{hosts} cada uma delas;}
@@ -2422,6 +2422,22 @@ No teste com 1600 veículos, utilizando conteúdo criptografado, o processamento
 
 \subsection{Perda de Pacotes}
 
+\begin{figure}[ht!]
+	\caption{Percentual de perda para cada experimento realizado.}
+	\centering
+	\label{fig:graficoperda}
+	\subfloat[A]{
+		%width=0.5\linewidth
+		\includegraphics[width=7cm,height=5cm]{images/grafico_perda_qnt_velocidade.png}
+		\label{fig:graficoperdacomlimite}
+	}
+	\subfloat[B]{
+		%width=0.5\linewidth
+		\includegraphics[width=7cm,height=5cm]{images/grafico_perda_qnt_800_1600.png}
+		\label{fig:graficoperdasemlimite}
+	}
+\end{figure}  
+
 Durante os experimentos foram analisados as perdas em cada dispositivo por meio de dois contadores. O primeiro foi utilizado para contabilizar as requisições realizadas  e outro para apurar a resposta das requisições. Como mostrado na \ref{fig:graficoperda}.A, a maior perde ocorre nas velocidades de 2G utilizando encriptação atingindo o valor a cima de 25\% de perda. Contudo, para o teste com 400 veículos, a perda ficou abaixo de 15\%. Já as perdas para os experimentos  sem limite de conexão, apresentaram valor abaixo de 1\% para o teste com 800 veículos e 2.06\% para o teste com 1600 veículos e utilizando mensagens criptografadas, ambos ficaram mais altos em relação à comunicação aberta, como mostra a Figura \ref{fig:graficoperda}.B. 
 
 %\begin{figure}[h!]
@@ -2438,38 +2454,35 @@ Durante os experimentos foram analisados as perdas em cada dispositivo por meio 
 %	\label{fig:graficoperda800e1600}
 %\end{figure}
 
-\begin{figure}[h!]
-	\caption{Percentual de perda para cada experimento realizado.}
-	\centering
-	\label{fig:graficoperda}
-	\subfloat[A]{
-		%width=0.5\linewidth
-		\includegraphics[width=7cm,height=5cm]{images/grafico_perda_qnt_velocidade.png}
-		\label{fig:graficoperdacomlimite}
-	}
-	\subfloat[B]{
-		%width=0.5\linewidth
-		\includegraphics[width=7cm,height=5cm]{images/grafico_perda_qnt_800_1600.png}
-		\label{fig:graficoperdasemlimite}
-	}
-\end{figure}  
 
-\section{Discussão dos Resultados}
 
-Como foi dito, cada tipo de aplicação voltada para redes veiculares possui requisitos que devem ser levados em consideração como mostrado na Tabela \ref{tab:caracteristiasAppVanet}, e a arquitetura I9Vanets apresentou tempos médios adequados para todos os tipos de aplicações apresentados na tabela com exceção da velocidade 2G conforme apresentado na Figura \ref{fig:graficotempomedio}.
+%\section{Discussão dos Resultados}
 
-Em relação ao nível de processamento dos servidores, o servidor nível 0 é o responsável pelas primeiras conexões feitas pelos veículos e durante a mudança de domínios. Pensando nisso, para uma melhor organização e diminuição de carga em um único servidor, é interessante que os domínios vizinhos fiquem, ao máximo, no mesmo nível de hierarquia tendo o mesmo servidor pai. Assim, essa sub-árvore responderia de maneira mais eficiente ao comando \textit{changeServer} e diminuiria a pressão sobre o servidor raiz.
+%Como foi dito, cada tipo de aplicação voltada para redes veiculares possui requisitos que devem ser levados em consideração como mostrado na Tabela \ref{tab:caracteristiasAppVanet}, e a plataforma I9Vanets apresentou tempos médios adequados para todos os tipos de aplicações apresentados na tabela com exceção da velocidade 2G, conforme apresentado na Figura \ref{fig:graficotempomedio}.
 
-Uma outra possibilidade é que o servidor nível 0 seja utilizado apenas para coordenar a estrutura, retirando de si o papel de gerenciar os veículos. Sendo assim, ele teria o papel de receber as primeiras conexões  e encaminhá-las para o servidor correspondente, o mesmo a ser realizado na operação \textit{changeServer}' no momento da troca de domínios.
+%Em relação ao nível de processamento dos servidores, o servidor nível 0 é o responsável pelas primeiras conexões feitas pelos veículos e durante a mudança de domínios. Pensando nisso, para uma melhor organização e diminuição de carga em um único servidor, é interessante que os domínios vizinhos fiquem, ao máximo, no mesmo nível de hierarquia tendo o mesmo servidor pai. Assim, essa sub-árvore responderia de maneira mais eficiente ao comando \textit{changeServer} e diminuiria a pressão sobre o servidor raiz.
 
-Os testes aplicados à arquitetura, com 800 e 1600 veículos, indicaram que o limite da organização proposta está em 1600 veículos e que mais veículos conectados a esta plataforma poderá comprometer o tempo de resposta sendo necessário aumentar o número de servidores ou até mesmo, melhorar a capacidade de processamento dos mesmos. 
+%Uma outra possibilidade é que o servidor nível 0 seja utilizado apenas para coordenar a estrutura, retirando de si o papel de gerenciar os veículos. Sendo assim, ele teria o papel de receber as primeiras conexões  e encaminhá-las para o servidor correspondente, o mesmo a ser realizado na operação \textit{changeServer}' no momento da troca de domínios.
+
+%Os testes aplicados à arquitetura, com 800 e 1600 veículos, indicaram que o limite da organização proposta está em 1600 veículos e que mais veículos conectados a esta plataforma poderá comprometer o tempo de resposta sendo necessário aumentar o número de servidores ou até mesmo, melhorar a capacidade de processamento dos mesmos. 
 
 \chapter{Conclusão e Trabalhos Futuros}\label{sec:conclusao}
 
 %\section{Conclusões deste Trabalho}
-Nesta dissertação abordou-se um tema que nos últimos anos tem sofrido apresentou o modelo de uma arquitetura de \textit{software} para rede veiculares em nuvem, denominado I9Vanets, como também, uma avaliação da plataforma criada sobre a arquitetura, com intuito de medir a sua eficácia e eficiência, visando atender às demandas e desafios relacionados à VANETs. Este modelo permite montar uma rede veicular em nuvem e realizar todo gerenciamento e comunicação de maneira virtual, tornando os equipamentos OBUs e RSUs mais simples e baratos.
+Nesta dissertação abordou-se um tema que nos últimos anos tem sido foco de estudo por pesquisadores de todo o mundo. Sendo assim, o presente estudo apresentou o modelo de uma arquitetura de \textit{software} para redes veiculares em nuvem, denominado I9Vanets, como também, uma avaliação da plataforma criada sobre a arquitetura, com intuito de medir a sua eficácia e eficiência, visando atender às demandas e desafios relacionados à VANETs. Este modelo permite montar uma rede veicular em nuvem e realizar todo gerenciamento e comunicação de maneira virtual, tornando os equipamentos OBUs e RSUs mais simples e baratos e agindo sobre alguns dos principais desafios relacionados à VANET tais como: interferências na comunicação, alta mobilidade, baixa e alta densidade de veículos, segurança na comunicação entre os nós.
 
-Contudo, apesar da plataforma I9Vanet realizar o gerenciamento virtual, é importante salientar que há peculiaridades referentes ao modelo de rede veicular ad hoc tradicional que apenas a comunicação direta veículo a veículo pode resolver, como por exemplo aplicações anti-colisão, alerta de ultrapassagem, entre outros. Entretanto, nada impede que os dois modelos trabalhem em conjunto, em modo híbrido na tentativa de aproveitar o melhor dos dois mundos, a escalabilidade e segurança da nuvem e acesso direto a sensores do veiculo e processamento local em redes ad-hoc tradicional. 
+Contudo, apesar da plataforma I9Vanet realizar o gerenciamento virtual e atacar desafios relacionaos à VANETs, é importante salientar que há peculiaridades referentes ao modelo de rede veicular ad hoc tradicional que apenas a comunicação direta veículo a veículo pode resolver, como por exemplo aplicações anti-colisão, alerta de ultrapassagem, entre outros. Entretanto, nada impede que os dois modelos trabalhem em conjunto, o então chamado modo híbrido, na tentativa de aproveitar o melhor dos dois mundos, sendo a escalabilidade e segurança da nuvem e a independência de infraestrutura para comunicação, o acesso direto a sensores do veiculo e processamento local realizados em redes ad-hoc tradicional. 
+
+Sobre o experimento
+Quais foram as hipóteses......
+
+Cada tipo de aplicação voltada para redes veiculares possui requisitos que devem ser levados em consideração como mostrado na Tabela \ref{tab:caracteristiasAppVanet}, e a plataforma I9Vanets apresentou tempos médios adequados para todos os tipos de aplicações, com exceção da velocidade definida pelo 2G, conforme apresentado na Figura \ref{fig:graficotempomedio}.
+
+Em relação ao nível de processamento dos servidores, o servidor nível 0 é o responsável pelas primeiras conexões feitas pelos veículos, como também durante a mudança de domínios. Pensando nisso, para uma melhor organização e diminuição de carga em um único servidor, é interessante que os domínios vizinhos fiquem, ao máximo, no mesmo nível de hierarquia tendo o mesmo servidor pai. Assim, essa sub-árvore responderia de maneira mais eficiente ao comando \textit{changeServer} e diminuiria a pressão sobre o servidor raiz.
+
+Uma outra possibilidade é que o servidor nível 0 seja utilizado apenas para coordenar a estrutura, retirando de si o papel de gerenciar os veículos. Sendo assim, ele teria o papel de receber as primeiras conexões  e encaminhá-las para o servidor correspondente, o mesmo a ser realizado na operação \textit{changeServer}' no momento da troca de domínios.
+
+Os testes aplicados à arquitetura, com 800 e 1600 veículos, indicaram que o limite da organização proposta está em 1600 veículos e que mais veículos conectados a esta plataforma poderá comprometer o tempo de resposta sendo necessário aumentar o número de servidores ou até mesmo, melhorar a capacidade de processamento dos mesmos. 
 
 %Foram realizados alguns testes estatísticos, com objetivo de analisar o comportamento da plataforma. Sobre o teste da normalidade da distribuição, foi constatado que todos os testes com limite de conexão não apresentou uma distribuição normal indicando que os tempos médios concentraram-se nas extremidades, já o teste sem o controle de conexão com 1600 veículos,  mostrou que a distribuição de probabilidade associada às médias das requisições podem ser aproximadas, indicando.... pois apresentou tempos médios concentrados ao centro. Outra análise realizada, foi relacionado à dispersão dos dados através do coeficiente de variação, o qual avaliou, sobre as amostras de RTT, que a dispersão em cada teste,  define um comportamento semelhante, porém o coeficiente de variação medido nos testes com controle do \textit{link}, apresentou grandes variações para a troca de mensagens criptografadas, sugerindo que o processo de encriptação e decriptação está afetando as requisições.
 
