@@ -1,14 +1,14 @@
 \select@language {brazil}
-\contentsline {table}{\numberline {1}{\ignorespaces An\IeC {\'a}lise de custos de solicita\IeC {\c c}\IeC {\~a}o de uma \IeC {\'u}nica requisi\IeC {\c c}\IeC {\~a}o utilizando v\IeC {\'a}rias tecnologias\cite {gray2004comparison}\relax }}{34}{table.caption.11}
-\contentsline {table}{\numberline {2}{\ignorespaces Protocolos de roteamento aplicados a redes veiculares \cite {luis2009melhoria} \relax }}{50}{table.4.2}
-\contentsline {table}{\numberline {3}{\ignorespaces Quadro de an\IeC {\'a}lise sobre os tipos de ataques e a arquitetura I9Vanets.\relax }}{60}{table.5.3}
-\contentsline {table}{\numberline {4}{\ignorespaces Colunas das tabelas \textit {Server}. \relax }}{62}{table.5.4}
-\contentsline {table}{\numberline {5}{\ignorespaces Colunas da tabela \textit {Device}. \relax }}{63}{table.5.5}
-\contentsline {table}{\numberline {6}{\ignorespaces Caracter\IeC {\'\i }sticas das aplica\IeC {\c c}\IeC {\~o}es veiculares \cite {papadimitratos2008secure}.\relax }}{68}{table.caption.26}
-\contentsline {table}{\numberline {7}{\ignorespaces Linhas do arquivo de movimenta\IeC {\c c}\IeC {\~a}o.\relax }}{71}{table.6.7}
-\contentsline {table}{\numberline {8}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o dos computadores utilizados no experimento. \relax }}{73}{table.6.8}
-\contentsline {table}{\numberline {9}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o dos computadores utilizados no experimento em cada cen\IeC {\'a}rio. \relax }}{74}{table.6.9}
-\contentsline {table}{\numberline {10}{\ignorespaces Resultado do teste de an\IeC {\'a}lise de distribui\IeC {\c c}\IeC {\~a}o normal dos dados para cada quantidade de ve\IeC {\'\i }culos e velocidades de acesso. \relax }}{76}{table.caption.29}
-\contentsline {table}{\numberline {11}{\ignorespaces Resultado do teste de an\IeC {\'a}lise dos coeficientes de varia\IeC {\c c}\IeC {\~a}o com mensagens abertas.\relax }}{77}{table.caption.30}
-\contentsline {table}{\numberline {12}{\ignorespaces Resultado do teste de an\IeC {\'a}lise dos coeficientes de varia\IeC {\c c}\IeC {\~a}o com mensagens criptografadas.\relax }}{77}{table.caption.31}
-\contentsline {table}{\numberline {13}{\ignorespaces Velocidade de cada link por ve\IeC {\'\i }culo definidos de acordo com \citeonline {li2009future}.\relax }}{82}{table.caption.41}
+\contentsline {table}{\numberline {1}{\ignorespaces An\IeC {\'a}lise de custos de solicita\IeC {\c c}\IeC {\~a}o de uma \IeC {\'u}nica requisi\IeC {\c c}\IeC {\~a}o utilizando v\IeC {\'a}rias tecnologias\cite {gray2004comparison}\relax }}{38}{table.caption.15}
+\contentsline {table}{\numberline {2}{\ignorespaces Protocolos de roteamento aplicados a redes veiculares \cite {luis2009melhoria} \relax }}{54}{table.4.2}
+\contentsline {table}{\numberline {3}{\ignorespaces Quadro de an\IeC {\'a}lise sobre os tipos de ataques e a arquitetura I9VANETs.\relax }}{64}{table.5.3}
+\contentsline {table}{\numberline {4}{\ignorespaces Colunas das tabelas \textit {Server}. \relax }}{66}{table.5.4}
+\contentsline {table}{\numberline {5}{\ignorespaces Colunas da tabela \textit {Device}. \relax }}{67}{table.5.5}
+\contentsline {table}{\numberline {6}{\ignorespaces Caracter\IeC {\'\i }sticas das aplica\IeC {\c c}\IeC {\~o}es veiculares \cite {papadimitratos2008secure}.\relax }}{72}{table.caption.30}
+\contentsline {table}{\numberline {7}{\ignorespaces Linhas do arquivo de movimenta\IeC {\c c}\IeC {\~a}o.\relax }}{75}{table.6.7}
+\contentsline {table}{\numberline {8}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o dos computadores utilizados no experimento. \relax }}{77}{table.6.8}
+\contentsline {table}{\numberline {9}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o dos computadores utilizados no experimento em cada cen\IeC {\'a}rio. \relax }}{78}{table.6.9}
+\contentsline {table}{\numberline {10}{\ignorespaces Resultado do teste de an\IeC {\'a}lise de distribui\IeC {\c c}\IeC {\~a}o normal dos dados para cada quantidade de ve\IeC {\'\i }culos e velocidades de acesso. \relax }}{80}{table.caption.33}
+\contentsline {table}{\numberline {11}{\ignorespaces Resultado do teste de an\IeC {\'a}lise dos coeficientes de varia\IeC {\c c}\IeC {\~a}o com mensagens abertas.\relax }}{81}{table.caption.34}
+\contentsline {table}{\numberline {12}{\ignorespaces Resultado do teste de an\IeC {\'a}lise dos coeficientes de varia\IeC {\c c}\IeC {\~a}o com mensagens criptografadas.\relax }}{81}{table.caption.35}
+\contentsline {table}{\numberline {13}{\ignorespaces Velocidade de cada link por ve\IeC {\'\i }culo definidos de acordo com \citeonline {li2009future}.\relax }}{86}{table.caption.45}
