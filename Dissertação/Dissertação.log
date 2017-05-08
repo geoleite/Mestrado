@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.21)  7 MAY 2017 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.21)  7 MAY 2017 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2159,13 +2159,13 @@ de.png> <./images/grafico_perda_qnt_800_1600.png>] [89
 \openout5 = `Dissertação.brf'.
 
 
-[91]
+[91] [92]
 bibitemlist
-[92
+[93
 
-] [93] [94] [95] [96] [97]) 
+] [94] [95] [96] [97] [98]) 
 AED: lastpage setting LastPage
-[98]
+[99]
 \tf@lof=\write6
 \openout6 = `Dissertação.lof'.
 
@@ -2175,25 +2175,25 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `Dissertação.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2592.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2592.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2597.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2597.
  (./Dissertação.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2592.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2592.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2597.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2597.
 
 Package rerunfilecheck Info: File `Dissertação.brf' has not changed.
-(rerunfilecheck)             Checksum: 8D449242C2128DC9C9EF9204E08A1B56;9627.
+(rerunfilecheck)             Checksum: 7164D49952E82760A0608FC683B98BBE;9683.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2592.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2597.
  ) 
 Here is how much of TeX's memory you used:
- 20034 strings out of 493014
- 306008 string characters out of 6133351
- 680653 words of memory out of 5000000
- 22744 multiletter control sequences out of 15000+600000
+ 20046 strings out of 493014
+ 306331 string characters out of 6133351
+ 680915 words of memory out of 5000000
+ 22754 multiletter control sequences out of 15000+600000
  18380 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,13n,53p,1631b,1281s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2208,10 +2208,10 @@ al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Dissertação.pdf (99 pages, 2411213 bytes).
+Output written on Dissertação.pdf (100 pages, 2412405 bytes).
 PDF statistics:
- 1865 PDF objects out of 2073 (max. 8388607)
- 1638 compressed objects within 17 object streams
- 363 named destinations out of 1000 (max. 500000)
+ 1873 PDF objects out of 2073 (max. 8388607)
+ 1645 compressed objects within 17 object streams
+ 365 named destinations out of 1000 (max. 500000)
  17817 words of extra memory for PDF output out of 20736 (max. 10000000)
 

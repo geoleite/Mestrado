@@ -11,7 +11,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 11003 items from 5000.
+Reallocated field_info (elt_size=4) to 11072 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
 Repeated entry---line 1273 of file referencias.bib
@@ -39,45 +39,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 87 entries,
+You've used 88 entries,
             6714 wiz_defined-function locations,
-            1642 strings with 26978 characters,
-and the built_in function-call counts, 83535 in all, are:
-= -- 6784
-> -- 3217
-< -- 324
-+ -- 1445
-- -- 957
-* -- 6235
-:= -- 10792
-add.period$ -- 376
-call.type$ -- 87
-change.case$ -- 1089
-chr.to.int$ -- 171
-cite$ -- 86
-duplicate$ -- 4228
-empty$ -- 5965
-format.name$ -- 4597
-if$ -- 19846
+            1649 strings with 27229 characters,
+and the built_in function-call counts, 84639 in all, are:
+= -- 6867
+> -- 3269
+< -- 328
++ -- 1464
+- -- 972
+* -- 6328
+:= -- 10927
+add.period$ -- 379
+call.type$ -- 88
+change.case$ -- 1104
+chr.to.int$ -- 175
+cite$ -- 87
+duplicate$ -- 4280
+empty$ -- 6031
+format.name$ -- 4667
+if$ -- 20105
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1555
-newline$ -- 395
-num.names$ -- 430
-pop$ -- 2173
+missing$ -- 1574
+newline$ -- 400
+num.names$ -- 435
+pop$ -- 2198
 preamble$ -- 1
-purify$ -- 382
+purify$ -- 387
 quote$ -- 0
-skip$ -- 4662
+skip$ -- 4715
 stack$ -- 1
-substring$ -- 3455
-swap$ -- 2043
-text.length$ -- 111
+substring$ -- 3513
+swap$ -- 2075
+text.length$ -- 114
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 0
-while$ -- 702
+while$ -- 711
 width$ -- 0
-write$ -- 1418
+write$ -- 1436
 (There were 3 error messages)
