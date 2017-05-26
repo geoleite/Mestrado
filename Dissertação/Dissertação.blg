@@ -11,7 +11,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 11072 items from 5000.
+Reallocated field_info (elt_size=4) to 11141 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
 Repeated entry---line 1273 of file referencias.bib
@@ -30,6 +30,7 @@ Repeated entry---line 1819 of file referencias.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "autoentusiastasclassic" isn't style-file defined
 --line 1869 of file referencias.bib
+Warning--I didn't find a database entry for "dorri2017blockchain"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -41,7 +42,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 88 entries,
             6714 wiz_defined-function locations,
-            1649 strings with 27229 characters,
+            1650 strings with 27248 characters,
 and the built_in function-call counts, 84639 in all, are:
 = -- 6867
 > -- 3269
