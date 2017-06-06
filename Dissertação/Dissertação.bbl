@@ -174,6 +174,11 @@ Dispon{\'\i}vel em:
   Workshop (Med-Hoc-Net), 2012 The 11th Annual Mediterranean}. [S.l.], 2012. p.
   152--155.}
 
+\bibitem[GMSolutions 2017]{taxifast}
+\abntrefinfo{GMSolutions}{GMSOLUTIONS}{2017}
+{GMSOLUTIONS. \emph{TaxiFast}. 2017.
+Dispon{\'\i}vel em: \url{https://www.taxifast.taxi.br}.}
+
 \bibitem[Gorender e Mac{\^e}do 2002]{gorender2002modelo}
 \abntrefinfo{Gorender e Mac{\^e}do}{GORENDER; MAC{\^E}DO}{2002}
 {GORENDER, S.; MAC{\^E}DO, R. Um modelo para toler{\^a}ncia a falhas em
@@ -375,6 +380,11 @@ Ci{\^e}ncia da Computa{\c{c}}{\~a}o, 2013.}
 {NIEDERMAIER, B. et al. The new bmw idrive--applied processes and methods to
   assure high usability. In:  SPRINGER. \emph{International Conference on
   Digital Human Modeling}. [S.l.], 2009. p. 443--452.}
+
+\bibitem[Obe e Hsu 2015]{obe2015postgis}
+\abntrefinfo{Obe e Hsu}{OBE; HSU}{2015}
+{OBE, R.~O.; HSU, L.~S. \emph{PostGIS in action}. [S.l.]: Manning Publications
+  Co., 2015.}
 
 \bibitem[Papadimitratos et al. 2008]{papadimitratos2008secure}
 \abntrefinfo{Papadimitratos et al.}{PAPADIMITRATOS et al.}{2008}
