@@ -1,3 +1,4 @@
+\backcite {papadimitratos2008secure}{{6}{(document)}{Doc-Start}}
 \backcite {autoentusiastasclassic}{{8}{(document)}{Doc-Start}}
 \backcite {lee2014vehicular}{{8}{(document)}{Doc-Start}}
 \backcite {losilla2011comprehensive}{{8}{(document)}{Doc-Start}}
@@ -175,7 +176,8 @@
 \backcite {papadimitratos2008secure}{{74}{6.2}{section.6.2}}
 \backcite {papadimitratos2008secure}{{74}{7}{table.caption.31}}
 \backcite {taxifast}{{76}{19}{figure.caption.33}}
-\backcite {papadimitratos2008secure}{{83}{6.5}{table.caption.36}}
+\backcite {papadimitratos2008secure}{{82}{6.5}{table.caption.36}}
 \backcite {papadimitratos2008secure}{{86}{6.5}{figure.caption.43}}
 \backcite {li2009future}{{88}{14}{table.caption.46}}
+\backcite {cechin2008metricas}{{89}{6.5.2}{figure.caption.50}}
 \backcite {chen2016computationally}{{92}{7.1}{section.7.1}}

@@ -85,9 +85,9 @@
 \contentsline {subsection}{\numberline {6.5.2}Processamento}{89}{subsection.6.5.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{91}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclus\IeC {\~a}o deste Trabalho}{91}{section.7.1}
-\contentsline {section}{\numberline {7.2}Trabalhos Futuros}{94}{section.7.2}
-\contentsline {section}{\numberline {7.3}Publica\IeC {\c c}\IeC {\~o}es}{94}{section.7.3}
+\contentsline {section}{\numberline {7.1}Contribui\IeC {\c c}\IeC {\~o}es}{91}{section.7.1}
+\contentsline {section}{\numberline {7.2}Publica\IeC {\c c}\IeC {\~o}es}{94}{section.7.2}
+\contentsline {section}{\numberline {7.3}Trabalhos Futuros}{94}{section.7.3}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Refer\^encias}{96}{section*.53}

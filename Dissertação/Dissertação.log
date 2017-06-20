@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.21)  2 JUN 2017 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.21)  7 JUN 2017 08:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1392,14 +1392,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 [17
 
 
-] <images/transito2.jpeg, id=457, 485.815pt x 481.8pt>
+] <images/transito2.jpeg, id=459, 485.815pt x 481.8pt>
 File: images/transito2.jpeg Graphic file (type jpg)
 
 <use images/transito2.jpeg>
 Package pdftex.def Info: images/transito2.jpeg used on input line 768.
 (pdftex.def)             Requested size: 318.49861pt x 315.86433pt.
  [18 <./images/transito2.jpeg>] [19] [20] [21]
-<images/vcn.png, id=548, 623.32875pt x 303.1325pt>
+<images/vcn.png, id=550, 623.32875pt x 303.1325pt>
 File: images/vcn.png Graphic file (type png)
  <use images/vcn.png>
 Package pdftex.def Info: images/vcn.png used on input line 833.
@@ -1528,7 +1528,7 @@ Overfull \hbox (12.5199pt too wide) in paragraph at lines 849--868
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23] [24] [25] [26] [27]
-<images/camadas_wsn.jpg, id=633, 81.80965pt x 41.62752pt>
+<images/camadas_wsn.jpg, id=635, 81.80965pt x 41.62752pt>
 File: images/camadas_wsn.jpg Graphic file (type jpg)
 
 <use images/camadas_wsn.jpg>
@@ -1540,7 +1540,7 @@ Package pdftex.def Info: images/camadas_wsn.jpg used on input line 956.
 [32] [33] [34
 
 ] [35] [36] [37] [38]
-<images/estrutura_comunicacao.png, id=773, 640.3925pt x 445.665pt>
+<images/estrutura_comunicacao.png, id=775, 640.3925pt x 445.665pt>
 File: images/estrutura_comunicacao.png Graphic file (type png)
 
 <use images/estrutura_comunicacao.png>
@@ -1551,14 +1551,14 @@ Package pdftex.def Info: images/estrutura_comunicacao.png used on input line 11
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39] <images/etapas_ws.png, id=788, 422.57875pt x 470.75874pt>
+[39] <images/etapas_ws.png, id=790, 422.57875pt x 470.75874pt>
 File: images/etapas_ws.png Graphic file (type png)
 
 <use images/etapas_ws.png>
 Package pdftex.def Info: images/etapas_ws.png used on input line 1119.
 (pdftex.def)             Requested size: 204.32498pt x 227.62204pt.
  [40 <./images/estrutura_comunicacao.png> <./images/etapas_ws.png>] [41]
-<images/tipos_arquiteturas_vanets.png, id=812, 1083.04625pt x 451.6875pt>
+<images/tipos_arquiteturas_vanets.png, id=814, 1083.04625pt x 451.6875pt>
 File: images/tipos_arquiteturas_vanets.png Graphic file (type png)
 
 <use images/tipos_arquiteturas_vanets.png>
@@ -1572,14 +1572,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [42
 
 ] [43 <./images/tipos_arquiteturas_vanets.png>] [44]
-<images/ataqueddos.png, id=855, 433.62pt x 245.91875pt>
+<images/ataqueddos.png, id=857, 433.62pt x 245.91875pt>
 File: images/ataqueddos.png Graphic file (type png)
 
 <use images/ataqueddos.png>
 Package pdftex.def Info: images/ataqueddos.png used on input line 1212.
 (pdftex.def)             Requested size: 341.43306pt x 193.64702pt.
 
-<images/ataqueburaconegro.png, id=863, 410.53375pt x 204.765pt>
+<images/ataqueburaconegro.png, id=865, 410.53375pt x 204.765pt>
 File: images/ataqueburaconegro.png Graphic file (type png)
 
 <use images/ataqueburaconegro.png>
@@ -1590,14 +1590,14 @@ Package pdftex.def Info: images/ataqueburaconegro.png used on input line 1223.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [45 <./images/ataqueddos.png>] [46 <./images/ataqueburaconegro.png>]
-<images/ataquesocial.png, id=897, 411.5375pt x 160.6pt>
+<images/ataquesocial.png, id=899, 411.5375pt x 160.6pt>
 File: images/ataquesocial.png Graphic file (type png)
 
 <use images/ataquesocial.png>
 Package pdftex.def Info: images/ataquesocial.png used on input line 1254.
 (pdftex.def)             Requested size: 341.43306pt x 133.2416pt.
 
-<images/ataquemainmiddle.png, id=905, 409.53pt x 166.6225pt>
+<images/ataquemainmiddle.png, id=907, 409.53pt x 166.6225pt>
 File: images/ataquemainmiddle.png Graphic file (type png)
 
 <use images/ataquemainmiddle.png>
@@ -1684,14 +1684,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1377--1377
 Underfull \vbox (badness 10000) detected at line 1381
  []
 
-[54] [55] <images/vanet_qian.png, id=1042, 529.98pt x 323.2075pt>
+[54] [55] <images/vanet_qian.png, id=1044, 529.98pt x 323.2075pt>
 File: images/vanet_qian.png Graphic file (type png)
 
 <use images/vanet_qian.png>
 Package pdftex.def Info: images/vanet_qian.png used on input line 1393.
 (pdftex.def)             Requested size: 341.43416pt x 199.16844pt.
  [56 <./images/vanet_qian.png>] [57]
-<images/modulos.png, id=1057, 512.66531pt x 319.1925pt>
+<images/modulos.png, id=1059, 512.66531pt x 319.1925pt>
 File: images/modulos.png Graphic file (type png)
 
 <use images/modulos.png>
@@ -1700,144 +1700,203 @@ Package pdftex.def Info: images/modulos.png used on input line 1419.
  [58
 
  <./images/modulos.png>] [59] [60]
-<images/agentemoveis_virtuais.png, id=1073, 300.3722pt x 271.76532pt>
+<images/agentemoveis_virtuais.png, id=1076, 300.3722pt x 271.76532pt>
 File: images/agentemoveis_virtuais.png Graphic file (type png)
 
 <use images/agentemoveis_virtuais.png>
 Package pdftex.def Info: images/agentemoveis_virtuais.png used on input line 15
-11.
+10.
 (pdftex.def)             Requested size: 341.46077pt x 227.63025pt.
- [61 <./images/agentemoveis_virtuais.png>]
-Overfull \hbox (5.78236pt too wide) in paragraph at lines 1521--1522
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (5.78236pt too wide) in paragraph at lines 1520--1521
 []\OT1/cmr/bx/n/12 Enviar Men-sa-gem \OT1/cmr/m/n/12 (-20) (SEND[]BROADCAST[]CO
 DE): en-via men-sa-gens para os ve^^S^^Pculos
  []
 
-[62]
-Underfull \vbox (badness 10000) detected at line 1573
+[61] [62 <./images/agentemoveis_virtuais.png>]
+Underfull \vbox (badness 10000) detected at line 1572
  []
 
-[63] [64] [65] <images/servidores.png, id=1097, 547.2947pt x 313.9228pt>
+[63] [64] [65] <images/servidores.png, id=1099, 547.2947pt x 313.9228pt>
 File: images/servidores.png Graphic file (type png)
 
 <use images/servidores.png>
-Package pdftex.def Info: images/servidores.png used on input line 1591.
+Package pdftex.def Info: images/servidores.png used on input line 1590.
 (pdftex.def)             Requested size: 341.44035pt x 199.1663pt.
 
-<images/dominios.png, id=1099, 416.55624pt x 466.74374pt>
+<images/dominios.png, id=1101, 416.55624pt x 466.74374pt>
 File: images/dominios.png Graphic file (type png)
 
 <use images/dominios.png>
-Package pdftex.def Info: images/dominios.png used on input line 1600.
+Package pdftex.def Info: images/dominios.png used on input line 1599.
 (pdftex.def)             Requested size: 256.0884pt x 284.53522pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [66 <./images/servidores.png>] [67 <./images/dominios.png>]
-Underfull \vbox (badness 10000) detected at line 1629
+Underfull \vbox (badness 10000) detected at line 1628
  []
 
 [68]
-Underfull \vbox (badness 10000) detected at line 1646
+Underfull \vbox (badness 10000) detected at line 1645
  []
 
-[69] [70] <images/BPMCriptofrafado.png, id=1140, 1984.41376pt x 635.37375pt>
+[69] [70] <images/BPMCriptofrafado.png, id=1142, 1984.41376pt x 635.37375pt>
 File: images/BPMCriptofrafado.png Graphic file (type png)
 
 <use images/BPMCriptofrafado.png>
-Package pdftex.def Info: images/BPMCriptofrafado.png used on input line 1687.
+Package pdftex.def Info: images/BPMCriptofrafado.png used on input line 1686.
 (pdftex.def)             Requested size: 455.0pt x 145.67722pt.
 
-<images/BPM.png, id=1141, 1731.46875pt x 623.32875pt>
+<images/BPM.png, id=1143, 1731.46875pt x 623.32875pt>
 File: images/BPM.png Graphic file (type png)
  <use images/BPM.png>
-Package pdftex.def Info: images/BPM.png used on input line 1694.
+Package pdftex.def Info: images/BPM.png used on input line 1693.
 (pdftex.def)             Requested size: 409.49722pt x 147.41437pt.
 
 [71 <./images/BPMCriptofrafado.png> <./images/BPM.png>] [72] [73
 
 ]
-Underfull \hbox (badness 1874) in paragraph at lines 1752--1752
+Underfull \hbox (badness 1874) in paragraph at lines 1751--1751
 []|\OT1/cmr/m/n/12 (+20) Alcance: 300m, alta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1754--1754
+Underfull \hbox (badness 10000) in paragraph at lines 1753--1753
 []|\OT1/cmr/m/n/12 (+20) Posicionamento pre-
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1754--1754
+Underfull \hbox (badness 5316) in paragraph at lines 1753--1753
 \OT1/cmr/m/n/12 (+20) ciso em um mapa
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 1756--1756
+Underfull \hbox (badness 1237) in paragraph at lines 1755--1755
 []|\OT1/cmr/m/n/12 (+20) Alcance 50m, pri-o-ri-
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1758--1758
+Underfull \hbox (badness 1565) in paragraph at lines 1757--1757
 []|\OT1/cmr/m/n/12 (+20) Acesso a in-ter-net e
  []
 
-[74] <images/AmbienteTeste.png, id=1180, 991.705pt x 461.725pt>
+[74] <images/AmbienteTeste.png, id=1182, 991.705pt x 461.725pt>
 File: images/AmbienteTeste.png Graphic file (type png)
 
 <use images/AmbienteTeste.png>
-Package pdftex.def Info: images/AmbienteTeste.png used on input line 1799.
+Package pdftex.def Info: images/AmbienteTeste.png used on input line 1798.
 (pdftex.def)             Requested size: 455.0pt x 211.8395pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[75] <images/taxi_mapa.png, id=1189, 873.2625pt x 596.2275pt>
+[75] <images/taxi_mapa.png, id=1191, 873.2625pt x 596.2275pt>
 File: images/taxi_mapa.png Graphic file (type png)
 
 <use images/taxi_mapa.png>
-Package pdftex.def Info: images/taxi_mapa.png used on input line 1810.
+Package pdftex.def Info: images/taxi_mapa.png used on input line 1809.
 (pdftex.def)             Requested size: 455.0pt x 310.65872pt.
  [76 <./images/AmbienteTeste.png> <./images/taxi_mapa.png>]
-Underfull \vbox (badness 10000) detected at line 1830
+Underfull \vbox (badness 10000) detected at line 1829
  []
 
+[77]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 1846.
+nput line 1845.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Package xcolor Warning: Incompatible color definition on input line 1847.
+
+Package xcolor Warning: Incompatible color definition on input line 1846.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1847.
+Package xcolor Warning: Incompatible color definition on input line 1846.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1847.
+Package xcolor Warning: Incompatible color definition on input line 1846.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1847.
+Package xcolor Warning: Incompatible color definition on input line 1846.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1847.
+Package xcolor Warning: Incompatible color definition on input line 1846.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1847.
+Package xcolor Warning: Incompatible color definition on input line 1846.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1847.
+Package xcolor Warning: Incompatible color definition on input line 1846.
 
-[77]
+
+Package xcolor Warning: Incompatible color definition on input line 1848.
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1848.
+
 
 Package xcolor Warning: Incompatible color definition on input line 1849.
 
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1849.
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1850.
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1851.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1852.
 
 
 Package xcolor Warning: Incompatible color definition on input line 1852.
@@ -1846,133 +1905,85 @@ Package xcolor Warning: Incompatible color definition on input line 1852.
 Package xcolor Warning: Incompatible color definition on input line 1852.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1852.
+Package xcolor Warning: Incompatible color definition on input line 1855.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1852.
+Package xcolor Warning: Incompatible color definition on input line 1858.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1852.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1853.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1853.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1853.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1856.
+Package xcolor Warning: Incompatible color definition on input line 1858.
 
 
 Package xcolor Warning: Incompatible color definition on input line 1859.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1859.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1860.
+Package xcolor Warning: Incompatible color definition on input line 1863.
 
 
 Package xcolor Warning: Incompatible color definition on input line 1864.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1865.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1870.
+Package xcolor Warning: Incompatible color definition on input line 1869.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1869.
 
 
 Package xcolor Warning: Incompatible color definition on input line 1870.
@@ -1990,264 +2001,264 @@ Package xcolor Warning: Incompatible color definition on input line 1871.
 Package xcolor Warning: Incompatible color definition on input line 1872.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1872.
+Package xcolor Warning: Incompatible color definition on input line 1874.
 
-
-Package xcolor Warning: Incompatible color definition on input line 1873.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1875.
-
-
-Overfull \hbox (27.25552pt too wide) in alignment at lines 1886--1901
+[78]
+Overfull \hbox (27.25552pt too wide) in alignment at lines 1885--1900
  [] [] [] [] [] 
  []
 
-[78]
-Underfull \vbox (badness 10000) detected at line 1901
+
+Underfull \vbox (badness 10000) detected at line 1900
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1947
+Underfull \vbox (badness 10000) detected at line 1946
  []
 
 [79] [80]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[81]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[81] <images/hist_media2g50.jpg, id=1263, 481.8pt x 481.8pt>
+<images/hist_media2g50.jpg, id=1265, 481.8pt x 481.8pt>
 File: images/hist_media2g50.jpg Graphic file (type jpg)
 
 <use images/hist_media2g50.jpg>
-Package pdftex.def Info: images/hist_media2g50.jpg used on input line 2047.
+Package pdftex.def Info: images/hist_media2g50.jpg used on input line 2046.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media3g50.jpg, id=1264, 481.8pt x 481.8pt>
+<images/hist_media3g50.jpg, id=1266, 481.8pt x 481.8pt>
 File: images/hist_media3g50.jpg Graphic file (type jpg)
 
 <use images/hist_media3g50.jpg>
-Package pdftex.def Info: images/hist_media3g50.jpg used on input line 2052.
+Package pdftex.def Info: images/hist_media3g50.jpg used on input line 2051.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media4g50.jpg, id=1265, 481.8pt x 481.8pt>
+<images/hist_media4g50.jpg, id=1267, 481.8pt x 481.8pt>
 File: images/hist_media4g50.jpg Graphic file (type jpg)
 
 <use images/hist_media4g50.jpg>
-Package pdftex.def Info: images/hist_media4g50.jpg used on input line 2058.
+Package pdftex.def Info: images/hist_media4g50.jpg used on input line 2057.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media5g50.jpg, id=1266, 481.8pt x 481.8pt>
+<images/hist_media5g50.jpg, id=1268, 481.8pt x 481.8pt>
 File: images/hist_media5g50.jpg Graphic file (type jpg)
 
 <use images/hist_media5g50.jpg>
-Package pdftex.def Info: images/hist_media5g50.jpg used on input line 2063.
+Package pdftex.def Info: images/hist_media5g50.jpg used on input line 2062.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
- [82]
-<images/hist_media2g100.jpg, id=1272, 481.8pt x 481.8pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/hist_media2g100.jpg, id=1270, 481.8pt x 481.8pt>
 File: images/hist_media2g100.jpg Graphic file (type jpg)
 
 <use images/hist_media2g100.jpg>
-Package pdftex.def Info: images/hist_media2g100.jpg used on input line 2077.
+Package pdftex.def Info: images/hist_media2g100.jpg used on input line 2076.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media3g100.jpg, id=1273, 481.8pt x 481.8pt>
+<images/hist_media3g100.jpg, id=1271, 481.8pt x 481.8pt>
 File: images/hist_media3g100.jpg Graphic file (type jpg)
 
 <use images/hist_media3g100.jpg>
-Package pdftex.def Info: images/hist_media3g100.jpg used on input line 2082.
+Package pdftex.def Info: images/hist_media3g100.jpg used on input line 2081.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media4g100.jpg, id=1274, 481.8pt x 481.8pt>
+<images/hist_media4g100.jpg, id=1272, 481.8pt x 481.8pt>
 File: images/hist_media4g100.jpg Graphic file (type jpg)
 
 <use images/hist_media4g100.jpg>
-Package pdftex.def Info: images/hist_media4g100.jpg used on input line 2088.
+Package pdftex.def Info: images/hist_media4g100.jpg used on input line 2087.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media5g100.jpg, id=1275, 481.8pt x 481.8pt>
+<images/hist_media5g100.jpg, id=1273, 481.8pt x 481.8pt>
 File: images/hist_media5g100.jpg Graphic file (type jpg)
 
 <use images/hist_media5g100.jpg>
-Package pdftex.def Info: images/hist_media5g100.jpg used on input line 2093.
+Package pdftex.def Info: images/hist_media5g100.jpg used on input line 2092.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
-
+ [82]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/hist_media2g200.jpg, id=1277, 481.8pt x 481.8pt>
+<images/hist_media2g200.jpg, id=1279, 481.8pt x 481.8pt>
 File: images/hist_media2g200.jpg Graphic file (type jpg)
 
 <use images/hist_media2g200.jpg>
-Package pdftex.def Info: images/hist_media2g200.jpg used on input line 2106.
+Package pdftex.def Info: images/hist_media2g200.jpg used on input line 2105.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media3g200.jpg, id=1278, 481.8pt x 481.8pt>
+<images/hist_media3g200.jpg, id=1280, 481.8pt x 481.8pt>
 File: images/hist_media3g200.jpg Graphic file (type jpg)
 
 <use images/hist_media3g200.jpg>
-Package pdftex.def Info: images/hist_media3g200.jpg used on input line 2111.
+Package pdftex.def Info: images/hist_media3g200.jpg used on input line 2110.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media4g200.jpg, id=1279, 481.8pt x 481.8pt>
+<images/hist_media4g200.jpg, id=1281, 481.8pt x 481.8pt>
 File: images/hist_media4g200.jpg Graphic file (type jpg)
 
 <use images/hist_media4g200.jpg>
-Package pdftex.def Info: images/hist_media4g200.jpg used on input line 2117.
+Package pdftex.def Info: images/hist_media4g200.jpg used on input line 2116.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_media5g200.jpg, id=1280, 481.8pt x 481.8pt>
+<images/hist_media5g200.jpg, id=1282, 481.8pt x 481.8pt>
 File: images/hist_media5g200.jpg Graphic file (type jpg)
 
 <use images/hist_media5g200.jpg>
-Package pdftex.def Info: images/hist_media5g200.jpg used on input line 2122.
+Package pdftex.def Info: images/hist_media5g200.jpg used on input line 2121.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/hist_media2g400.jpg, id=1282, 481.8pt x 481.8pt>
-File: images/hist_media2g400.jpg Graphic file (type jpg)
-
-<use images/hist_media2g400.jpg>
-Package pdftex.def Info: images/hist_media2g400.jpg used on input line 2135.
-(pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
-
-<images/hist_media3g400.jpg, id=1283, 481.8pt x 481.8pt>
-File: images/hist_media3g400.jpg Graphic file (type jpg)
-
-<use images/hist_media3g400.jpg>
-Package pdftex.def Info: images/hist_media3g400.jpg used on input line 2140.
-(pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
-
-<images/hist_media4g400.jpg, id=1284, 481.8pt x 481.8pt>
-File: images/hist_media4g400.jpg Graphic file (type jpg)
-
-<use images/hist_media4g400.jpg>
-Package pdftex.def Info: images/hist_media4g400.jpg used on input line 2146.
-(pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
-
-<images/hist_media5g400.jpg, id=1285, 481.8pt x 481.8pt>
-File: images/hist_media5g400.jpg Graphic file (type jpg)
-
-<use images/hist_media5g400.jpg>
-Package pdftex.def Info: images/hist_media5g400.jpg used on input line 2151.
-(pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
- [83 <./images/hist_media2g50.jpg> <./images/hist_media3g50.jpg> <./images/hist
-_media4g50.jpg> <./images/hist_media5g50.jpg>]
+[83 <./images/hist_media2g50.jpg> <./images/hist_media3g50.jpg> <./images/hist_
+media4g50.jpg> <./images/hist_media5g50.jpg>]
 
 LaTeX Warning: Text page 84 contains only floats.
 
 [84 <./images/hist_media2g100.jpg> <./images/hist_media3g100.jpg> <./images/his
 t_media4g100.jpg> <./images/hist_media5g100.jpg> <./images/hist_media2g200.jpg>
  <./images/hist_media3g200.jpg> <./images/hist_media4g200.jpg> <./images/hist_m
-edia5g200.jpg>] <images/grafico_tempo_min.png, id=1300, 481.8pt x 361.35pt>
+edia5g200.jpg>] <images/hist_media2g400.jpg, id=1293, 481.8pt x 481.8pt>
+File: images/hist_media2g400.jpg Graphic file (type jpg)
+
+<use images/hist_media2g400.jpg>
+Package pdftex.def Info: images/hist_media2g400.jpg used on input line 2134.
+(pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
+
+<images/hist_media3g400.jpg, id=1294, 481.8pt x 481.8pt>
+File: images/hist_media3g400.jpg Graphic file (type jpg)
+
+<use images/hist_media3g400.jpg>
+Package pdftex.def Info: images/hist_media3g400.jpg used on input line 2139.
+(pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
+
+<images/hist_media4g400.jpg, id=1295, 481.8pt x 481.8pt>
+File: images/hist_media4g400.jpg Graphic file (type jpg)
+
+<use images/hist_media4g400.jpg>
+Package pdftex.def Info: images/hist_media4g400.jpg used on input line 2145.
+(pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
+
+<images/hist_media5g400.jpg, id=1296, 481.8pt x 481.8pt>
+File: images/hist_media5g400.jpg Graphic file (type jpg)
+
+<use images/hist_media5g400.jpg>
+Package pdftex.def Info: images/hist_media5g400.jpg used on input line 2150.
+(pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
+
+<images/grafico_tempo_min.png, id=1302, 481.8pt x 361.35pt>
 File: images/grafico_tempo_min.png Graphic file (type png)
 
 <use images/grafico_tempo_min.png>
-Package pdftex.def Info: images/grafico_tempo_min.png used on input line 2160.
+Package pdftex.def Info: images/grafico_tempo_min.png used on input line 2159.
 (pdftex.def)             Requested size: 318.49861pt x 238.8777pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/grafico_tempo_medio.png, id=1301, 481.8pt x 361.35pt>
+<images/grafico_tempo_medio.png, id=1303, 481.8pt x 361.35pt>
 File: images/grafico_tempo_medio.png Graphic file (type png)
 
 <use images/grafico_tempo_medio.png>
-Package pdftex.def Info: images/grafico_tempo_medio.png used on input line 2167
+Package pdftex.def Info: images/grafico_tempo_medio.png used on input line 2166
 .
 (pdftex.def)             Requested size: 318.49861pt x 238.8777pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/grafico_tempo_max.png, id=1302, 481.8pt x 361.35pt>
+<images/grafico_tempo_max.png, id=1304, 481.8pt x 361.35pt>
 File: images/grafico_tempo_max.png Graphic file (type png)
 
 <use images/grafico_tempo_max.png>
-Package pdftex.def Info: images/grafico_tempo_max.png used on input line 2174.
+Package pdftex.def Info: images/grafico_tempo_max.png used on input line 2173.
 (pdftex.def)             Requested size: 318.49861pt x 238.8777pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/hist_media800.jpg, id=1308, 481.8pt x 481.8pt>
+[85 <./images/hist_media2g400.jpg> <./images/hist_media3g400.jpg> <./images/his
+t_media4g400.jpg> <./images/hist_media5g400.jpg>]
+<images/hist_media800.jpg, id=1315, 481.8pt x 481.8pt>
 File: images/hist_media800.jpg Graphic file (type jpg)
 
 <use images/hist_media800.jpg>
-Package pdftex.def Info: images/hist_media800.jpg used on input line 2188.
+Package pdftex.def Info: images/hist_media800.jpg used on input line 2187.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_sec_media800.jpg, id=1309, 481.8pt x 481.8pt>
+<images/hist_sec_media800.jpg, id=1316, 481.8pt x 481.8pt>
 File: images/hist_sec_media800.jpg Graphic file (type jpg)
 
 <use images/hist_sec_media800.jpg>
-Package pdftex.def Info: images/hist_sec_media800.jpg used on input line 2193.
+Package pdftex.def Info: images/hist_sec_media800.jpg used on input line 2192.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
- [85 <./images/hist_media2g400.jpg> <./images/hist_media3g400.jpg> <./images/hi
-st_media4g400.jpg> <./images/hist_media5g400.jpg>]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/hist_media1600.jpg, id=1317, 481.8pt x 481.8pt>
+[86 <./images/grafico_tempo_min.png> <./images/grafico_tempo_medio.png>]
+<images/hist_media1600.jpg, id=1326, 481.8pt x 481.8pt>
 File: images/hist_media1600.jpg Graphic file (type jpg)
 
 <use images/hist_media1600.jpg>
-Package pdftex.def Info: images/hist_media1600.jpg used on input line 2206.
+Package pdftex.def Info: images/hist_media1600.jpg used on input line 2205.
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
 
-<images/hist_sec_media1600.jpg, id=1318, 481.8pt x 481.8pt>
+<images/hist_sec_media1600.jpg, id=1327, 481.8pt x 481.8pt>
 File: images/hist_sec_media1600.jpg Graphic file (type jpg)
 
 <use images/hist_sec_media1600.jpg>
-Package pdftex.def Info: images/hist_sec_media1600.jpg used on input line 2211.
+Package pdftex.def Info: images/hist_sec_media1600.jpg used on input line 2210.
 
 (pdftex.def)             Requested size: 142.26208pt x 142.26208pt.
- [86 <./images/grafico_tempo_min.png> <./images/grafico_tempo_medio.png>] [87 <
-./images/grafico_tempo_max.png> <./images/hist_media800.jpg> <./images/hist_sec
-_media800.jpg> <./images/hist_media1600.jpg> <./images/hist_sec_media1600.jpg>]
-
-<images/capacidadeLink.png, id=1337, 481.8pt x 361.35pt>
+ [87 <./images/grafico_tempo_max.png> <./images/hist_media800.jpg> <./images/hi
+st_sec_media800.jpg> <./images/hist_media1600.jpg> <./images/hist_sec_media1600
+.jpg>]
+<images/capacidadeLink.png, id=1339, 481.8pt x 361.35pt>
 File: images/capacidadeLink.png Graphic file (type png)
 
 <use images/capacidadeLink.png>
-Package pdftex.def Info: images/capacidadeLink.png used on input line 2250.
+Package pdftex.def Info: images/capacidadeLink.png used on input line 2249.
 (pdftex.def)             Requested size: 318.49861pt x 238.8777pt.
  [88 <./images/capacidadeLink.png>]
-<images/processamento1.png, id=1344, 481.8pt x 361.35pt>
+<images/processamento1.png, id=1346, 481.8pt x 361.35pt>
 File: images/processamento1.png Graphic file (type png)
 
 <use images/processamento1.png>
-Package pdftex.def Info: images/processamento1.png used on input line 2262.
+Package pdftex.def Info: images/processamento1.png used on input line 2261.
 (pdftex.def)             Requested size: 318.49861pt x 238.8777pt.
 
-<images/processamento2.png, id=1346, 481.8pt x 361.35pt>
+<images/processamento2.png, id=1348, 481.8pt x 361.35pt>
 File: images/processamento2.png Graphic file (type png)
 
 <use images/processamento2.png>
-Package pdftex.def Info: images/processamento2.png used on input line 2271.
+Package pdftex.def Info: images/processamento2.png used on input line 2270.
 (pdftex.def)             Requested size: 318.49861pt x 238.8777pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/grafico_perda_qnt_velocidade.png, id=1347, 481.8pt x 361.35pt>
+<images/grafico_perda_qnt_velocidade.png, id=1349, 481.8pt x 361.35pt>
 File: images/grafico_perda_qnt_velocidade.png Graphic file (type png)
 
 <use images/grafico_perda_qnt_velocidade.png>
 Package pdftex.def Info: images/grafico_perda_qnt_velocidade.png used on input 
-line 2283.
+line 2282.
 (pdftex.def)             Requested size: 199.16399pt x 142.26578pt.
 
-<images/grafico_perda_qnt_800_1600.png, id=1348, 481.8pt x 361.35pt>
+<images/grafico_perda_qnt_800_1600.png, id=1350, 481.8pt x 361.35pt>
 File: images/grafico_perda_qnt_800_1600.png Graphic file (type png)
 
 <use images/grafico_perda_qnt_800_1600.png>
 Package pdftex.def Info: images/grafico_perda_qnt_800_1600.png used on input li
-ne 2287.
+ne 2286.
 (pdftex.def)             Requested size: 199.16399pt x 142.26578pt.
  [89 <./images/processamento1.png>]
 [90 <./images/processamento2.png> <./images/grafico_perda_qnt_velocidade.png> <
@@ -2274,14 +2285,14 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `Dissertação.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2407.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2407.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2408.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2408.
  (./Dissertação.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2407.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2407.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2408.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2408.
 
 Package rerunfilecheck Info: File `Dissertação.brf' has not changed.
-(rerunfilecheck)             Checksum: FABB1A3C29F5C7D521DC61C35C3880CB;10710.
+(rerunfilecheck)             Checksum: FB7AECB7844C68C1C2D6C1F5E3B30A20;10838.
 
 
 LaTeX Warning: There were undefined references.
@@ -2289,16 +2300,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2407.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2408.
  ) 
 Here is how much of TeX's memory you used:
- 20090 strings out of 493014
- 307020 string characters out of 6133351
- 688114 words of memory out of 5000000
- 22785 multiletter control sequences out of 15000+600000
+ 20101 strings out of 493014
+ 307281 string characters out of 6133351
+ 684652 words of memory out of 5000000
+ 22795 multiletter control sequences out of 15000+600000
  18598 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,53p,1631b,2003s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,53p,1598b,1281s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
@@ -2310,10 +2321,10 @@ al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Dissertação.pdf (103 pages, 2155566 bytes).
+Output written on Dissertação.pdf (103 pages, 2156747 bytes).
 PDF statistics:
- 1973 PDF objects out of 2073 (max. 8388607)
- 1737 compressed objects within 18 object streams
- 374 named destinations out of 1000 (max. 500000)
+ 1980 PDF objects out of 2073 (max. 8388607)
+ 1744 compressed objects within 18 object streams
+ 375 named destinations out of 1000 (max. 500000)
  17841 words of extra memory for PDF output out of 20736 (max. 10000000)
 
