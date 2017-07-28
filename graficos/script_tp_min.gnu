@@ -1,5 +1,5 @@
 reset 
-set terminal png size 640,480
+set terminal png size 640,480 
 set output 'imagens/grafico_tempo_min.png'
 set title 'Tempos Mínimos por Velocidade e Quantidade de Veículos'
 set xlabel 'Quantidade de Veículos'
