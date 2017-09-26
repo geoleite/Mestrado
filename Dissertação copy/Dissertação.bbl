@@ -1,0 +1,567 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Al-Kahtani 2012]{al2012survey}
+\abntrefinfo{Al-Kahtani}{AL-KAHTANI}{2012}
+{AL-KAHTANI, M.~S. Survey on security attacks in vehicular ad hoc networks
+  (vanets). In:  IEEE. \emph{Signal Processing and Communication Systems
+  (ICSPCS), 2012 6th International Conference on}. [S.l.], 2012. p.~1--9.}
+
+\bibitem[Avelar et al. 2015]{avelar2015interoperability}
+\abntrefinfo{Avelar et al.}{AVELAR et al.}{2015}
+{AVELAR, E. et al. Interoperability issues on heterogeneous wireless
+  communication for smart cities.
+\emph{Computer Communications}, Elsevier, v.~58, p. 4--15, 2015.}
+
+\bibitem[Ball e Dulay 2010]{ball2010enhancing}
+\abntrefinfo{Ball e Dulay}{BALL; DULAY}{2010}
+{BALL, R.; DULAY, N. Enhancing traffic intersection control with intelligent
+  objects.
+\emph{Urban Internet of Things Towards Programmable Realtime Cities}, 2010.}
+
+\bibitem[Barba, Aguirre e Igartua 2010]{tripp2010performance}
+\abntrefinfo{Barba, Aguirre e Igartua}{BARBA; AGUIRRE; IGARTUA}{2010}
+{BARBA, C. T.; AGUIRRE, K. O.; IGARTUA, M. A. Performance evaluation of a
+  hybrid sensor and vehicular network to improve road safety. In:  ACM.
+  \emph{Proceedings of the 7th ACM workshop on Performance evaluation of
+  wireless ad hoc, sensor, and ubiquitous networks}. [S.l.], 2010. p. 71--78.}
+
+\bibitem[Birk, Osipov e Eliasson 2009]{birk2009iroad}
+\abntrefinfo{Birk, Osipov e Eliasson}{BIRK; OSIPOV; ELIASSON}{2009}
+{BIRK, W.; OSIPOV, E.; ELIASSON, J. iroad—cooperative road infrastructure
+  systems for driver support. In:  \emph{Proceedings of the 16th ITS World
+  Congress}. [S.l.: s.n.], 2009.}
+
+\bibitem[Blum, Eskandarian e Hoffman 2003]{blum2003mobility}
+\abntrefinfo{Blum, Eskandarian e Hoffman}{BLUM; ESKANDARIAN; HOFFMAN}{2003}
+{BLUM, J.; ESKANDARIAN, A.; HOFFMAN, L. Mobility management in ivc networks.
+  In:  IEEE. \emph{Intelligent Vehicles Symposium, 2003. Proceedings. IEEE}.
+  [S.l.], 2003. p. 150--155.}
+
+\bibitem[Boukerche 2004]{boukerche2004performance}
+\abntrefinfo{Boukerche}{BOUKERCHE}{2004}
+{BOUKERCHE, A. Performance evaluation of routing protocols for ad hoc wireless
+  networks.
+\emph{Mobile Networks and Applications}, Springer-Verlag New York, Inc., v.~9,
+  n.~4, p. 333--342, 2004.}
+
+\bibitem[Briesemeister, Schafers e Hommel 2000]{briesemeister2000disseminating}
+\abntrefinfo{Briesemeister, Schafers e Hommel}{BRIESEMEISTER; SCHAFERS;
+  HOMMEL}{2000}
+{BRIESEMEISTER, L.; SCHAFERS, L.; HOMMEL, G. Disseminating messages among
+  highly mobile hosts based on inter-vehicle communication. In:  IEEE.
+  \emph{Intelligent Vehicles Symposium, 2000. IV 2000. Proceedings of the
+  IEEE}. [S.l.], 2000. p. 522--527.}
+
+\bibitem[Bubenikova, Durech e Franekova 2014]{bubenikova2014security}
+\abntrefinfo{Bubenikova, Durech e Franekova}{BUBENIKOVA; DURECH;
+  FRANEKOVA}{2014}
+{BUBENIKOVA, E.; DURECH, J.; FRANEKOVA, M. Security solutions of intelligent
+  transportation system's applications with using vanet networks. In:  IEEE.
+  \emph{Control Conference (ICCC), 2014 15th International Carpathian}. [S.l.],
+  2014. p. 63--68.}
+
+\bibitem[Carvalho et al. 2010]{carvalho2010mobilidade}
+\abntrefinfo{Carvalho et al.}{CARVALHO et al.}{2010}
+{CARVALHO, C. H. R.~d. et al. Mobilidade urbana e posse de ve{\'\i}culos:
+  an{\'a}lise da pnad 2009.
+Instituto de Pesquisa Econ{\^o}mica Aplicada (Ipea), 2010.}
+
+\bibitem[Cavalcanti 2008]{cavalcanti2008veer}
+\abntrefinfo{Cavalcanti}{CAVALCANTI}{2008}
+{CAVALCANTI, S.~R.
+\emph{Veer: Um algoritmo de sele{\c{c}}{\~a}o de pares em redes ad hoc
+  veiculares}.
+Tese (Doutorado) --- UNIVERSIDADE FEDERAL DO RIO DE JANEIRO, 2008.}
+
+\bibitem[Cechin 2008]{cechin2008metricas}
+\abntrefinfo{Cechin}{CECHIN}{2008}
+{CECHIN, S.~L.
+\emph{M{\'e}tricas para Avalia{\c{c}}{\~a}o de Desempenho em Redes QoS sobre
+  IP}.
+Tese (Doutorado) --- UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2008.}
+
+\bibitem[Chen et al. 2006]{chen2006dynamic}
+\abntrefinfo{Chen et al.}{CHEN et al.}{2006}
+{CHEN, W. et al. Dynamic local peer group organizations for vehicle
+  communications. In:  IEEE. \emph{Mobile and Ubiquitous Systems-Workshops,
+  2006. 3rd Annual International Conference on}. [S.l.], 2006. p.~1--8.}
+
+\bibitem[Chen, Zhao e Farrell 2016]{chen2016computationally}
+\abntrefinfo{Chen, Zhao e Farrell}{CHEN; ZHAO; FARRELL}{2016}
+{CHEN, Y.; ZHAO, S.; FARRELL, J.~A. Computationally efficient carrier integer
+  ambiguity resolution in multiepoch gps/ins: a common-position-shift approach.
+\emph{IEEE Transactions on Control Systems Technology}, IEEE, v.~24, n.~5, p.
+  1541--1556, 2016.}
+
+\bibitem[Comi et al. 2015]{comi2015evolutionary}
+\abntrefinfo{Comi et al.}{COMI et al.}{2015}
+{COMI, A. et al. An evolutionary approach for cloud learning agents in
+  multi-cloud distributed contexts. In:  IEEE. \emph{Enabling Technologies:
+  Infrastructure for Collaborative Enterprises (WETICE), 2015 IEEE 24th
+  International Conference on}. [S.l.], 2015. p. 99--104.}
+
+\bibitem[Coulouris et al. 2013]{coulouris2013sistemas}
+\abntrefinfo{Coulouris et al.}{COULOURIS et al.}{2013}
+{COULOURIS, G. et al. \emph{Sistemas Distribu{\'\i}dos-: Conceitos e Projeto}.
+  [S.l.]: Bookman Editora, 2013.}
+
+\bibitem[Cristian 1991]{cristian1991reaching}
+\abntrefinfo{Cristian}{CRISTIAN}{1991}
+{CRISTIAN, F. Reaching agreement on processor-group membrship in synchronous
+  distributed systems.
+\emph{Distributed Computing}, Springer, v.~4, n.~4, p. 175--187, 1991.}
+
+\bibitem[DANTAS 2011]{autoentusiastasclassic}
+\abntrefinfo{DANTAS}{DANTAS}{2011}
+{DANTAS, A. \emph{TRÂNSITO: O JOGO DO CAOS}. 2011.
+Dispon{\'\i}vel em:
+  \url{http://www.autoentusiastasclassic.com.br/2011/05/transito-o-jogo-do-caos.html}.}
+
+\bibitem[Das e Bharghavan 1997]{das1997routing}
+\abntrefinfo{Das e Bharghavan}{DAS; BHARGHAVAN}{1997}
+{DAS, B.; BHARGHAVAN, V. Routing in ad-hoc networks using minimum connected
+  dominating sets. In:  IEEE. \emph{Communications, 1997. ICC'97 Montreal,
+  Towards the Knowledge Millennium. 1997 IEEE International Conference on}.
+  [S.l.], 1997. v.~1, p. 376--380.}
+
+\bibitem[Dib et al. 2007]{el2007systematic}
+\abntrefinfo{Dib et al.}{DIB et al.}{2007}
+{DIB, R.~P. E. et al. A systematic review of the interventions to promote the
+  wearing of hearing protection.
+\emph{S{\~a}o Paulo Medical Journal}, SciELO Brasil, v.~125, n.~6, p. 359--361,
+  2007.}
+
+\bibitem[Durresi, Durresi e Barolli 2005]{durresi2005emergency}
+\abntrefinfo{Durresi, Durresi e Barolli}{DURRESI; DURRESI; BAROLLI}{2005}
+{DURRESI, M.; DURRESI, A.; BAROLLI, L. Emergency broadcast protocol for
+  inter-vehicle communications. In:  IEEE. \emph{11th International Conference
+  on Parallel and Distributed Systems (ICPADS'05)}. [S.l.], 2005. v.~2, p.
+  402--406.}
+
+\bibitem[Eltoweissy, Olariu e Younis 2010]{eltoweissy2010towards}
+\abntrefinfo{Eltoweissy, Olariu e Younis}{ELTOWEISSY; OLARIU; YOUNIS}{2010}
+{ELTOWEISSY, M.; OLARIU, S.; YOUNIS, M. Towards autonomous vehicular clouds.
+  In:  SPRINGER. \emph{International Conference on Ad Hoc Networks}. [S.l.],
+  2010. p. 1--16.}
+
+\bibitem[Engoulou et al. 2014]{engoulou2014vanet}
+\abntrefinfo{Engoulou et al.}{ENGOULOU et al.}{2014}
+{ENGOULOU, R.~G. et al. Vanet security surveys.
+\emph{Computer Communications}, Elsevier, v.~44, p. 1--13, 2014.}
+
+\bibitem[Falchetti, Azurdia-Meza e Cespedes 2015]{falchetti2015vehicular}
+\abntrefinfo{Falchetti, Azurdia-Meza e Cespedes}{FALCHETTI; AZURDIA-MEZA;
+  CESPEDES}{2015}
+{FALCHETTI, A.; AZURDIA-MEZA, C.; CESPEDES, S. Vehicular cloud computing in the
+  dawn of 5g. In:  IEEE. \emph{2015 CHILEAN Conference on Electrical,
+  Electronics Engineering, Information and Communication Technologies
+  (CHILECON)}. [S.l.], 2015. p. 301--305.}
+
+\bibitem[Fischer, Lynch e Paterson 1985]{fischer1985impossibility}
+\abntrefinfo{Fischer, Lynch e Paterson}{FISCHER; LYNCH; PATERSON}{1985}
+{FISCHER, M.~J.; LYNCH, N.~A.; PATERSON, M.~S. Impossibility of distributed
+  consensus with one faulty process.
+\emph{Journal of the ACM (JACM)}, ACM, v.~32, n.~2, p. 374--382, 1985.}
+
+\bibitem[F{\"u}ssler et al. 2003]{fussler2003mobicom}
+\abntrefinfo{F{\"u}ssler et al.}{F{\"U}SSLER et al.}{2003}
+{F{\"U}SSLER, H. et al. Mobicom poster: location-based routing for vehicular
+  ad-hoc networks.
+\emph{ACM SIGMOBILE Mobile Computing and Communications Review}, ACM, v.~7,
+  n.~1, p. 47--49, 2003.}
+
+\bibitem[Gerla 2012]{gerla2012vehicular}
+\abntrefinfo{Gerla}{GERLA}{2012}
+{GERLA, M. Vehicular cloud computing. In:  IEEE. \emph{Ad Hoc Networking
+  Workshop (Med-Hoc-Net), 2012 The 11th Annual Mediterranean}. [S.l.], 2012. p.
+  152--155.}
+
+\bibitem[GMSolutions 2017]{taxifast}
+\abntrefinfo{GMSolutions}{GMSOLUTIONS}{2017}
+{GMSOLUTIONS. \emph{TaxiFast}. 2017.
+Dispon{\'\i}vel em: \url{https://www.taxifast.taxi.br}.}
+
+\bibitem[Gorender e Mac{\^e}do 2002]{gorender2002modelo}
+\abntrefinfo{Gorender e Mac{\^e}do}{GORENDER; MAC{\^E}DO}{2002}
+{GORENDER, S.; MAC{\^E}DO, R. Um modelo para toler{\^a}ncia a falhas em
+  sistemas distribu{\'\i}dos com qos.
+\emph{Anais do Simp{\'o}sio Brasileiro de Redes de Computadores, SBRC 2002}, p.
+  277--292, 2002.}
+
+\bibitem[Gray 2004]{gray2004comparison}
+\abntrefinfo{Gray}{GRAY}{2004}
+{GRAY, N.~A. Comparison of web services, java-rmi, and corba service
+  implementations. In:  \emph{Proceedings of the 5th Australasian Workshop on
+  Software and System Architectures at ASWEC}. [S.l.: s.n.], 2004. p. 52--63.}
+
+\bibitem[Gupte e Younis 2012]{gupte2012vehicular}
+\abntrefinfo{Gupte e Younis}{GUPTE; YOUNIS}{2012}
+{GUPTE, S.; YOUNIS, M. Vehicular networking for intelligent and autonomous
+  traffic management. In:  IEEE. \emph{Communications (ICC), 2012 IEEE
+  International Conference on}. [S.l.], 2012. p. 5306--5310.}
+
+\bibitem[Hadaller et al. 2007]{hadaller2007vehicular}
+\abntrefinfo{Hadaller et al.}{HADALLER et al.}{2007}
+{HADALLER, D. et al. Vehicular opportunistic communication under the
+  microscope. In:  ACM. \emph{Proceedings of the 5th international conference
+  on Mobile systems, applications and services}. [S.l.], 2007. p. 206--219.}
+
+\bibitem[HAJJI e BARGAOUI 2015]{hajjidesign}
+\abntrefinfo{HAJJI e BARGAOUI}{HAJJI; BARGAOUI}{2015}
+{HAJJI, T.; BARGAOUI, H. Design of a vanet testbed based on cloud computing.
+\emph{European Conference on Networks and Communications}, 2015.}
+
+\bibitem[Hall e Leahy 2008]{hall2008open}
+\abntrefinfo{Hall e Leahy}{HALL; LEAHY}{2008}
+{HALL, G.~B.; LEAHY, M.~G. \emph{Open source approaches in spatial data
+  handling}. [S.l.]: Springer, 2008. v.~2.}
+
+\bibitem[Hussain et al. 2012]{hussain2012rethinking}
+\abntrefinfo{Hussain et al.}{HUSSAIN et al.}{2012}
+{HUSSAIN, R. et al. Rethinking vehicular communications: Merging vanet with
+  cloud computing. In:  IEEE. \emph{Cloud Computing Technology and Science
+  (CloudCom), 2012 IEEE 4th International Conference on}. [S.l.], 2012. p.
+  606--609.}
+
+\bibitem[Ice et al. 2001]{ice2001regional}
+\abntrefinfo{Ice et al.}{ICE et al.}{2001}
+{ICE, R. et al. \emph{REGIONAL ITS ARCHITECTURE GUIDANCE: DEVELOPING, USING,
+  AND MAINTAINING AN ITS ARCHITECTURE FOR YOUR REGION}.
+[S.l.], 2001.}
+
+\bibitem[Isaac, Zeadally e Camara 2010]{isaac2010security}
+\abntrefinfo{Isaac, Zeadally e Camara}{ISAAC; ZEADALLY; CAMARA}{2010}
+{ISAAC, J.~T.; ZEADALLY, S.; CAMARA, J.~S. Security attacks and solutions for
+  vehicular ad hoc networks.
+\emph{IET communications}, IET, v.~4, n.~7, p. 894--903, 2010.}
+
+\bibitem[Jacquet et al. 2001]{jacquet2001optimized}
+\abntrefinfo{Jacquet et al.}{JACQUET et al.}{2001}
+{JACQUET, P. et al. Optimized link state routing protocol for ad hoc networks.
+  In:  IEEE. \emph{Multi Topic Conference, 2001. IEEE INMIC 2001. Technology
+  for the 21st Century. Proceedings. IEEE International}. [S.l.], 2001. p.
+  62--68.}
+
+\bibitem[Jakubiak e Koucheryavy 2008]{jakubiak2008state}
+\abntrefinfo{Jakubiak e Koucheryavy}{JAKUBIAK; KOUCHERYAVY}{2008}
+{JAKUBIAK, J.; KOUCHERYAVY, Y. State of the art and research challenges for
+  vanets. In:  IEEE. \emph{Consumer communications and networking conference,
+  2008. CCNC 2008. 5th IEEE}. [S.l.], 2008. p. 912--916.}
+
+\bibitem[Karp e Kung 2000]{karp2000gpsr}
+\abntrefinfo{Karp e Kung}{KARP; KUNG}{2000}
+{KARP, B.; KUNG, H.-T. Gpsr: Greedy perimeter stateless routing for wireless
+  networks. In:  ACM. \emph{Proceedings of the 6th annual international
+  conference on Mobile computing and networking}. [S.l.], 2000. p. 243--254.}
+
+\bibitem[Kihl, Sichitiu e Joshi 2008]{kihl2008design}
+\abntrefinfo{Kihl, Sichitiu e Joshi}{KIHL; SICHITIU; JOSHI}{2008}
+{KIHL, M.; SICHITIU, M.; JOSHI, H. Design and evaluation of two geocast
+  protocols for vehicular ad-hoc networks.
+\emph{Journal of Internet Engineering}, Klidarithmos Press, 2008.}
+
+\bibitem[Lamport, Shostak e Pease 1982]{lamport1982byzantine}
+\abntrefinfo{Lamport, Shostak e Pease}{LAMPORT; SHOSTAK; PEASE}{1982}
+{LAMPORT, L.; SHOSTAK, R.; PEASE, M. The byzantine generals problem.
+\emph{ACM Transactions on Programming Languages and Systems (TOPLAS)}, ACM,
+  v.~4, n.~3, p. 382--401, 1982.}
+
+\bibitem[Lee et al. 2014]{lee2014vehicular}
+\abntrefinfo{Lee et al.}{LEE et al.}{2014}
+{LEE, E. et al. Vehicular cloud networking: architecture and design principles.
+\emph{IEEE Communications Magazine}, IEEE, v.~52, n.~2, p. 148--155, 2014.}
+
+\bibitem[Leontiadis e Mascolo 2007]{leontiadis2007geopps}
+\abntrefinfo{Leontiadis e Mascolo}{LEONTIADIS; MASCOLO}{2007}
+{LEONTIADIS, I.; MASCOLO, C. Geopps: Geographical opportunistic routing for
+  vehicular networks. In:  IEEE. \emph{2007 IEEE International Symposium on a
+  World of Wireless, Mobile and Multimedia Networks}. [S.l.], 2007. p.~1--6.}
+
+\bibitem[Li 2010]{li2010travel}
+\abntrefinfo{Li}{LI}{2010}
+{LI, C. Travel information service system for public travel based on soa. In:
+  IEEE. \emph{Service Operations and Logistics and Informatics (SOLI), 2010
+  IEEE International Conference on}. [S.l.], 2010. p. 321--324.}
+
+\bibitem[Li e Wang 2007]{li2007routing}
+\abntrefinfo{Li e Wang}{LI; WANG}{2007}
+{LI, F.; WANG, Y. Routing in vehicular ad hoc networks: A survey.
+\emph{IEEE Vehicular technology magazine}, IEEE, v.~2, n.~2, p. 12--22, 2007.}
+
+\bibitem[Li, Liu e Tang 2007]{li2007snms}
+\abntrefinfo{Li, Liu e Tang}{LI; LIU; TANG}{2007}
+{LI, L.; LIU, Y.-A.; TANG, B.-H. Snms: an intelligent transportation system
+  network architecture based on wsn and p2p network.
+\emph{The journal of China universities of posts and telecommunications},
+  Elsevier, v.~14, n.~1, p. 65--70, 2007.}
+
+\bibitem[Li et al. 2009]{li2009future}
+\abntrefinfo{Li et al.}{LI et al.}{2009}
+{LI, X. et al. The future of mobile wireless communication networks. In:  IEEE.
+  \emph{Communication Software and Networks, 2009. ICCSN'09. International
+  Conference on}. [S.l.], 2009. p. 554--557.}
+
+\bibitem[Liang et al. 2015]{liang2015vehicular}
+\abntrefinfo{Liang et al.}{LIANG et al.}{2015}
+{LIANG, W. et al. Vehicular ad hoc networks: architectures, research issues,
+  methodologies, challenges, and trends.
+\emph{International Journal of Distributed Sensor Networks}, Taylor \& Francis,
+  Inc., v.~2015, p.~17, 2015.}
+
+\bibitem[Liu, Chen e Chakraborty 2015]{liu2015software}
+\abntrefinfo{Liu, Chen e Chakraborty}{LIU; CHEN; CHAKRABORTY}{2015}
+{LIU, Y.-C.; CHEN, C.; CHAKRABORTY, S. A software defined network architecture
+  for geobroadcast in vanets. In:  IEEE. \emph{2015 IEEE International
+  Conference on Communications (ICC)}. [S.l.], 2015. p. 6559--6564.}
+
+\bibitem[Losilla et al. 2011]{losilla2011comprehensive}
+\abntrefinfo{Losilla et al.}{LOSILLA et al.}{2011}
+{LOSILLA, F. et al. A comprehensive approach to wsn-based its applications: A
+  survey.
+\emph{Sensors}, Molecular Diversity Preservation International, v.~11, n.~11,
+  p. 10220--10265, 2011.}
+
+\bibitem[Lu{\'\i}s 2009]{luis2009melhoria}
+\abntrefinfo{Lu{\'\i}s}{LU{\'I}S}{2009}
+{LU{\'I}S, N. M.~A.
+\emph{Melhoria de protocolos de encaminhamento em VANETs de alta densidade}.
+Tese (Doutorado) --- FCT-UNL, 2009.}
+
+\bibitem[Lynch 1996]{lynch1996distributed}
+\abntrefinfo{Lynch}{LYNCH}{1996}
+{LYNCH, N.~A. \emph{Distributed algorithms}. [S.l.]: Morgan Kaufmann, 1996.}
+
+\bibitem[Mac{\^e}do 2000]{de2000failure}
+\abntrefinfo{Mac{\^e}do}{MAC{\^E}DO}{2000}
+{MAC{\^E}DO, R.~J. de A. Failure detection in asynchronous distributed systems.
+2000.}
+
+\bibitem[Matos et al. 2013]{matos2013analise}
+\abntrefinfo{Matos et al.}{MATOS et al.}{2013}
+{MATOS, L. B. C.~d. et al. An{\'a}lise de desempenho de algoritmos
+  criptogr{\'a}ficos assim{\'e}tricos em uma rede veicular (vanet).
+Ci{\^e}ncia da Computa{\c{c}}{\~a}o, 2013.}
+
+\bibitem[Mejri, Ben-Othman e Hamdi 2014]{mejri2014survey}
+\abntrefinfo{Mejri, Ben-Othman e Hamdi}{MEJRI; BEN-OTHMAN; HAMDI}{2014}
+{MEJRI, M.~N.; BEN-OTHMAN, J.; HAMDI, M. Survey on vanet security challenges
+  and possible cryptographic solutions.
+\emph{Vehicular Communications}, Elsevier, v.~1, n.~2, p. 53--66, 2014.}
+
+\bibitem[Melnikov e Fette 2011]{melnikov2011websocket}
+\abntrefinfo{Melnikov e Fette}{MELNIKOV; FETTE}{2011}
+{MELNIKOV, A.; FETTE, I. The websocket protocol.
+\emph{Request for Comments}, v.~6455, 2011.}
+
+\bibitem[Mershad e Artail 2013]{mershad2013finding}
+\abntrefinfo{Mershad e Artail}{MERSHAD; ARTAIL}{2013}
+{MERSHAD, K.; ARTAIL, H. Finding a star in a vehicular cloud.
+\emph{IEEE Intelligent transportation systems magazine}, IEEE, v.~5, n.~2, p.
+  55--68, 2013.}
+
+\bibitem[Miura, Zhan e Kuroda 2006]{miura2006evaluation}
+\abntrefinfo{Miura, Zhan e Kuroda}{MIURA; ZHAN; KURODA}{2006}
+{MIURA, S.; ZHAN, Y.; KURODA, T. Evaluation of parking search using sensor
+  network. In:  IEEE. \emph{2006 1st International Symposium on Wireless
+  Pervasive Computing}. [S.l.], 2006. p. 6--pp.}
+
+\bibitem[Nandan et al. 2005]{nandan2005co}
+\abntrefinfo{Nandan et al.}{NANDAN et al.}{2005}
+{NANDAN, A. et al. Co-operative downloading in vehicular ad-hoc wireless
+  networks. In:  IEEE. \emph{Second Annual Conference on Wireless On-demand
+  Network Systems and Services}. [S.l.], 2005. p. 32--41.}
+
+\bibitem[Nasim e Kassler 2012]{nasim2012distributed}
+\abntrefinfo{Nasim e Kassler}{NASIM; KASSLER}{2012}
+{NASIM, R.; KASSLER, A. Distributed architectures for intelligent transport
+  systems: A survey. In:  IEEE. \emph{Network Cloud Computing and Applications
+  (NCCA), 2012 Second Symposium on}. [S.l.], 2012. p. 130--136.}
+
+\bibitem[Niedermaier et al. 2009]{niedermaier2009new}
+\abntrefinfo{Niedermaier et al.}{NIEDERMAIER et al.}{2009}
+{NIEDERMAIER, B. et al. The new bmw idrive--applied processes and methods to
+  assure high usability. In:  SPRINGER. \emph{International Conference on
+  Digital Human Modeling}. [S.l.], 2009. p. 443--452.}
+
+\bibitem[Obe e Hsu 2015]{obe2015postgis}
+\abntrefinfo{Obe e Hsu}{OBE; HSU}{2015}
+{OBE, R.~O.; HSU, L.~S. \emph{PostGIS in action}. [S.l.]: Manning Publications
+  Co., 2015.}
+
+\bibitem[Papadimitratos et al. 2008]{papadimitratos2008secure}
+\abntrefinfo{Papadimitratos et al.}{PAPADIMITRATOS et al.}{2008}
+{PAPADIMITRATOS, P. et al. Secure vehicular communication systems: design and
+  architecture.
+\emph{IEEE Communications Magazine}, IEEE, v.~46, n.~11, p. 100--109, 2008.}
+
+\bibitem[Pathre 2013]{pathre2013identification}
+\abntrefinfo{Pathre}{PATHRE}{2013}
+{PATHRE, A. Identification of malicious vehicle in vanet environment from ddos
+  attack.
+\emph{Journal of Global Research in Computer Science}, v.~4, n.~6, p. 30--34,
+  2013.}
+
+\bibitem[Peden et al. 2004]{peden2004world}
+\abntrefinfo{Peden et al.}{PEDEN et al.}{2004}
+{PEDEN, M. et al. \emph{World report on road traffic injury prevention}.
+  [S.l.]: World Health Organization Geneva, 2004.}
+
+\bibitem[Qian, Lu e Moayeri 2008]{qian2008secure}
+\abntrefinfo{Qian, Lu e Moayeri}{QIAN; LU; MOAYERI}{2008}
+{QIAN, Y.; LU, K.; MOAYERI, N. A secure vanet mac protocol for dsrc
+  applications. In:  IEEE. \emph{IEEE GLOBECOM 2008-2008 IEEE Global
+  Telecommunications Conference}. [S.l.], 2008. p.~1--5.}
+
+\bibitem[Qin et al. 2010]{qin2010integrated}
+\abntrefinfo{Qin et al.}{QIN et al.}{2010}
+{QIN, H. et al. An integrated network of roadside sensors and vehicles for
+  driving safety: Concept, design and experiments. In:  IEEE. \emph{Pervasive
+  Computing and Communications (PerCom), 2010 IEEE International Conference
+  on}. [S.l.], 2010. p. 79--87.}
+
+\bibitem[Qin, Huang e Zhang 2012]{qin2012vehicloud}
+\abntrefinfo{Qin, Huang e Zhang}{QIN; HUANG; ZHANG}{2012}
+{QIN, Y.; HUANG, D.; ZHANG, X. Vehicloud: Cloud computing facilitating routing
+  in vehicular networks. In:  IEEE. \emph{2012 IEEE 11th International
+  Conference on Trust, Security and Privacy in Computing and Communications}.
+  [S.l.], 2012. p. 1438--1445.}
+
+\bibitem[Rawat, Sharma e Sushil 2012]{rawat2012vanet}
+\abntrefinfo{Rawat, Sharma e Sushil}{RAWAT; SHARMA; SUSHIL}{2012}
+{RAWAT, A.; SHARMA, S.; SUSHIL, R. Vanet: Security attacks and its possible
+  solutions.
+\emph{Journal of Information and Operations Management}, Bioinfo Publications,
+  v.~3, n.~1, p.~301, 2012.}
+
+\bibitem[Raya, Papadimitratos e Hubaux 2006]{raya2006securing}
+\abntrefinfo{Raya, Papadimitratos e Hubaux}{RAYA; PAPADIMITRATOS; HUBAUX}{2006}
+{RAYA, M.; PAPADIMITRATOS, P.; HUBAUX, J.-P. Securing vehicular communications.
+\emph{IEEE Wireless Communications Magazine, Special Issue on Inter-Vehicular
+  Communications}, v.~13, n. LCA-ARTICLE-2006-015, p. 8--15, 2006.}
+
+\bibitem[Samara, Al-Salihy e Sures 2010]{samara2010security}
+\abntrefinfo{Samara, Al-Salihy e Sures}{SAMARA; AL-SALIHY; SURES}{2010}
+{SAMARA, G.; AL-SALIHY, W.~A.; SURES, R. Security issues and challenges of
+  vehicular ad hoc networks (vanet). In:  IEEE. \emph{New Trends in Information
+  Science and Service Science (NISS), 2010 4th International Conference on}.
+  [S.l.], 2010. p. 393--398.}
+
+\bibitem[Santos, Edwards e Edwards 2004]{santos2004cluster}
+\abntrefinfo{Santos, Edwards e Edwards}{SANTOS; EDWARDS; EDWARDS}{2004}
+{SANTOS, R.; EDWARDS, R.; EDWARDS, A. Cluster-based location routing algorithm
+  for inter-vehicle communication. In:  IEEE. \emph{Vehicular Technology
+  Conference, 2004. VTC2004-Fall. 2004 IEEE 60th}. [S.l.], 2004. v.~2, p.
+  914--918.}
+
+\bibitem[Solingen et al. 2002]{van2002goal}
+\abntrefinfo{Solingen et al.}{SOLINGEN et al.}{2002}
+{SOLINGEN, R. V. et al. Goal question metric (gqm) approach.
+\emph{Encyclopedia of software engineering}, Wiley Online Library, 2002.}
+
+\bibitem[Sookhak, Yu e Tang 2017]{sookhak2017secure}
+\abntrefinfo{Sookhak, Yu e Tang}{SOOKHAK; YU; TANG}{2017}
+{SOOKHAK, M.; YU, F.~R.; TANG, H. Secure data sharing for vehicular ad-hoc
+  networks using cloud computing. In:  \emph{Ad Hoc Networks}. [S.l.]:
+  Springer, 2017. p. 306--315.}
+
+\bibitem[Souza Roniel de;~Soares 2014]{souzasoaressbrc}
+\abntrefinfo{Souza Roniel de;~Soares}{SOUZA RONIEL DE;~SOARES}{2014}
+{SOUZA RONIEL DE;~SOARES, A. C.~B. Estimativa e sinalização de
+  congestionamentos de trafego atraves de redes veiculares v2v.
+\emph{Simposio Brasileiro de Redes de Computadores e Sistemas Distribuidos},
+  2014.}
+
+\bibitem[Sumra, Hasbullah e Manan 2011]{sumra2011comparative}
+\abntrefinfo{Sumra, Hasbullah e Manan}{SUMRA; HASBULLAH; MANAN}{2011}
+{SUMRA, I.~A.; HASBULLAH, B.; MANAN, J. Comparative study of security hardware
+  modules (edr, tpd and tpm) in vanet. In:  \emph{Third National Information
+  Technology Symposium", NITS 2011 Symposium}. [S.l.: s.n.], 2011. p.~6--9.}
+
+\bibitem[Sung, Yoo e Kim 2007]{sung2007collision}
+\abntrefinfo{Sung, Yoo e Kim}{SUNG; YOO; KIM}{2007}
+{SUNG, K.; YOO, J.; KIM, D. Collision warning system on a curved road using
+  wireless sensor networks. In:  IEEE. \emph{2007 IEEE 66th Vehicular
+  Technology Conference}. [S.l.], 2007. p. 1942--1946.}
+
+\bibitem[Systematics e Meyer 2011]{systematics2011crashes}
+\abntrefinfo{Systematics e Meyer}{SYSTEMATICS; MEYER}{2011}
+{SYSTEMATICS, C.; MEYER, M. Crashes vs. congestion-what's the cost to society.
+\emph{Prepared for the American Automobile Association}, 2011.}
+
+\bibitem[Tanenbaum e Steen 2007]{distribuidos2007principios}
+\abntrefinfo{Tanenbaum e Steen}{TANENBAUM; STEEN}{2007}
+{TANENBAUM, A.; STEEN, M.~V. \emph{Sistemas Distribu{\'\i}dos - Princ{\'\i}pios
+  e Paradigmas. 2{\textordfeminine} Edi{\c{c}}{\~a}o.} [S.l.]: Editora Pearson
+  Prentice Hall, 2007.}
+
+\bibitem[Tangade e Manvi 2013]{tangade2013survey}
+\abntrefinfo{Tangade e Manvi}{TANGADE; MANVI}{2013}
+{TANGADE, S.~S.; MANVI, S.~S. A survey on attacks, security and trust
+  management solutions in vanets. In:  IEEE. \emph{Computing, Communications
+  and Networking Technologies (ICCCNT), 2013 Fourth International Conference
+  on}. [S.l.], 2013. p.~1--6.}
+
+\bibitem[Themudo 2014]{themudo2014implementaccao}
+\abntrefinfo{Themudo}{THEMUDO}{2014}
+{THEMUDO, V.~M. Implementa{\c{c}}{\~a}o de um servidor de negocia{\c{c}}{\~a}o
+  em bolsa baseado em websocket.
+2014.}
+
+\bibitem[TTI 2014]{TTI}
+\abntrefinfo{TTI}{TTI}{2014}
+{TTI, T. T. I. U.~M. \emph{Texas Transport Institute Urban Mobility Report
+  2014}. 2014.
+Dispon{\'\i}vel em:
+  \url{http://d2dtl5nnlpfr0r.cloudfront.net/tti.tamu.edu/documents/ums/congestion-data/national/national-table1.pdf}.}
+
+\bibitem[Wangham et al. 2014]{wanghamsegurancca}
+\abntrefinfo{Wangham et al.}{WANGHAM et al.}{2014}
+{WANGHAM, M.~S. et al. Seguran{\c{c}}a em redes veiculares: Inova{\c{c}}{\~o}es
+  e dire{\c{c}}{\~o}es futuras.
+2014.}
+
+\bibitem[Wasef et al. 2010]{wasef2010complementing}
+\abntrefinfo{Wasef et al.}{WASEF et al.}{2010}
+{WASEF, A. et al. Complementing public key infrastructure to secure vehicular
+  ad hoc networks [security and privacy in emerging wireless networks].
+\emph{IEEE Wireless Communications}, IEEE, v.~17, n.~5, p. 22--28, 2010.}
+
+\bibitem[Weing{\"a}rtner e Kargl 2007]{weingartner2007prototype}
+\abntrefinfo{Weing{\"a}rtner e Kargl}{WEING{\"A}RTNER; KARGL}{2007}
+{WEING{\"A}RTNER, E.; KARGL, F. A prototype study on hybrid sensor-vehicular
+  networks.
+\emph{Proceedings of the 6th GI/ITG KuVS Fachgespr{\"a}ch “Wireless Sensor
+  Networks}, 2007.}
+
+\bibitem[Xu et al. 2003]{xu2003design}
+\abntrefinfo{Xu et al.}{XU et al.}{2003}
+{XU, Q. et al. Design and analysis of highway safety communication protocol in
+  5.9 ghz dedicated short range communication spectrum. In:  IEEE.
+  \emph{Vehicular Technology Conference, 2003. VTC 2003-Spring. The 57th IEEE
+  Semiannual}. [S.l.], 2003. v.~4, p. 2451--2455.}
+
+\bibitem[Yan et al. 2013]{yan2013security}
+\abntrefinfo{Yan et al.}{YAN et al.}{2013}
+{YAN, G. et al. Security challenges in vehicular cloud computing.
+\emph{IEEE Transactions on Intelligent Transportation Systems}, IEEE, v.~14,
+  n.~1, p. 284--294, 2013.}
+
+\bibitem[Zhang 2011]{zhang2011survey}
+\abntrefinfo{Zhang}{ZHANG}{2011}
+{ZHANG, J. A survey on trust management for vanets. In:  IEEE. \emph{2011 IEEE
+  International Conference on Advanced Information Networking and
+  Applications}. [S.l.], 2011. p. 105--112.}
+
+\bibitem[Zhu e Liu 2015]{zhu2015intelligent}
+\abntrefinfo{Zhu e Liu}{ZHU; LIU}{2015}
+{ZHU, T.; LIU, Z. Intelligent transport systems in china: Past, present and
+  future. In:  IEEE. \emph{Measuring Technology and Mechatronics Automation
+  (ICMTMA), 2015 Seventh International Conference on}. [S.l.], 2015. p.
+  581--584.}
+
+\end{thebibliography}

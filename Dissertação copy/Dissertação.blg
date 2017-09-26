@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Dissertação.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 11348 items from 5000.
+Database file #1: abntex2-options.bib
+Database file #2: referencias.bib
+Repeated entry---line 1273 of file referencias.bib
+ : @phdthesis{cavalcanti2008veer
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1511 of file referencias.bib
+ : @inproceedings{hussain2012rethinking
+ :                                     ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "TTI" isn't style-file defined
+--line 1663 of file referencias.bib
+Repeated entry---line 1819 of file referencias.bib
+ : @article{van2002goal
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "autoentusiastasclassic" isn't style-file defined
+--line 1869 of file referencias.bib
+Warning--entry type for "taxifast" isn't style-file defined
+--line 2705 of file referencias.bib
+Warning--I didn't find a database entry for "dorri2017blockchain"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 91 entries,
+            6714 wiz_defined-function locations,
+            1662 strings with 27541 characters,
+and the built_in function-call counts, 87083 in all, are:
+= -- 7094
+> -- 3331
+< -- 357
++ -- 1515
+- -- 992
+* -- 6483
+:= -- 11260
+add.period$ -- 389
+call.type$ -- 91
+change.case$ -- 1126
+chr.to.int$ -- 178
+cite$ -- 90
+duplicate$ -- 4457
+empty$ -- 6194
+format.name$ -- 4760
+if$ -- 20640
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 1626
+newline$ -- 415
+num.names$ -- 450
+pop$ -- 2263
+preamble$ -- 1
+purify$ -- 397
+quote$ -- 0
+skip$ -- 4906
+stack$ -- 1
+substring$ -- 3594
+swap$ -- 2139
+text.length$ -- 115
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 10
+warning$ -- 0
+while$ -- 730
+width$ -- 0
+write$ -- 1479
+(There were 3 error messages)
